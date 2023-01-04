@@ -1,5 +1,9 @@
 # Release Notes
 ## V1.4
+### 1.4.2301021806
+- Updated common items of GEN IX
+- Updated moves of some pokémons in GEN IX
+- Updated descriptions of Snow weather in GEN IX
 ### 1.4.2212311405
 1. Supported features of Status Calculation & Individual Value Calculation.
 2. Fixed other bugs.
