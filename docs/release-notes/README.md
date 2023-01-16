@@ -1,5 +1,9 @@
 # Release Notes
 ## V1.4
+### 1.4.2301151012
+- Updated official artworks of GEN IX
+- Updated type icons of GEN IX
+- Supported fast scroll in lists
 ### 1.4.2301021806
 - Updated common items of GEN IX
 - Updated moves of some pokémons in GEN IX
