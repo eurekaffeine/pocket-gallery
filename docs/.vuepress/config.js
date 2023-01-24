@@ -8,6 +8,7 @@ module.exports = {
         nav: [
           { text: "Home", link: "/" },
           { text: "Release Notes", link: "/release-notes/" },
+          { text: "Others", link: "/others/" },
         ],
       },
       "/zh-hans/": {
@@ -15,6 +16,7 @@ module.exports = {
         nav: [
           { text: "主页", link: "/zh-hans/" },
           { text: "更新记录", link: "/zh-hans/release-notes/" },
+          { text: "其他", link: "/zh-hans/others/" },
         ],
       },
       "/zh-hant/": {
@@ -22,6 +24,7 @@ module.exports = {
         nav: [
           { text: "主頁", link: "/zh-hant/" },
           { text: "更新記錄", link: "/zh-hant/release-notes/" },
+          { text: "其他", link: "/zh-hant/others/" },
         ],
       },
       "/ja-jp/": {
@@ -29,6 +32,7 @@ module.exports = {
         nav: [
           { text: "ホームページ", link: "/ja-jp/" },
           { text: "更新記録", link: "/ja-jp/release-notes/" },
+          { text: "その他", link: "/ja-jp/others/" },
         ],
       },
     },
@@ -53,7 +57,7 @@ module.exports = {
     },
     "/ja-jp/": {
       lang: "日本語",
-      title: "ポケット ギャラリー",
+      title: "ポケット・ギャラリー",
       description: "シンプルで上品なポケモンイラストアプリ",
     },
   },
