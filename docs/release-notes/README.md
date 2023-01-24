@@ -1,4 +1,9 @@
 # Release Notes
+## V1.5
+### 1.5.2301241051
+- Supported showing artworks of Pokémon HOME in Pokémon Details Page
+- Supported showing gender differences in Pokémon Details Page
+- Fixed other issues and bugs
 ## V1.4
 ### 1.4.2301151012
 - Updated official artworks of GEN IX
