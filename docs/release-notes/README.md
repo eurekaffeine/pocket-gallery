@@ -1,6 +1,7 @@
 # Release Notes
 ## V1.5
-### 1.5.2301241051
+### 1.5.2301262229
+_(1.5.2301241051)_
 - Supported showing artworks of Pokémon HOME in Pokémon Details Page
 - Supported showing gender differences in Pokémon Details Page
 - Fixed other issues and bugs
