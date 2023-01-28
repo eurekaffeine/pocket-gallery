@@ -13,9 +13,6 @@ features:
 footer: © 2022-2023 破壳萌图鉴
 ---
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
-<div align="center">
-<img src="../docs/.vuepress/public/google-play-badge-zh-hans.png" alt="hero" style="width: 300px;"/>
-</div>
 </a>
 
 ![hero](../docs/.vuepress/public/hero.png)
