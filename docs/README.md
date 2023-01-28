@@ -1,21 +1,21 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: Pocket Gallery
-tagline: A Consise Pokédex App
+heroText: 破壳萌图鉴
+tagline: 一款简洁大方的宝可梦图鉴
 features:
-- title: Comprehensive
-  details: Containing comprehensive details about all 1008 pokémons starting from Generation I to IX.
-- title: Informative
-  details: Providing informative common details ranging from Moves, Abilities, Items to Weathers, Terrians and Status Condition.
-- title: Functional
-  details: Featured with battle related type effectiveness, bind spots and status calculators.
-footer: © 2022-2023 Pocket Gallery
+- title: 图鉴齐全
+  details: 涵盖了自第一世代至第九世代全部1008只宝可梦的详尽信息。
+- title: 资料详实
+  details: 提供包含诸如「招式」「特性」「道具」「天气」「场地」「异常状态」等在内的详实资料。
+- title: 功能强大
+  details: 专为对战爱好者设计了「属性克制」「盲点」「能力值计算器」等强大功能。
+footer: © 2022-2023 破壳萌图鉴
 ---
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
-<img src="../docs/.vuepress/public/google-play-badge-en.png" alt="hero" style="width: 300px;"/>
+<img src="../.vuepress/public/google-play-badge-zh-hans.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
-![hero](../docs/.vuepress/public/hero.png)
+![hero](../.vuepress/public/hero.png)
