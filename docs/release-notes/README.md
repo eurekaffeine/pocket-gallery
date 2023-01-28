@@ -1,51 +1,51 @@
-# Release Notes
+# 更新记录
 ## V1.5
 ### 1.5.2301262229
 _(1.5.2301241051)_
-- Supported showing artworks of Pokémon HOME in Pokémon Details Page
-- Supported showing gender differences in Pokémon Details Page
-- Fixed other issues and bugs
+- 支持了在「宝可梦详情页」展示 Pokémon HOME 的立绘
+- 支持了在「宝可梦详情页」展示性别差异
+- 修复了其他问题
 ## V1.4
 ### 1.4.2301151012
-- Updated official artworks of GEN IX
-- Updated type icons of GEN IX
-- Supported fast scroll in lists
+- 更新 GEN IX 官方立绘
+- 更新 GEN IX 属性图标
+- 支持列表快速滑动
 ### 1.4.2301021806
-- Updated common items of GEN IX
-- Updated moves of some pokémons in GEN IX
-- Updated descriptions of Snow weather in GEN IX
+- 更新 GEN IX 新增常用道具
+- 更新 GEN IX 宝可梦技能
+- 更新 GEN IX 「下雪」天气的描述
 ### 1.4.2212311405
-1. Supported features of Status Calculation & Individual Value Calculation.
-2. Fixed other bugs.
+- 新增「能力值计算」和「个体值计算」功能；
+- 修复了其他问题。
 ## V1.3
 ### 1.3.2212060006
-- Update moves for Charizard family and Cinderace family.
-- Fixed bugs of type errors of Wo-Chien and Ting-Lu.
-- Fixed other bugs.
+- 更新了「喷火龙」一家以及「闪焰王牌」一家的招式数据；
+- 修复了「古简蜗」和「古鼎鹿」的属性错误问题；
+- 修复了其他问题。
 ### 1.3.2211281254
-- Updated pokedex descriptions for other Paldea regional pokemons.
-- Updated a bundle of pokemons' transforming forms.
-- Fixed other bugs.
+- 更新「帕底亚地区」其他宝可梦的图鉴描述；
+- 更新「结草儿」「樱花儿」「无壳海兔」「海兔兽」「四季鹿」「萌芽鹿」「彩粉蝶」「花蓓蓓」「花叶蒂」「花洁夫人」「多丽米亚」「海豚侠」的形态变化；
+- 修复了一些其他问题。
 ## V1.2
 ### 1.2.2211012343
-- Fixed bugs
+- 修复了一些问题。
 ### 1.2.2209121837
-- Fixed bugs
+- 修复了一些问题。
 ### 1.2.2209031605
-- Fixed bugs
+- 修复了一些问题。
 ### 1.2.2208310047
-- Added pokémons of Legend Arceus.
+- 添加「宝可梦 传说阿尔宙斯」的宝可梦。
 ### 1.2.2208300859
-- Supported Blind Spot of Attack & Blind Spot of Defense in Battle Info Tab.
-- Supported Damage Calc. in Battle Info Tab.
+- 在「对战资料」中支持了「打击盲点」和「联防盲点」的功能；
+- 在「对战资料」中支持了「伤害」计算的功能。
 ### 1.2.2208281620 
-- Added feature of Battle Info Tab.
-- Supported Type Effectiveness in Battle Info Tab.
+- 新增「对战资料」的功能；
+- 在「对战资料」中支持了「属性克制」的功能。
 ### 1.2.2208211732
-- Supported Regional Pokédex in Common Info Tab. 
+- 在「常用资料」中支持了「地区图鉴」的功能。
 ## 1.1
 ### 1.1.2207220018
-- Added feature of Common Info Tab.
+- 新增「常用资料」的功能。
 ## 1.0
 ### 1.0.2207062326
-- Initial release of the App.
+- 本应用的首次发布。

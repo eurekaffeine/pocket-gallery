@@ -1,22 +1,22 @@
 module.exports = {
-  base: "/pocket-gallery/",
+  base: "/",
   themeConfig: {
     logo: "/logo.png",
     locales: {
-      "/": {
+      "/en-us/": {
         selectText: "Languages",
         nav: [
-          { text: "Home", link: "/" },
-          { text: "Release Notes", link: "/release-notes/" },
-          { text: "Others", link: "/others/" },
+          { text: "Home", link: "/en-us/" },
+          { text: "Release Notes", link: "/en-us/release-notes/" },
+          { text: "Others", link: "/en-us/others/" },
         ],
       },
-      "/zh-hans/": {
+      "/": {
         selectText: "语言",
         nav: [
-          { text: "主页", link: "/zh-hans/" },
-          { text: "更新记录", link: "/zh-hans/release-notes/" },
-          { text: "其他", link: "/zh-hans/others/" },
+          { text: "主页", link: "/" },
+          { text: "更新记录", link: "/release-notes/" },
+          { text: "其他", link: "/others/" },
         ],
       },
       "/zh-hant/": {
@@ -40,12 +40,12 @@ module.exports = {
     sidebar: "auto",
   },
   locales: {
-    "/": {
+    "/en-us/": {
       lang: "English",
       title: "Pocket Gallery",
       description: "A consise Pokédex App",
     },
-    "/zh-hans/": {
+    "/": {
       lang: "简体中文",
       title: "破壳萌图鉴",
       description: "一款简洁大方的宝可梦图鉴应用",
