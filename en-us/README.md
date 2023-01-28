@@ -14,8 +14,8 @@ footer: © 2022-2023 Pocket Gallery
 ---
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
-<img src="../docs/.vuepress/public/google-play-badge-en.png" alt="hero" style="width: 300px;"/>
+<img src="../.vuepress/public/google-play-badge-en.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
-![hero](../docs/.vuepress/public/hero.png)
+![hero](../.vuepress/public/hero.png)
