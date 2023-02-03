@@ -1,5 +1,8 @@
 # Release Notes
 ## V1.5
+### 1.5.2302022247
+- Updated moves of Greninja family
+- Fixed other issues and bugs
 ### 1.5.2301262229
 _(1.5.2301241051)_
 - Supported showing artworks of Pokémon HOME in Pokémon Details Page
