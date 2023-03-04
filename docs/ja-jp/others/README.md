@@ -16,3 +16,6 @@ _ポケット・ギャラリー_ はファンが作った非公式の無料ア�
 
 \
 **Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
+
+## 私たちを応援してください
+[Buy me a coffee](https://www.buymeacoffee.com/PocketGallery)

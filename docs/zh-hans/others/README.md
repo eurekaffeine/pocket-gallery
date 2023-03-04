@@ -14,3 +14,6 @@ _破壳萌图鉴_ 是一款由粉丝制作的、非官方的、免费的应用�
 
 \
 **Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
+
+## 支持我们
+[Buy me a coffee](https://www.buymeacoffee.com/PocketGallery)
