@@ -1,5 +1,8 @@
 # Release Notes
 ## V1.5
+### 1.5.2303122105
+- Added app icon supporting Material You
+- Fixed other issues and bugs
 ### 1.5.2303042104
 - Updated the information of Walking Wake and Iron Leaves
 - Fixed other issues and bugs
