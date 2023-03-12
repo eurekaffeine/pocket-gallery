@@ -8,6 +8,7 @@ module.exports = {
         nav: [
           { text: "主页", link: "/" },
           { text: "更新记录", link: "/release-notes/" },
+          { text: "支持我们", link: "/support-us/"},
           { text: "其他", link: "/others/" },
         ],
       },
