@@ -1,4 +1,11 @@
 # Release Notes
+## V1.6
+### 1.6.2303261545
+- Added GEN-IX Moves of some pokemon
+- Added type effectiveness 
+- Added pokemon name translations in other languages
+- Fixed other issues and bugs
+  
 ## V1.5
 ### 1.5.2303122105
 - Added app icon supporting Material You
