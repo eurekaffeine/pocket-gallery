@@ -1,6 +1,7 @@
 # Release Notes
 ## V1.6
-### 1.6.2303261545
+### 1.6.2303291135
+_(1.6.2303261545)_
 - Added GEN-IX Moves of some pokemon
 - Added type effectiveness 
 - Added pokemon name translations in other languages
