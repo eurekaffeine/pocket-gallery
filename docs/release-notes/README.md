@@ -1,5 +1,10 @@
 # Release Notes
 ## V1.6
+
+### 1.6.2304021810
+- Added GEN-IX Moves of Samurott family
+- Fixed other issues and bugs
+
 ### 1.6.2303291135
 _(1.6.2303261545)_
 - Added GEN-IX Moves of some pokemon
