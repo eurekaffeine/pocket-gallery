@@ -1,5 +1,8 @@
 # Release Notes
 ## V1.6
+### 1.6.2304072247
+- Added GEN-IX Moves of Typhlosion family
+- Fixed other issues and bugs
 
 ### 1.6.2304021810
 - Added GEN-IX Moves of Samurott family
