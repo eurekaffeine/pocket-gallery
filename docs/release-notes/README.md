@@ -1,5 +1,7 @@
 # Release Notes
 ## V1.6
+### 1.6.2304291857
+- Fixed other issues and bugs
 ### 1.6.2304072247
 - Added GEN-IX Moves of Typhlosion family
 - Fixed other issues and bugs

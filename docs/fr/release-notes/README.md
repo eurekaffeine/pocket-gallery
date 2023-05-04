@@ -1,6 +1,8 @@
 # Mise à jour du journal
 
 ## V1.6
+### 1.6.2304291857
+- Correction d'autres problèmes
 ### 1.6.2304072247
 - Ajout du mouvement GEN-IX "Firestorm Beast".
 - Correction d'autres problèmes

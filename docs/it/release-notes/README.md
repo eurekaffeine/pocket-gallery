@@ -1,6 +1,8 @@
 # Aggiornamento del registro
 
 ## V1.6
+### 1.6.2304291857
+- Risolti altri problemi
 ### 1.6.2304072247
 - Aggiunta la mossa GEN-IX "Bestia di Firestorm".
 - Risolti altri problemi
