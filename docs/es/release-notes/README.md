@@ -1,6 +1,8 @@
 # Registro de actualización
 
 ## V1.6
+### 1.6.2304291857
+- Corregidos otros problemas
 ### 1.6.2304072247
 - Añadido el movimiento GEN-IX "Bestia Tormenta de Fuego
 - Corregidos otros problemas

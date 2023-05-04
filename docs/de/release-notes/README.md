@@ -1,6 +1,8 @@
 # Update log
 
 ## V1.6
+### 1.6.2304291857
+- Andere Probleme behoben
 ### 1.6.2304072247
 - GEN-IX-Bewegung "Feuersturm-Bestie" hinzugefügt
 - Andere Probleme behoben
