@@ -1,4 +1,8 @@
 # Release Notes
+## V1.7
+### 1.7.2305071538
+- Supported multiple languages
+- Fixed some issues and bugs
 ## V1.6
 ### 1.6.2304291857
 - Fixed other issues and bugs

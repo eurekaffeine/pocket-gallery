@@ -1,5 +1,8 @@
 # Update log
-
+## V1.7
+### 1.7.2305071538
+- Unterstützung mehrerer Sprachen
+- Behebung einiger Probleme und Fehler
 ## V1.6
 ### 1.6.2304291857
 - Andere Probleme behoben

@@ -1,5 +1,8 @@
 # Mise à jour du journal
-
+## V1.7
+### 1.7.2305071538
+- Prise en charge de plusieurs langues
+- Correction de certains problèmes et bugs
 ## V1.6
 ### 1.6.2304291857
 - Correction d'autres problèmes
