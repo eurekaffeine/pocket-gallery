@@ -1,5 +1,8 @@
 # Aggiornamento del registro
-
+## V1.7
+### 1.7.2305071538
+- Supporto per più lingue 
+- Risoluzione di alcuni problemi e bug
 ## V1.6
 ### 1.6.2304291857
 - Risolti altri problemi
