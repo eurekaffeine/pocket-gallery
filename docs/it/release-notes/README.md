@@ -1,5 +1,10 @@
 # Aggiornamento del registro
 ## V1.7
+### 1.7.2305211308
+- Supporto alle descrizioni dei Pokemon in "Let's Go, Pikachu/Eevee", "Ultrasole/Ultraluna" e "Sole/Luna"
+- Risoluzione di altri problemi
+### 1.7.2305160013
+- Risoluzione di alcuni problemi e bug
 ### 1.7.2305071538
 - Supporto per più lingue 
 - Risoluzione di alcuni problemi e bug

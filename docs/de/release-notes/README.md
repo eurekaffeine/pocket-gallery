@@ -1,5 +1,10 @@
 # Update log
 ## V1.7
+### 1.7.2305211308
+- Unterstützung von Pokemon-Beschreibungen in "Let's Go, Pikachu/Evoli", "Ultrasonne/Ultramond" und "Sonne/Mond"
+- Andere Probleme behoben
+### 1.7.2305160013
+- Behebung einiger Probleme und Fehler
 ### 1.7.2305071538
 - Unterstützung mehrerer Sprachen
 - Behebung einiger Probleme und Fehler

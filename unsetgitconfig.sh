@@ -1,2 +1,2 @@
-git config --global --unset user.name
-git config --global --unset user.email
+git config --global user.email "yaochenliu@microsoft.com"
+git config --global user.name "yaochenliu"

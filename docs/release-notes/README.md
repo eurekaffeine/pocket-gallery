@@ -1,5 +1,10 @@
 # Release Notes
 ## V1.7
+### 1.7.2305211308
+- Supported descriptions of Pokemon in "Let's Go Pickachu/Eevee", "Ultra Sun/Moon" and "Sun/Moon"
+- Fixed other issues
+### 1.7.2305160013
+- Fixed some issues and bugs
 ### 1.7.2305071538
 - Supported multiple languages
 - Fixed some issues and bugs

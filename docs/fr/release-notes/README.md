@@ -1,5 +1,10 @@
 # Mise à jour du journal
 ## V1.7
+### 1.7.2305211308
+- Prise en charge des descriptions des Pokémon dans "Let's Go, Pikachu/Évoli", "Ultra-Soleil/Ultra-Lune" et "Soleil/Lune"
+- Correction d'autres problèmes
+### 1.7.2305160013
+- Correction de certains problèmes et bugs
 ### 1.7.2305071538
 - Prise en charge de plusieurs langues
 - Correction de certains problèmes et bugs
