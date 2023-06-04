@@ -1,9 +1,9 @@
 # Release Notes
 ## V1.8
 ### 1.8.2306041409
-- GEN IX 포켓몬 홈 3.0 관련 정보가 업데이트되었습니다
-- 포켓몬 홈의 공식 일러스트가 업데이트되었습니다
-- 일부 문제가 수정되었습니다
+- Updated information on GEN IX Pokémon Home 3.0
+- Updated official illustrations in Pokémon Home
+- Fixed some issues
 ## V1.7
 ### 1.7.2305271730
 - Fixed some issues and bugs
