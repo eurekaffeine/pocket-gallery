@@ -1,5 +1,12 @@
 # Release Notes
+## V1.8
+### 1.8.2306041409
+- GEN IX 포켓몬 홈 3.0 관련 정보가 업데이트되었습니다
+- 포켓몬 홈의 공식 일러스트가 업데이트되었습니다
+- 일부 문제가 수정되었습니다
 ## V1.7
+### 1.7.2305271730
+- Fixed some issues and bugs
 ### 1.7.2305211308
 - Supported descriptions of Pokemon in "Let's Go Pickachu/Eevee", "Ultra Sun/Moon" and "Sun/Moon"
 - Fixed other issues
