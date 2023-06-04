@@ -1,5 +1,12 @@
 # Mise à jour du journal
+## V1.8
+### 1.8.2306041409
+- Informations mises à jour sur la GEN IX dans Pokémon Home 3.0
+- Illustrations officielles mises à jour dans Pokémon Home
+- Correction de certains problèmes
 ## V1.7
+### 1.7.2305271730
+- Correction de certains problèmes et bugs
 ### 1.7.2305211308
 - Prise en charge des descriptions des Pokémon dans "Let's Go, Pikachu/Évoli", "Ultra-Soleil/Ultra-Lune" et "Soleil/Lune"
 - Correction d'autres problèmes

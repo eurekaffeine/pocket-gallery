@@ -1,5 +1,12 @@
 # Update log
+## V1.8
+### 1.8.2306041409
+- Aktualisierte Informationen zu GEN IX in Pokémon Home 3.0
+- Aktualisierte offizielle Illustrationen in Pokémon Home
+- Einige Probleme wurden behoben
 ## V1.7
+### 1.7.2305271730
+- Andere Probleme behoben
 ### 1.7.2305211308
 - Unterstützung von Pokemon-Beschreibungen in "Let's Go, Pikachu/Evoli", "Ultrasonne/Ultramond" und "Sonne/Mond"
 - Andere Probleme behoben
