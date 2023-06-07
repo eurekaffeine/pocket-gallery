@@ -92,3 +92,6 @@ _(1.5.2301241051)_
 ## 1.0
 ### 1.0.2207062326
 - Première version de cette application.
+## 0.2
+### 0.2.2206051518
+- Premier test BETA ouvert de l'application.
