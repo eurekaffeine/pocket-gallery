@@ -1,94 +1,106 @@
 # Release Notes
-## V1.8
-### 1.8.2306041409
-- Updated information on GEN IX Pokémon Home 3.0
-- Updated official illustrations in Pokémon Home
-- Fixed some issues
-## V1.7
-### 1.7.2305271730
-- Fixed some issues and bugs
-### 1.7.2305211308
-- Supported descriptions of Pokemon in "Let's Go Pickachu/Eevee", "Ultra Sun/Moon" and "Sun/Moon"
-- Fixed other issues
-### 1.7.2305160013
-- Fixed some issues and bugs
-### 1.7.2305071538
-- Supported multiple languages
-- Fixed some issues and bugs
-## V1.6
-### 1.6.2304291857
-- Fixed other issues and bugs
-### 1.6.2304072247
-- Added GEN-IX Moves of Typhlosion family
-- Fixed other issues and bugs
 
-### 1.6.2304021810
-- Added GEN-IX Moves of Samurott family
-- Fixed other issues and bugs
+## Version 1.8
+### Update 1.8.2306041409
+- Upgraded to include details about GEN IX Pokémon Home 3.0
+- Enhanced the display of official illustrations in Pokémon Home
+- Addressed and resolved various issues
 
-### 1.6.2303291135
+## Version 1.7
+### Update 1.7.2305271730
+- Fixed numerous issues and bugs for improved user experience
+### Update 1.7.2305211308
+- Enhanced support for Pokémon descriptions in "Let's Go Pickachu/Eevee", "Ultra Sun/Moon", and "Sun/Moon"
+- Attended to other issues for overall enhancement
+### Update 1.7.2305160013
+- Addressed and rectified several issues and bugs
+### Update 1.7.2305071538
+- Expanded language support for greater accessibility
+- Addressed and rectified several issues and bugs
+
+## Version 1.6
+### Update 1.6.2304291857
+- Attended to and resolved miscellaneous issues and bugs
+### Update 1.6.2304072247
+- Introduced GEN-IX Moves of the Typhlosion family
+- Addressed and resolved miscellaneous issues and bugs
+### Update 1.6.2304021810
+- Added GEN-IX Moves of the Samurott family
+- Addressed and resolved miscellaneous issues and bugs
+### Update 1.6.2303291135
 _(1.6.2303261545)_
-- Added GEN-IX Moves of some pokemon
-- Added type effectiveness 
-- Added pokemon name translations in other languages
-- Fixed other issues and bugs
-  
-## V1.5
-### 1.5.2303122105
-- Added app icon supporting Material You
-- Fixed other issues and bugs
-### 1.5.2303042104
-- Updated the information of Walking Wake and Iron Leaves
-- Fixed other issues and bugs
-### 1.5.2302022247
-- Updated moves of Greninja family
-- Fixed other issues and bugs
-### 1.5.2301262229
+- Included GEN-IX Moves for select Pokémon
+- Integrated type effectiveness into the user interface
+- Provided translations for Pokémon names in various languages
+- Addressed and resolved miscellaneous issues and bugs
+
+## Version 1.5
+### Update 1.5.2303122105
+- Updated the app icon to support Material You
+- Addressed and resolved miscellaneous issues and bugs
+### Update 1.5.2303042104
+- Updated the information related to Walking Wake and Iron Leaves
+- Addressed and resolved miscellaneous issues and bugs
+### Update 1.5.2302022247
+- Refreshed move sets for the Greninja family
+- Addressed and resolved miscellaneous issues and bugs
+### Update 1.5.2301262229
 _(1.5.2301241051)_
-- Supported showing artworks of Pokémon HOME in Pokémon Details Page
-- Supported showing gender differences in Pokémon Details Page
-- Fixed other issues and bugs
-## V1.4
-### 1.4.2301151012
-- Updated official artworks of GEN IX
-- Updated type icons of GEN IX
-- Supported fast scroll in lists
-### 1.4.2301021806
-- Updated common items of GEN IX
-- Updated moves of some pokémons in GEN IX
-- Updated descriptions of Snow weather in GEN IX
-### 1.4.2212311405
+- Provided support for displaying Pokémon HOME artworks on the Pokémon Details Page
+- Enhanced the Pokémon Details Page to show gender differences
+- Addressed and resolved miscellaneous issues and bugs
+
+## Version 1.4
+### Update 1.4.2301151012
+- Updated with official GEN IX artworks
+- Enhanced with updated GEN IX type icons
+- Implemented fast scrolling feature in lists for user convenience
+### Update 1.4.2301021806
+- Enhanced with updated common GEN IX items
+- Updated move sets for certain GEN IX Pokémon
+- Enhanced with updated descriptions of Snow weather in GEN IX
+### Update 1.4.2212311405
 1. Supported features of Status Calculation & Individual Value Calculation.
-2. Fixed other bugs.
-## V1.3
-### 1.3.2212060006
-- Update moves for Charizard family and Cinderace family.
-- Fixed bugs of type errors of Wo-Chien and Ting-Lu.
-- Fixed other bugs.
-### 1.3.2211281254
-- Updated pokedex descriptions for other Paldea regional pokemons.
-- Updated a bundle of pokemons' transforming forms.
-- Fixed other bugs.
-## V1.2
-### 1.2.2211012343
-- Fixed bugs
-### 1.2.2209121837
-- Fixed bugs
-### 1.2.2209031605
-- Fixed bugs
-### 1.2.2208310047
-- Added pokémons of Legend Arceus.
-### 1.2.2208300859
-- Supported Blind Spot of Attack & Blind Spot of Defense in Battle Info Tab.
-- Supported Damage Calc. in Battle Info Tab.
-### 1.2.2208281620 
-- Added feature of Battle Info Tab.
-- Supported Type Effectiveness in Battle Info Tab.
-### 1.2.2208211732
-- Supported Regional Pokédex in Common Info Tab. 
-## 1.1
-### 1.1.2207220018
-- Added feature of Common Info Tab.
-## 1.0
-### 1.0.2207062326
-- Initial release of the App.
+2. Resolved various bugs.
+
+## Version 1.3
+### Update 1.3.2212060006
+- Upgraded with moves for the Charizard and Cinderace families
+- Fixed typographical errors in the names of Wo-Chien and Ting-Lu
+- Resolved various bugs
+### Update 1.3.2211281254
+- Enhanced with updated Pokédex descriptions for other Paldea regional Pokémon
+- Updated to reflect a number of Pokémon's transformation forms
+- Resolved various bugs
+
+## Version 1.2
+### Update 1.2.2211012343
+- Addressed and resolved several bugs
+
+
+### Update 1.2.2209121837
+- Addressed and resolved several bugs
+### Update 1.2.2209031605
+- Addressed and resolved several bugs
+### Update 1.2.2208310047
+- Added Pokémon of Legend Arceus for a richer experience
+### Update 1.2.2208300859
+- Supported Blind Spot of Attack & Blind Spot of Defense in Battle Info Tab
+- Supported Damage Calculation in Battle Info Tab
+### Update 1.2.2208281620 
+- Enhanced with the feature of Battle Info Tab
+- Supported Type Effectiveness in Battle Info Tab
+### Update 1.2.2208211732
+- Supported Regional Pokédex in Common Info Tab
+
+## Version 1.1
+### Update 1.1.2207220018
+- Enhanced with the feature of Common Info Tab
+
+## Version 1.0
+### Update 1.0.2207062326
+- Official launch of the App
+
+## Version 0.2
+### Update 0.2.2206051518
+- Initiated open BETA testing of the app.
