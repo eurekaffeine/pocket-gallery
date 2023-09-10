@@ -12,10 +12,23 @@ features:
   details: 「相性」や「盲点」、「ステータス計算」など、バトル好きにはたまらない強力な機能。
 footer: © 2022-2023 ポケット・ギャラリー
 ---
+<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<div align="center">
+<img src="../.vuepress/public/app-store-badge-jp.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-ja.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
+<a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
+<div align="center">
+<img src="../.vuepress/public/app-gallery-badge-jp.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
+\
 ![hero](../.vuepress/public/hero.png)

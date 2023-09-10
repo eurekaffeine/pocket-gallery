@@ -12,10 +12,23 @@ features:
   details: 專為對戰愛好者設計了「屬性克制」「盲點」「能力值計算器」等強大功能。
 footer: © 2022-2023 破殼萌圖鑑
 ---
+<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<div align="center">
+<img src="../.vuepress/public/app-store-badge-zh-hant.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-zh-hant.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
+<a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
+<div align="center">
+<img src="../.vuepress/public/app-gallery-badge-en.png" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
+\
 ![hero](../.vuepress/public/hero.png)

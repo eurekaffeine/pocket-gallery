@@ -12,10 +12,24 @@ features:
   details: 「속성 제한」, 「사각지대」, 「능력치 계산기」와 같은 강력한 기능은 매치메이킹 애호가를 위해 특별히 설계되었습니다.
 footer: © 2022-2023 Pocket Gallery
 ---
+
+<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<div align="center">
+<img src="../.vuepress/public/app-store-badge-ko.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-ko.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
+<a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
+<div align="center">
+<img src="../.vuepress/public/app-gallery-badge-ko.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
+\
 ![hero](../.vuepress/public/hero.png)

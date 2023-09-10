@@ -12,10 +12,24 @@ features:
   details: In primo piano l'efficacia del tipo di battaglia, i punti di vincolo e i calcolatori di stato.
 footer: © 2022-2023 Pocket Gallery
 ---
+
+<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<div align="center">
+<img src="../.vuepress/public/app-store-badge-it.svg" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-it.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
+<a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
+<div align="center">
+<img src="../.vuepress/public/app-gallery-badge-it.png" alt="hero" style="width: 300px;"/>
+</div>
+</a>
+
+\
 ![hero](../.vuepress/public/hero.png)
