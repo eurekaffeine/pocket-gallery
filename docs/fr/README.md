@@ -13,7 +13,7 @@ features:
 footer: © 2022-2023 Pocket Gallery
 ---
 
-<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<a href="https://testflight.apple.com/join/FR8rjfRw">
 <div align="center">
 <img src="../.vuepress/public/app-store-badge-fr.svg" alt="hero" style="width: 300px;"/>
 </div>
