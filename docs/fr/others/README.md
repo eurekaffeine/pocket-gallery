@@ -14,4 +14,14 @@ Aucune violation des droits d'auteur n'est envisagée.
 **Pokémon © 2002-2023 Pokémon © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## Soutenez-nous
-[Achetez-moi un café](https://www.buymeacoffee.com/PocketGallery)
+
+_Pocket Gallery_ est un logiciel de Pokédex Pokémon développé et exploité indépendamment. En respectant le principe **"alimenté par l'amour"**, ce logiciel **ne contient aucune publicité et ne collecte aucune information utilisateur à des fins lucratives**. \
+               Cependant, le développement du logiciel, la maintenance des serveurs en arrière-plan et l'exploitation du site web officiel engendrent des coûts importants. \
+               Nous vous demandons humblement votre soutien afin que _Pocket Gallery_ puisse continuer à servir la vaste communauté des joueurs de Pokémon en offrant plus de commodités. \
+               Nous vous remercions sincèrement pour votre soutien!
+               
+### Alipay
+<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+
+### WeChat
+<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />

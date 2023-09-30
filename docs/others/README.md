@@ -17,4 +17,14 @@ No copyright infringement intended.
 
 
 ## Support Us
-[Buy me a coffee](https://www.buymeacoffee.com/PocketGallery)
+
+_Pocket Gallery_ is an independently developed and operated Pokémon Pokédex software. Upholding the principle of **powered by love**, this software **contains no advertisements and does not collect any user information for profit**. \
+                However, the development of the software, maintenance of backend servers, and operation of the official website all come with significant expenses. \
+                We kindly ask for your support so that _Pocket Gallery_ can continue serving the vast Pokémon player community, bringing more conveniences. \
+                We sincerely thank everyone for their support!
+
+### Alipay
+<img src="../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+
+### WeChat
+<img src="../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />

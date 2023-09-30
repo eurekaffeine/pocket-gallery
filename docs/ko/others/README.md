@@ -15,4 +15,14 @@ _포켓 갤러리_ 는 팬이 만든 비공식 무료 앱이며, 어떤 방식�
 
 
 ## 지원 문의
-[커피 사주세요](https://www.buymeacoffee.com/PocketGallery)
+
+_포켓 갤러리_ 는 독립적으로 개발하고 운영하는 포켓몬 도감 소프트웨어입니다. **사랑으로 운영되는** 원칙에 따라, 이 소프트웨어는 **광고를 포함하지 않으며, 이익을 위해 어떠한 사용자 정보도 수집하지 않습니다**. \
+                그러나, 소프트웨어의 개발, 백엔드 서버의 유지 관리 및 공식 웹사이트의 운영은 상당한 비용이 듭니다. \
+                따라서, 우리는 _포켓 갤러리_ 가 포켓몬 플레이어 커뮤니티에 계속 서비스 할 수 있도록 여러분의 지원을 부탁드립니다. \
+                진심으로 여러분의 지원에 감사드립니다!
+                
+### Alipay
+<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+
+### WeChat
+<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
