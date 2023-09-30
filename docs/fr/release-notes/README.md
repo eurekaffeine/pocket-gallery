@@ -1,5 +1,11 @@
 # Mise à jour du journal
 ## Android
+
+### V1.9
+#### 1.9.2309272329
+- Informations ajoutées sur le DLC 1 : Le Masque Turquoise
+- Corrigé certains problèmes
+
 ### V1.8
 #### 1.8.2309031117
 - UX améliorée
