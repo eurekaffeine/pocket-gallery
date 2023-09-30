@@ -1,5 +1,10 @@
 # Update log
 ## Android
+### V1.9
+#### 1.9.2309272329
+  - Hinzugefügte Informationen zu DLC 1: Die Türkisgrüne Maske
+- Einige Probleme behoben
+
 ### V1.8
 #### 1.8.2309031117
 - Verbesserte Benutzeroberfläche (UX)

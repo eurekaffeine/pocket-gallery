@@ -1,5 +1,9 @@
 # Release Notes
 ## Android
+### V1.9
+#### 1.9.2309272329
+ - Added Information of DLC 1: The Teal Mask
+- Fixed some issues
 ### V1.8
 #### 1.8.2309031117
 - Improved UX 

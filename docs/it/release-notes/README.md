@@ -1,5 +1,11 @@
 # Aggiornamento del registro
 ## Android
+
+### V1.9
+#### 1.9.2309272329
+- Informazioni aggiunte su DLC 1: La maschera turchese
+- Risolti alcuni problemi
+
 ### V1.8
 #### 1.8.2309031117
 - UX migliorata
