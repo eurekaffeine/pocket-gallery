@@ -18,4 +18,14 @@ _ポケット・ギャラリー_ はファンが作った非公式の無料ア�
 **Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## 私たちを応援してください
-[Buy me a coffee](https://www.buymeacoffee.com/PocketGallery)
+
+_ポケット・ギャラリー_ は、独自に開発・運営されているポケモン図鑑ソフトウェアです。**「愛で動く」**という原則のもと、このソフトウェアは**広告を含まず、利益のためにユーザー情報を収集することはありません**。\
+               しかし、ソフトウェアの開発、バックエンドサーバーのメンテナンス、公式サイトの運営には大きな費用がかかります。 \
+               そのため、_ポケット・ギャラリー_ がポケモンプレイヤーコミュニティに継続してサービスを提供し、より多くの利便性をもたらすための皆様のサポートを心からお願い申し上げます。\
+               皆様のサポートに心より感謝申し上げます！
+
+### Alipay
+<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+
+### WeChat
+<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
