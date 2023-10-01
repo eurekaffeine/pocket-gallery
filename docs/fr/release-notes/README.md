@@ -1,5 +1,14 @@
 # Mise à jour du journal
 ## Android
+### V2.0
+#### 2.0.2310011943
+- Amélioration des interfaces et expériences utilisateur
+- Prise en charge des mouvements Pokémon de GEN IX DLC 1
+- Prise en charge du Pokédex régional de GEN IX DLC1
+- Correction de certains problèmes
+- Support pour télécharger les assets graphiques de Pokémon
+
+
 
 ### V1.9
 #### 1.9.2309272329

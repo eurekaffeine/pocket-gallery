@@ -1,5 +1,14 @@
 # Release Notes
 ## Android
+### V2.0
+#### 2.0.2310011943
+- Improved User Interfaces and experiences
+- Supported Pokémon moves from GEN IX DLC 1
+- Supported regional Pokédex from GEN IX DLC1
+- Fixed some issues
+- Support download image assets of Pokémon
+
+
 ### V1.9
 #### 1.9.2309272329
  - Added Information of DLC 1: The Teal Mask
