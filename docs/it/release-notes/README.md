@@ -1,5 +1,14 @@
 # Aggiornamento del registro
 ## Android
+### V2.0
+#### 2.0.2310011943
+- Migliorate le interfacce e le esperienze degli utenti
+- Supportati movimenti Pokémon da GEN IX DLC 1
+- Supportato Pokédex regionale da GEN IX DLC1
+- Risolti alcuni problemi
+- Supporto per il download di risorse grafiche di Pokémon
+
+
 
 ### V1.9
 #### 1.9.2309272329

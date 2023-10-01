@@ -1,5 +1,14 @@
 # Registro de actualización
 ## Android
+### V2.0
+#### 2.0.2310011943
+- Mejoradas las interfaces y experiencias de usuario
+- Movimientos de Pokémon soportados desde GEN IX DLC 1
+- Pokédex regional soportado desde GEN IX DLC1
+- Solucionados algunos problemas
+- Soporte para descargar recursos gráficos de Pokémon
+
+
 ### V1.9
 #### 1.9.2309272329
 - Información añadida del DLC 1: La máscara turquesa

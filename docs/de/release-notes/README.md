@@ -1,5 +1,14 @@
 # Update log
 ## Android
+### V2.0
+#### 2.0.2310011943
+- Verbesserte Benutzeroberflächen und Erfahrungen
+- Unterstützte Pokémon-Bewegungen aus GEN IX DLC 1
+- Unterstützter regionaler Pokédex aus GEN IX DLC1
+- Einige Probleme behoben
+- Unterstützung beim Herunterladen von Bildressourcen von Pokémon
+
+
 ### V1.9
 #### 1.9.2309272329
   - Hinzugefügte Informationen zu DLC 1: Die Türkisgrüne Maske
