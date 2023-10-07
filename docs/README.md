@@ -16,7 +16,7 @@ features:
 Copyright © 2022-2023 破壳萌图鉴 [苏ICP备2023003413号-1](https://beian.miit.gov.cn/)
 :::
 
-<a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
+<!-- <a href="https://apps.apple.com/us/app/pocket-gallery-dex/id6464266038">
 <div align="center">
 <img src="../docs/.vuepress/public/app-store-badge-zh-hans.svg" alt="hero" style="width: 300px;"/>
 </div>
@@ -26,7 +26,7 @@ Copyright © 2022-2023 破壳萌图鉴 [苏ICP备2023003413号-1](https://beian.
 <div align="center">
 <img src="../docs/.vuepress/public/app-gallery-badge-en.png" alt="hero" style="width: 300px;"/>
 </div>
-</a>
+</a> -->
 
 \
 ![hero](../docs/.vuepress/public/hero.png)
