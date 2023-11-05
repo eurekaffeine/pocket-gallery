@@ -1,5 +1,11 @@
 # Mise à jour du journal
 ## Android
+### V2.1
+#### 2.1.2311052226
+- Afficher les descriptions des Pokémon.
+- Correction de certains problèmes.
+
+
 ### V2.0
 #### 2.0.2310011943
 - Amélioration des interfaces et expériences utilisateur

@@ -1,5 +1,11 @@
 # Update log
 ## Android
+### V2.1
+#### 2.1.2311052226
+- Pokémon-Beschreibungen anzeigen.
+- Einige Probleme behoben.
+
+
 ### V2.0
 #### 2.0.2310011943
 - Verbesserte Benutzeroberflächen und Erfahrungen
