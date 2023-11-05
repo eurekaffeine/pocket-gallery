@@ -1,5 +1,11 @@
 # Release Notes
 ## Android
+### V2.1
+#### 2.1.2311052226
+- Show Pokémon descriptions.
+- Fixed some issues.
+
+
 ### V2.0
 #### 2.0.2310011943
 - Improved User Interfaces and experiences

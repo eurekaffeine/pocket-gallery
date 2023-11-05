@@ -1,5 +1,11 @@
 # Registro de actualización
 ## Android
+### V2.1
+#### 2.1.2311052226
+- Mostrar descripciones de Pokémon.
+- Solucionados algunos problemas.
+
+
 ### V2.0
 #### 2.0.2310011943
 - Mejoradas las interfaces y experiencias de usuario
