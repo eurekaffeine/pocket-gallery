@@ -12,7 +12,7 @@ features:
   details: 「相性」や「盲点」、「ステータス計算」など、バトル好きにはたまらない強力な機能。
 footer: © 2022-2023 ポケット・ギャラリー
 ---
-<a href="https://testflight.apple.com/join/FR8rjfRw">
+<a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
 <img src="../.vuepress/public/app-store-badge-jp.svg" alt="hero" style="width: 300px;"/>
 </div>
