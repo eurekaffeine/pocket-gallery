@@ -12,7 +12,7 @@ features:
   details: 專為對戰愛好者設計了「屬性克制」「盲點」「能力值計算器」等強大功能。
 footer: © 2022-2023 破殼萌圖鑑
 ---
-<a href="https://testflight.apple.com/join/FR8rjfRw">
+<a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
 <img src="../.vuepress/public/app-store-badge-zh-hant.svg" alt="hero" style="width: 300px;"/>
 </div>
