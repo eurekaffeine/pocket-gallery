@@ -123,6 +123,11 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.0
+#### 1.0.1
+- Risolti crash, rallentamenti e altri problemi.
+- Risolti problemi di compatibilità con iOS 17.
+
+
 #### 1.0.0
 - Lancio ufficiale dell'app.
 
