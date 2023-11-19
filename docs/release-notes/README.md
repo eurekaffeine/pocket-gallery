@@ -127,3 +127,5 @@ _(1.5.2301241051)_
 ### V0.2
 #### 0.2.2206051518
 - Initiated open BETA testing of the app.
+
+## iOS
