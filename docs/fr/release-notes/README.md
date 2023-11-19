@@ -123,3 +123,8 @@ _(1.5.2301241051)_
 - Premier test BETA ouvert de l'application.
 
 ## iOS
+### V1.0
+#### 1.0.0
+- Lancement officiel de l'application.
+
+
