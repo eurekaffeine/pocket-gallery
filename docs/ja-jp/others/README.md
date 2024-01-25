@@ -15,7 +15,7 @@ _ポケット・ギャラリー_ はファンが作った非公式の無料ア�
 著作権侵害の意図はありません。
 
 \
-**Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## 私たちを応援してください
 

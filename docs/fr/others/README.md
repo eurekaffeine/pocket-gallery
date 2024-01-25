@@ -11,7 +11,7 @@ Pokémon et les noms des personnages Pokémon sont des marques déposées de Nin
 Aucune violation des droits d'auteur n'est envisagée.
 
 \
-**Pokémon © 2002-2023 Pokémon © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2024 Pokémon © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## Soutenez-nous
 

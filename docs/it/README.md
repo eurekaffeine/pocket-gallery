@@ -10,7 +10,7 @@ features:
   details: Fornisce dettagli informativi comuni che vanno dalle mosse, alle abilità, agli oggetti, alle condizioni atmosferiche, ai territori e alle condizioni di stato.
 - title: Funzionale
   details: In primo piano l'efficacia del tipo di battaglia, i punti di vincolo e i calcolatori di stato.
-footer: © 2022-2023 Pocket Gallery
+footer: © 2022-2024 Pocket Gallery
 ---
 
 ## Avviso Importante

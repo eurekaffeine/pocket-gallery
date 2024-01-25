@@ -10,7 +10,7 @@ features:
   details: Providing informative common details ranging from Moves, Abilities, Items to Weathers, Terrians and Status Condition.
 - title: Functional
   details: Featured with battle related type effectiveness, bind spots and status calculators.
-footer: © 2022-2023 Pocket Gallery
+footer: © 2022-2024 Pocket Gallery
 ---
 
 ## Important Notice
