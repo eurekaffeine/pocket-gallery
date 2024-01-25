@@ -10,7 +10,7 @@ features:
   details: Fournit des informations détaillées telles que les "mouvements", les "caractéristiques", les "accessoires", la "météo", les "lieux" et les "états anormaux".
 - title: Des caractéristiques puissantes
   details: Des fonctions puissantes telles que "Attribut restreint", "Angle mort" et "Calculateur de valeur d'aptitude" ont été conçues spécialement pour les passionnés d'appariement.
-footer: © 2022-2023 Pocket Gallery
+footer: © 2022-2024 Pocket Gallery
 ---
 
 ## Avis Important

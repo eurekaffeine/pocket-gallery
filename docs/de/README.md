@@ -10,7 +10,7 @@ features:
   details: Bietet detaillierte Informationen wie "Züge", "Merkmale", "Requisiten", "Wetter", "Orte" und "abnorme Zustände".
 - title: Leistungsstarke Merkmale
   details: Leistungsstarke Funktionen wie "Attributsbeschränkung", "Toter Winkel" und "Fähigkeitswert-Rechner" wurden speziell für Matchmaking-Enthusiasten entwickelt.
-footer: © 2022-2023 Pocket Gallery
+footer: © 2022-2024 Pocket Gallery
 ---
 
 ## Wichtiger Hinweis
