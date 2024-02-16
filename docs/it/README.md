@@ -5,7 +5,7 @@ heroText: Pocket Gallery
 tagline: Un'app per il Pokédex di Consise
 features:
 - title: Completo
-  details: Contiene dettagli completi su tutti i 1010 pokémon dalla I alla IX generazione.
+  details: Contiene dettagli completi su tutti i 1025 pokémon dalla I alla IX generazione.
 - title: Informativo
   details: Fornisce dettagli informativi comuni che vanno dalle mosse, alle abilità, agli oggetti, alle condizioni atmosferiche, ai territori e alle condizioni di stato.
 - title: Funzionale

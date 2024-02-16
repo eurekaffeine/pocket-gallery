@@ -5,7 +5,7 @@ heroText: Pocket Gallery
 tagline: A Consise Pokédex App
 features:
 - title: Comprehensive
-  details: Containing comprehensive details about all 1010 pokémons starting from Generation I to IX.
+  details: Containing comprehensive details about all 1025 pokémons starting from Generation I to IX.
 - title: Informative
   details: Providing informative common details ranging from Moves, Abilities, Items to Weathers, Terrians and Status Condition.
 - title: Functional
