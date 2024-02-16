@@ -5,7 +5,7 @@ heroText: Pocket Gallery
 tagline: Una sencilla y generosa ilustración de Pokémon
 features:
 - title: Completamente ilustrado
-  details: Se incluye información detallada sobre los 1010 Pokémon desde la Generación 1 hasta la Generación 9.
+  details: Se incluye información detallada sobre los 1025 Pokémon desde la Generación 1 hasta la Generación 9.
 - title: Información detallada
   details: Proporciona información detallada como "movimientos", "características", "accesorios", "tiempo", "ubicaciones" y "estados anormales".
 - title: Funciones potentes

@@ -5,7 +5,7 @@ heroText: Pocket Gallery
 tagline: Eine übersichtliche Pokédex-App
 features:
 - title: Vollständig illustriert
-  details: Es enthält detaillierte Informationen zu allen 1010 Pokémon von Generation 1 bis Generation 9.
+  details: Es enthält detaillierte Informationen zu allen 1025 Pokémon von Generation 1 bis Generation 9.
 - title: Ausführliche Informationen
   details: Bietet detaillierte Informationen wie "Züge", "Merkmale", "Requisiten", "Wetter", "Orte" und "abnorme Zustände".
 - title: Leistungsstarke Merkmale
