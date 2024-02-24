@@ -14,16 +14,7 @@ footer: © 2022-2024 Pocket Gallery
 ---
 
 ## Avis Important
-
-hers Clients,
-
-Nous regrettons de vous informer que, à partir du 23 janvier 2024, notre application a été suspendue de Google Play suite à des allégations de violation des droits de propriété intellectuelle de The Pokémon Company. Par conséquent, elle ne sera pas disponible pour le téléchargement ou l'utilisation pour une durée indéfinie.
-
-Nous apprécions profondément le soutien et l'enthousiasme que vous avez montré pour notre application. Notre équipe s'engage à explorer des moyens de continuer à servir la communauté des fans de Pokémon d'une manière qui respecte toutes les considérations légales et de propriété intellectuelle.
-
-Veuillez noter que cette suspension affecte actuellement uniquement notre disponibilité sur Google Play. L'application reste accessible sur l'App Store iOS et Huawei App Gallery pour le moment.
-
-Nous vous remercions de votre compréhension et de votre soutien continu pendant cette période difficile.
+Nous avons récemment mis à jour notre application sur Google Play. Tous les utilisateurs de notre application sont priés de la télécharger à nouveau depuis Google Play et d'utiliser la dernière version. Nous nous excusons pour tout désagrément occasionné !
 
 <a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
@@ -31,11 +22,11 @@ Nous vous remercions de votre compréhension et de votre soutien continu pendant
 </div>
 </a>
 
-<!-- <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
+<a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-fr.png" alt="hero" style="width: 300px;"/>
 </div>
-</a> -->
+</a>
 
 <a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
 <div align="center">

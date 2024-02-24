@@ -14,16 +14,7 @@ footer: © 2022-2024 Pocket Gallery
 ---
 
 ## 중요 공지
-
-소중한 고객 여러분,
-
-2024년 1월 23일부터 저희 앱이 The Pokémon Company의 지적 재산권 침해 혐의로 인해 Google Play에서 중단되었음을 안타깝게 알려드립니다. 따라서 앱은 무기한 다운로드 또는 사용할 수 없게 될 것입니다.
-
-저희 앱에 보여주신 지원과 열정에 깊이 감사드립니다. 저희 팀은 모든 법적 및 지적 재산권 고려 사항을 존중하는 방식으로 포켓몬 팬 커뮤니티에 계속 서비스할 방법을 모색하고 있습니다.
-
-현재 이 중단은 Google Play에서의 저희 앱 사용 가능성에만 영향을 미칩니다. 앱은 현재 iOS 앱 스토어 및 화웨이 앱 갤러리에서 계속 이용할 수 있습니다.
-
-이 어려운 시기에 여러분의 이해와 지속적인 지원에 감사드립니다.
+최근 Google Play에서 저희 앱을 업데이트하였습니다. 저희 앱을 사용하는 모든 사용자분들께서는 Google Play에서 다시 다운로드하여 최신 버전을 사용해 주시기 바랍니다. 이로 인해 불편을 드린 점, 진심으로 사과드립니다!
 
 <a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
@@ -31,11 +22,11 @@ footer: © 2022-2024 Pocket Gallery
 </div>
 </a>
 
-<!-- <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
+<a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-ko.png" alt="hero" style="width: 300px;"/>
 </div>
-</a> -->
+</a>
 
 <a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
 <div align="center">

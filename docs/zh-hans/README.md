@@ -13,15 +13,7 @@ features:
 footer: © 2022-2024 破壳萌图鉴
 ---
 ## 重要通知
-尊敬的用户，
-
-我们遗憾地通知您，自2024年1月23日起，由于被指控侵犯The Pokémon Company的知识产权，我们的应用已经从Google Play中被暂停。因此，该应用将无限期地无法下载或使用。
-
-我们深深感谢您对我们应用的支持和热情。我们的团队致力于探索继续服务于宝可梦粉丝社区的方法，同时尊重所有法律和知识产权的考虑。
-
-请注意，这次暂停目前只影响我们在Google Play上的可用性。该应用在iOS App Store和华为应用市场上暂时仍然可用。
-
-感谢您在这个充满挑战的时期给予的理解和持续支持。
+我们最近对在Google Play上的应用进行了更新。请所有使用我们应用的用户在Google Play重新下载并使用最新版本。对此造成的不便，我们深感抱歉！
 
 <a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
@@ -29,11 +21,11 @@ footer: © 2022-2024 破壳萌图鉴
 </div>
 </a>
 
-<!-- <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex">
+<a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance">
 <div align="center">
 <img src="../.vuepress/public/google-play-badge-zh-hans.png" alt="hero" style="width: 300px;"/>
 </div>
-</a> -->
+</a>
 
 <a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
 <div align="center">
