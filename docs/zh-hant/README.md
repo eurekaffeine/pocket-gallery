@@ -13,7 +13,7 @@ features:
 footer: © 2022-2024 破殼萌圖鑑
 ---
 ## 重要通知
-重要通知：我們最近對在Google Play上的應用進行了更新。請所有使用我們應用的用戶在Google Play重新下載並使用最新版本。對此造成的不便，我們深感抱歉！
+我們最近對在Google Play上的應用進行了更新。請所有使用我們應用的用戶在Google Play重新下載並使用最新版本。對此造成的不便，我們深感抱歉！
 
 <a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
