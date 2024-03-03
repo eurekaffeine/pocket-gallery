@@ -8,6 +8,7 @@ module.exports = {
         nav: [
           { text: "Home", link: "/" },
           { text: "Release Notes", link: "/release-notes/" },
+          { text: "FAQ", link: '/faq/' },
           { text: "Others", link: "/others/" },
         ],
       },
@@ -16,7 +17,8 @@ module.exports = {
         nav: [
           { text: "主页", link: "/zh-hans/" },
           { text: "更新记录", link: "/zh-hans/release-notes/" },
-          { text: "其他", link: "/zh-hans/others/" },
+          { text: "常见问题", link: '/zh-hans/faq/'},
+          { text: "其他", link: "/zh-hans/others/" }
         ],
       },
       "/zh-hant/": {
@@ -24,7 +26,8 @@ module.exports = {
         nav: [
           { text: "主頁", link: "/zh-hant/" },
           { text: "更新記錄", link: "/zh-hant/release-notes/" },
-          { text: "其他", link: "/zh-hant/others/" },
+          { text: "常見問題", link: '/zh-hant/faq/'},
+          { text: "其他", link: "/zh-hant/others/" }
         ],
       },
       "/ja-jp/": {
@@ -32,7 +35,8 @@ module.exports = {
         nav: [
           { text: "ホームページ", link: "/ja-jp/" },
           { text: "更新記録", link: "/ja-jp/release-notes/" },
-          { text: "その他", link: "/ja-jp/others/" },
+          { text: "よくある質問", link: '/ja-jp/faq/'},
+          { text: "その他", link: "/ja-jp/others/" }
         ],
       },
       "/es/": {
@@ -40,7 +44,8 @@ module.exports = {
         nav: [
           { text: "Inicio", link: "/es/" },
           { text: "Notas de la versión", link: "/es/release-notes/" },
-          { text: "Otros", link: "/es/others/" },
+          { text: "Preguntas frecuentes", link: '/es/faq/'},
+          { text: "Otros", link: "/es/others/" }
         ],
       },
       "/fr/": {
@@ -48,7 +53,8 @@ module.exports = {
         nav: [
           { text: "Accueil", link: "/fr/" },
           { text: "Notes de version", link: "/fr/release-notes/" },
-          { text: "Autres", link: "/fr/others/" },
+          { text: "Questions fréquemment posées", link: '/fr/faq/'},
+          { text: "Autres", link: "/fr/others/" }
         ],
       },
       "/de/": {
@@ -56,7 +62,8 @@ module.exports = {
         nav: [
           { text: "Startseite", link: "/de/" },
           { text: "Versionshinweise", link: "/de/release-notes/" },
-          { text: "Andere", link: "/de/others/" },
+          { text: "Häufig gestellte Fragen", link: '/de/faq/'},
+          { text: "Andere", link: "/de/others/" }
         ],
       },
       "/it/": {
@@ -64,7 +71,8 @@ module.exports = {
         nav: [
           { text: "Home", link: "/it/" },
           { text: "Note sulla versione", link: "/it/release-notes/" },
-          { text: "Altri", link: "/it/others/" },
+          { text: "Domande frequenti", link: '/it/faq/'},
+          { text: "Altri", link: "/it/others/" }
         ],
       },
       "/ko/": {
@@ -72,7 +80,8 @@ module.exports = {
         nav: [
           { text: "홈", link: "/ko/" },
           { text: "릴리즈 노트", link: "/ko/release-notes/" },
-          { text: "기타", link: "/ko/others/" },
+          { text: "자주 묻는 질문", link: '/ko/faq/'},
+          { text: "기타", link: "/ko/others/" }
         ],
       },
     },
