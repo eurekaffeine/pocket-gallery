@@ -1,7 +1,7 @@
 # Registro de actualización
 ## Android
 ### V2.3
-#### 2.3.2403092051
+#### 2.3.2403092340
 - Actualizadas las entradas del Pokédex para algunos Pokémon
 - Sección de Preguntas Frecuentes añadida
 - Se corrigieron algunos problemas.

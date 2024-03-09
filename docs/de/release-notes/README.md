@@ -1,7 +1,7 @@
 # Update log
 ## Android
 ### V2.3
-#### 2.3.2403092051
+#### 2.3.2403092340
 - Aktualisierte Pokédex-Einträge für einige Pokémon
 - FAQ-Bereich hinzugefügt
 - Einige Probleme wurden behoben
