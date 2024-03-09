@@ -1,5 +1,17 @@
 # Release Notes
 ## Android
+### V2.3
+#### 2.3.2403092051
+- Updated Pokédex entries for some Pokémon.
+- Added FAQ Section.
+- Fixed some issues.
+
+### V2.2
+#### 2.2.2402161119
+- Updated game data from GEN IX Ver2.0.1.
+- Update game data from GEN IX DLC vol.2.
+- Fixed some issues.
+
 ### V2.1
 #### 2.1.2311052226
 - Show Pokémon descriptions.

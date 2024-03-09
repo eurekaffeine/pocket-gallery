@@ -1,5 +1,17 @@
 # Aggiornamento del registro
 ## Android
+### V2.3
+#### 2.3.2403092051
+ - Aggiornate le voci del Pokédex per alcuni Pokémon.
+- Aggiunta la sezione FAQ.
+- Risolti alcuni problemi.
+
+### V2.2
+#### 2.2.2402161119
+ - Dati di gioco aggiornati da GEN IX Ver2.0.1.
+- Aggiorna i dati di gioco da GEN IX DLC vol.2.
+- Risolti alcuni problemi.
+
 ### V2.1
 #### 2.1.2311052226
 - Mostra descrizioni dei Pokémon.
