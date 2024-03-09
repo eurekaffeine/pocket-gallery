@@ -1,5 +1,17 @@
 # Mise à jour du journal
 ## Android
+### V2.3
+#### 2.3.2403092051
+- Mises à jour des entrées du Pokédex pour certains Pokémon
+- Section FAQ ajoutée
+- Correction de certains problèmes.
+
+### V2.2
+#### 2.2.2402161119
+- Données de jeu mises à jour depuis GEN IX Ver2.0.1.
+- Mise à jour des données de jeu depuis GEN IX DLC vol.2.
+- Correction de certains problèmes.
+
 ### V2.1
 #### 2.1.2311052226
 - Afficher les descriptions des Pokémon.

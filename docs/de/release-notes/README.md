@@ -1,5 +1,17 @@
 # Update log
 ## Android
+### V2.3
+#### 2.3.2403092051
+- Aktualisierte Pokédex-Einträge für einige Pokémon
+- FAQ-Bereich hinzugefügt
+- Einige Probleme wurden behoben
+
+### V2.2
+#### 2.2.2402161119
+- Spieldaten von GEN IX Ver2.0.1 aktualisiert
+- Spiel-Daten aus GEN IX DLC vol.2 aktualisieren
+- Einige Probleme wurden behoben
+
 ### V2.1
 #### 2.1.2311052226
 - Pokémon-Beschreibungen anzeigen.
