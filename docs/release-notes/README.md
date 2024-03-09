@@ -1,7 +1,7 @@
 # Release Notes
 ## Android
 ### V2.3
-#### 2.3.2403092051
+#### 2.3.2403092340
 - Updated Pokédex entries for some Pokémon.
 - Added FAQ Section.
 - Fixed some issues.

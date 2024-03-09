@@ -1,7 +1,7 @@
 # Aggiornamento del registro
 ## Android
 ### V2.3
-#### 2.3.2403092051
+#### 2.3.2403092340
  - Aggiornate le voci del Pokédex per alcuni Pokémon.
 - Aggiunta la sezione FAQ.
 - Risolti alcuni problemi.

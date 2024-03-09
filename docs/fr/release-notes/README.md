@@ -1,7 +1,7 @@
 # Mise à jour du journal
 ## Android
 ### V2.3
-#### 2.3.2403092051
+#### 2.3.2403092340
 - Mises à jour des entrées du Pokédex pour certains Pokémon
 - Section FAQ ajoutée
 - Correction de certains problèmes.
