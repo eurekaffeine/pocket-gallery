@@ -142,12 +142,21 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.0
+#### 1.0.4
+- Updated Pokédex entries for some Pokémon
+- Added FAQ Section
+- Fixed some issues
+#### 1.0.3
+- Updated some official artworks
+- Fixed some issues
+#### 1.0.2
+- Updated game data from GEN IX Ver2.0.1
+- Update game data from GEN IX DLC vol.2
+- Fixed some issues
 #### 1.0.1
 - Fixed crashes, lag, and other issues.
-- Resolved compatibility issues with iOS 17.
-
-
+- Resolved compatibility issues with iOS 17
 #### 1.0.0
-- Official launch of the app.
+- Official launch of the app
 
 
