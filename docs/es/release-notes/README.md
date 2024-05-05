@@ -1,5 +1,9 @@
 # Registro de actualización
 ## Android
+### V2.4
+#### 2.4.2404042223
+- Se ha añadido el soporte para la función de "Edición de Equipo"
+- Se corrigieron algunos problemas
 ### V2.3
 #### 2.3.2403092340
 - Actualizadas las entradas del Pokédex para algunos Pokémon
