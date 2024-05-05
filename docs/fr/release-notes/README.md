@@ -1,5 +1,9 @@
 # Mise à jour du journal
 ## Android
+### V2.4
+#### 2.4.2404042223
+- Prise en charge de la fonctionnalité "Édition d'Équipe"
+- Correction de certains problèmes
 ### V2.3
 #### 2.3.2403092340
 - Mises à jour des entrées du Pokédex pour certains Pokémon

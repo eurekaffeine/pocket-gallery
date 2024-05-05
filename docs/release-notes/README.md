@@ -1,5 +1,9 @@
 # Release Notes
 ## Android
+### V2.4
+#### 2.4.2404042223
+- Supported the feature of "Team Editing"
+- Fixed some issues
 ### V2.3
 #### 2.3.2403092340
 - Updated Pokédex entries for some Pokémon.

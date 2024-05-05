@@ -1,5 +1,9 @@
 # Update log
 ## Android
+### V2.4
+#### 2.4.2404042223
+- Die Funktion "Team Bearbeitung" wird unterstützt
+- Einige Probleme wurden behoben
 ### V2.3
 #### 2.3.2403092340
 - Aktualisierte Pokédex-Einträge für einige Pokémon
