@@ -13,7 +13,9 @@ features:
 ---
 
 ::: slot footer
-Copyright © 2022-2023 破壳萌图鉴 [苏ICP备2023003413号-1](https://beian.miit.gov.cn/)
+Copyright © 2022-2023 破壳萌图鉴 \
+ [苏ICP备2023003413号-1](https://beian.miit.gov.cn/) | <img src="../docs/.vuepress/public/beian.png" alt="beian" style="width: 15px;"/>[ 苏公网安备32059002005040号	
+](https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040)
 :::
 
 <a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
