@@ -1,5 +1,15 @@
 # Registro de actualización
 ## Android
+### V2.6
+#### 2.6.2405191437
+- Se corrigieron algunos problemas
+
+### V2.5
+#### 2.5.2405090925
+- Soporta movimientos de Pokémon de generaciones anteriores
+- Soporta la elección de la versión predeterminada del juego para movimientos de Pokémon
+- Se corrigieron algunos problemas
+
 ### V2.4
 #### 2.4.2404042223
 - Se ha añadido el soporte para la función de "Edición de Equipo"
@@ -138,6 +148,12 @@ _(1.5.2301241051)_
 - Prueba abierta BETA inicial de la aplicación.
 
 ## iOS
+### V1.1
+#### 1.1.0
+- Soporta movimientos de Pokémon de generaciones anteriores
+- Soporta la elección de la versión predeterminada del juego para movimientos de Pokémon
+- Se corrigieron algunos problemas
+
 ### V1.0
 #### 1.0.4
 - Actualizadas las entradas del Pokédex para algunos Pokémon

@@ -1,5 +1,15 @@
 # Release Notes
 ## Android
+### V2.6
+#### 2.6.2405191437
+- Fixed some issues
+
+### V2.5
+#### 2.5.2405090925
+- Supported pokémon moves from previous generations
+- Supported choosing default game version for pokémon moves
+- Fixed some issues
+
 ### V2.4
 #### 2.4.2404042223
 - Supported the feature of "Team Editing"
@@ -145,6 +155,12 @@ _(1.5.2301241051)_
 - Initiated open BETA testing of the app.
 
 ## iOS
+### V1.1
+#### 1.1.0
+- Supported pokémon moves from previous generations
+- Supported choosing default game version for pokémon moves
+- Fixed some issues
+
 ### V1.0
 #### 1.0.4
 - Updated Pokédex entries for some Pokémon

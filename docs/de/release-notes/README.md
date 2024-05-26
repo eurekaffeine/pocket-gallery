@@ -1,5 +1,15 @@
 # Update log
 ## Android
+### V2.6
+#### 2.6.2405191437
+- Einige Probleme wurden behoben
+
+### V2.5
+#### 2.5.2405090925
+- Unterstützte Pokémon-Züge aus vorherigen Generationen
+- Unterstützung bei der Auswahl der Standard-Spielversion für Pokémon-Züge
+- Einige Probleme wurden behoben
+
 ### V2.4
 #### 2.4.2404042223
 - Die Funktion "Team Bearbeitung" wird unterstützt
@@ -138,6 +148,11 @@ _(1.5.2301241051)_
 - Erste BETA offene Testversion der App.
 
 ## iOS
+### V1.1
+#### 1.1.0
+- Unterstützte Pokémon-Züge aus vorherigen Generationen
+- Unterstützung bei der Auswahl der Standard-Spielversion für Pokémon-Züge
+- Einige Probleme wurden behoben
 
 ### V1.0
 #### 1.0.4
