@@ -1,5 +1,15 @@
 # Mise à jour du journal
 ## Android
+### V2.6
+#### 2.6.2405191437
+- Correction de certains problèmes
+
+### V2.5
+#### 2.5.2405090925
+- Mouvements de Pokémon des générations précédentes pris en charge
+- Prise en charge du choix de la version du jeu par défaut pour les mouvements de Pokémon
+- Correction de certains problèmes
+
 ### V2.4
 #### 2.4.2404042223
 - Prise en charge de la fonctionnalité "Édition d'Équipe"
@@ -139,6 +149,12 @@ _(1.5.2301241051)_
 - Premier test BETA ouvert de l'application.
 
 ## iOS
+### V1.1
+#### 1.1.0
+- Mouvements de Pokémon des générations précédentes pris en charge
+- Prise en charge du choix de la version du jeu par défaut pour les mouvements de Pokémon
+- Correction de certains problèmes
+
 ### V1.0
 #### 1.0.4
 - Mises à jour des entrées du Pokédex pour certains Pokémon

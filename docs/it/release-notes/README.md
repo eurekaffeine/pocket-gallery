@@ -1,5 +1,15 @@
 # Aggiornamento del registro
 ## Android
+### V2.6
+#### 2.6.2405191437
+- Risolti alcuni problemi
+
+### V2.5
+#### 2.5.2405090925
+- Supporto per mosse Pokémon dalle generazioni precedenti
+- Supporto nella scelta della versione di gioco predefinita per le mosse dei Pokémon
+- Risolti alcuni problemi
+
 ### V2.4
 #### 2.4.2404042223
 - Supportata la funzionalità di "Modifica del Team"
@@ -138,6 +148,12 @@ _(1.5.2301241051)_
 - Primo test BETA aperto dell'app.
 
 ## iOS
+### V1.1
+#### 1.1.0
+- Supporto per mosse Pokémon dalle generazioni precedenti
+- Supporto nella scelta della versione di gioco predefinita per le mosse dei Pokémon
+- Risolti alcuni problemi
+
 ### V1.0
 #### 1.0.4
 - Aggiornate le voci del Pokédex per alcuni Pokémon
