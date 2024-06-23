@@ -1,7 +1,8 @@
 # Release Notes
 ## Android
 ### V2.6
-#### 2.6.2405191437
+#### 2.6.2406161146
+_(2.6.2405191437)_
 - Fixed some issues
 
 ### V2.5
@@ -156,6 +157,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.1
+- Fixed some issues
+
 #### 1.1.0
 - Supported pokémon moves from previous generations
 - Supported choosing default game version for pokémon moves
