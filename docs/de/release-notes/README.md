@@ -1,7 +1,8 @@
 # Update log
 ## Android
 ### V2.6
-#### 2.6.2405191437
+#### 2.6.2406161146
+_(2.6.2405191437)_
 - Einige Probleme wurden behoben
 
 ### V2.5
@@ -149,6 +150,8 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.1
+- Einige Probleme wurden behoben
 #### 1.1.0
 - Unterstützte Pokémon-Züge aus vorherigen Generationen
 - Unterstützung bei der Auswahl der Standard-Spielversion für Pokémon-Züge

@@ -1,7 +1,8 @@
 # Aggiornamento del registro
 ## Android
 ### V2.6
-#### 2.6.2405191437
+#### 2.6.2406161146
+_(2.6.2405191437)_
 - Risolti alcuni problemi
 
 ### V2.5
@@ -149,6 +150,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.1
+- Risolti alcuni problemi
+
 #### 1.1.0
 - Supporto per mosse Pokémon dalle generazioni precedenti
 - Supporto nella scelta della versione di gioco predefinita per le mosse dei Pokémon

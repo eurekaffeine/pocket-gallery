@@ -1,7 +1,8 @@
 # Registro de actualización
 ## Android
 ### V2.6
-#### 2.6.2405191437
+#### 2.6.2406161146
+_(2.6.2405191437)_
 - Se corrigieron algunos problemas
 
 ### V2.5
@@ -149,6 +150,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.1
+- Se corrigieron algunos problemas
+
 #### 1.1.0
 - Soporta movimientos de Pokémon de generaciones anteriores
 - Soporta la elección de la versión predeterminada del juego para movimientos de Pokémon
