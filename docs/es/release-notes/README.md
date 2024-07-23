@@ -1,6 +1,9 @@
 # Registro de actualización
 ## Android
 ### V2.6
+#### 2.6.2407230913
+- Se corrigieron algunos problemas
+
 #### 2.6.2406161146
 _(2.6.2405191437)_
 - Se corrigieron algunos problemas
@@ -150,6 +153,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.2
+- Se añadió un nuevo widget
+
 #### 1.1.1
 - Se corrigieron algunos problemas
 

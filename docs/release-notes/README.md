@@ -1,6 +1,9 @@
 # Release Notes
 ## Android
 ### V2.6
+#### 2.6.2407230913
+- Fixed some issues
+
 #### 2.6.2406161146
 _(2.6.2405191437)_
 - Fixed some issues
@@ -157,6 +160,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.2
+- 새로운 위젯을 추가했습니다
+
 #### 1.1.1
 - Fixed some issues
 

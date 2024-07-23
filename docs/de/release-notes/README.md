@@ -1,6 +1,9 @@
 # Update log
 ## Android
 ### V2.6
+#### 2.6.2407230913
+- Einige Probleme wurden behoben
+
 #### 2.6.2406161146
 _(2.6.2405191437)_
 - Einige Probleme wurden behoben
@@ -150,6 +153,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.1
+#### 1.1.2
+- Ein brandneues Widget hinzugefügt
+
 #### 1.1.1
 - Einige Probleme wurden behoben
 #### 1.1.0
