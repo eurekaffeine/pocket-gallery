@@ -161,7 +161,7 @@ _(1.5.2301241051)_
 ## iOS
 ### V1.1
 #### 1.1.2
-- 새로운 위젯을 추가했습니다
+- Added a brand new widget
 
 #### 1.1.1
 - Fixed some issues
