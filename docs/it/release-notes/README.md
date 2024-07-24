@@ -152,6 +152,11 @@ _(1.5.2301241051)_
 - Primo test BETA aperto dell'app.
 
 ## iOS
+### V1.2
+#### 1.2.0
+- Aggiunte le funzioni "Efficacia di tipo" e "Danno di tipo" alla pagina "Dati di battaglia".
+- Risolti alcuni problemi.
+
 ### V1.1
 #### 1.1.2
 - Aggiunto un nuovo widget

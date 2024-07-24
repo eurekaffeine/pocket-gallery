@@ -152,6 +152,12 @@ _(1.5.2301241051)_
 - Erste BETA offene Testversion der App.
 
 ## iOS
+
+### V1.2
+#### 1.2.0
+- Auf der Seite „Kampfdaten“ wurden Funktionen für „Typeneffektivität“ und „Typeffekt-Schaden“ hinzugefügt.
+- Einige Probleme wurden behoben.
+
 ### V1.1
 #### 1.1.2
 - Ein brandneues Widget hinzugefügt

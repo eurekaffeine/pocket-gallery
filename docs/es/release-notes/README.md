@@ -152,6 +152,11 @@ _(1.5.2301241051)_
 - Prueba abierta BETA inicial de la aplicación.
 
 ## iOS
+### V1.2
+#### 1.2.0
+- Se añadieron las funciones de "Efectividad de tipo" y "Daño de tipo" en la página "Datos de combate".
+- Se corrigieron algunos problemas.
+
 ### V1.1
 #### 1.1.2
 - Se añadió un nuevo widget

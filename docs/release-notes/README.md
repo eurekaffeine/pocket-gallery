@@ -159,6 +159,11 @@ _(1.5.2301241051)_
 - Initiated open BETA testing of the app.
 
 ## iOS
+### V1.2
+#### 1.2.0
+- Added "Type Effectiveness" and "Type Damage" features to the "Battle Data" page.
+- Fixed some issues.
+
 ### V1.1
 #### 1.1.2
 - Added a brand new widget
