@@ -1,5 +1,11 @@
 # Release Notes
 ## Android
+### V2.7
+#### 2.7.2408012240
+- Improved UX
+- Improved app size
+- Fixed some issues
+
 ### V2.6
 #### 2.6.2407230913
 - Fixed some issues
@@ -160,9 +166,13 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.1
+- Added “Blind Spot of Attack” and “Blind Spot of Defense” in “Battle Info” page
+- Fixed some issues
+
 #### 1.2.0
-- Added "Type Effectiveness" and "Type Damage" features to the "Battle Data" page.
-- Fixed some issues.
+- Added "Type Effectiveness" and "Type Damage" features to the "Battle Data" page
+- Fixed some issues
 
 ### V1.1
 #### 1.1.2

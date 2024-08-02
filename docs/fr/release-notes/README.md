@@ -1,5 +1,11 @@
 # Mise à jour du journal
 ## Android
+### V2.7
+#### 2.7.2408012240
+- Amélioration de l’expérience utilisateur (UX)
+- Taille de l’application optimisée
+- Correction de certains problèmes
+
 ### V2.6
 #### 2.6.2407230913
 - Correction de certains problèmes
@@ -154,9 +160,13 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.1
+- Ajouté “Angle Mort d’Attaque” et “Angle Mort de Défense” sur la page “Infos de Combat”
+- Correction de certains problèmes
+
 #### 1.2.0
-- Ajout des fonctionnalités "Efficacité de type" et "Dommages de type" à la page "Données de combat".
-- Certains problèmes ont été corrigés.
+- Ajout des fonctionnalités "Efficacité de type" et "Dommages de type" à la page "Données de combat"
+- Certains problèmes ont été corrigés
 
 ### V1.1
 #### 1.1.2

@@ -1,5 +1,11 @@
 # Aggiornamento del registro
 ## Android
+### V2.7
+### 2.7.2408012240
+- Migliorata la UX
+- Migliorate le dimensioni dell’app
+- Risolti alcuni problemi
+
 ### V2.6
 #### 2.6.2407230913
 - Risolti alcuni problemi
@@ -153,6 +159,10 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.1
+- Aggiunto “Punto Cieco d’Attacco” e “Punto Cieco di Difesa” nella pagina “Informazioni di Battaglia”
+- Risolti alcuni problemi
+
 #### 1.2.0
 - Aggiunte le funzioni "Efficacia di tipo" e "Danno di tipo" alla pagina "Dati di battaglia".
 - Risolti alcuni problemi.
