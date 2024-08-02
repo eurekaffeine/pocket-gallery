@@ -13,7 +13,7 @@ _破壳萌图鉴_ 是一款由 _刘耀晨_ 制作的、非官方的、免费的�
 无任何侵犯版权之意。
 
 \
-**Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## 隐私政策
 
