@@ -1,6 +1,9 @@
 # Mise à jour du journal
 ## Android
 ### V2.7
+#### 2.7.2408241416
+- Correction de certains problèmes
+
 #### 2.7.2408012240
 - Amélioration de l’expérience utilisateur (UX)
 - Taille de l’application optimisée
@@ -160,8 +163,12 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.2
+- Ajouté "Stats Calc." et "IV Calc."
+- Quelques problèmes corrigés
+
 #### 1.2.1
-- Ajouté “Angle Mort d’Attaque” et “Angle Mort de Défense” sur la page “Infos de Combat”
+- Ajouté "Angle Mort d’Attaque" et "Angle Mort de Défense" sur la page "Infos de Combat"
 - Correction de certains problèmes
 
 #### 1.2.0

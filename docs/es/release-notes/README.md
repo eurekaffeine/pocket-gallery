@@ -1,6 +1,9 @@
 # Registro de actualización
 ## Android
 ### V2.7
+#### 2.7.2408241416
+- Se corrigieron algunos problemas
+
 #### 2.7.2408012240
 - Mejora de la experiencia de usuario (UX)
 - Tamaño de la app mejorado
@@ -159,8 +162,12 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.2
+- Agregado "Stats Calc." y "IV Calc."
+- Algunos problemas solucionados
+
 #### 1.2.1
-- Se añadió “Punto Ciego de Ataque” y “Punto Ciego de Defensa” en la página de “Información de Batalla”
+- Se añadió "Punto Ciego de Ataque" y "Punto Ciego de Defensa" en la página de "Información de Batalla"
 - Se corrigieron algunos problemas
 
 #### 1.2.0

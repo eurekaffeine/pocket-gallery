@@ -1,6 +1,9 @@
 # Update log
 ## Android
 ### V2.7
+#### 2.7.2408241416
+- Einige Probleme behoben
+
 #### 2.7.2408012240
 - Verbesserte Benutzererfahrung (UX)
 - App-Größe optimiert
@@ -160,12 +163,16 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.2
+#### 1.2.2
+- "Stats Calc." und "IV Calc." hinzugefügt
+- Einige Probleme behoben
+
 #### 1.2.1
-- “Blinder Fleck beim Angriff” und “Blinder Fleck bei der Verteidigung” auf der Seite “Kampfinformationen” hinzugefügt.
+- "Blinder Fleck beim Angriff" und "Blinder Fleck bei der Verteidigung" auf der Seite "Kampfinformationen" hinzugefügt.
 - Einige Probleme behoben.
 
 #### 1.2.0
-- Auf der Seite „Kampfdaten“ wurden Funktionen für „Typeneffektivität“ und „Typeffekt-Schaden“ hinzugefügt.
+- Auf der Seite "Kampfdaten" wurden Funktionen für "Typeneffektivität" und "Typeffekt-Schaden" hinzugefügt.
 - Einige Probleme wurden behoben.
 
 ### V1.1

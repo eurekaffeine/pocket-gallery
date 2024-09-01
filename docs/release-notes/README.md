@@ -1,6 +1,10 @@
 # Release Notes
 ## Android
 ### V2.7
+
+#### 2.7.2408241416
+- Fixed some issues
+
 #### 2.7.2408012240
 - Improved UX
 - Improved app size
@@ -166,8 +170,12 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.2
+- Added "Stats Calc." And "IV Calc."
+- Fixed some issues
+
 #### 1.2.1
-- Added “Blind Spot of Attack” and “Blind Spot of Defense” in “Battle Info” page
+- Added "Blind Spot of Attack" and "Blind Spot of Defense" in "Battle Info" page
 - Fixed some issues
 
 #### 1.2.0
