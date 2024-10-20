@@ -1,5 +1,12 @@
 # Release Notes
 ## Android
+### V2.8
+#### 2.8.2410191658
+- Optimized application startup speed
+- "Team Editing" mode now supports selecting "Shiny" Pokémon
+- "Team Editing" mode now supports configuring more "Moves"
+- Fixed some other issues
+
 ### V2.7
 
 #### 2.7.2408241416
@@ -170,6 +177,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.3
+- Fixed some issues
+
 #### 1.2.2
 - Added "Stats Calc." And "IV Calc."
 - Fixed some issues

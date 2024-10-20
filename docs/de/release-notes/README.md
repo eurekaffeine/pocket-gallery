@@ -1,5 +1,12 @@
 # Update log
 ## Android
+### V2.8
+#### 2.8.2410191658
+- Optimierung der Anwendungsstartgeschwindigkeit
+- Im „Team bearbeiten“-Modus Unterstützung für die Auswahl von „Schillernden“ Pokémon
+- Im „Team bearbeiten“-Modus Unterstützung für die Konfiguration weiterer „Attacken“
+- Behebung einiger weiterer Probleme
+
 ### V2.7
 #### 2.7.2408241416
 - Einige Probleme behoben
@@ -163,6 +170,9 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.2
+#### 1.2.3
+- Einige Probleme behoben
+
 #### 1.2.2
 - "Stats Calc." und "IV Calc." hinzugefügt
 - Einige Probleme behoben

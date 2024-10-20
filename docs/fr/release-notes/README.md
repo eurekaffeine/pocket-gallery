@@ -1,5 +1,12 @@
 # Mise à jour du journal
 ## Android
+### V2.8
+#### 2.8.2410191658
+- Optimisation de la vitesse de démarrage de l'application
+- Le mode "Édition d'équipe" prend en charge la sélection de Pokémon "chromatiques"
+- Le mode "Édition d'équipe" prend en charge la configuration de plus de "capacités"
+- Correction de certains autres problèmes
+
 ### V2.7
 #### 2.7.2408241416
 - Correction de certains problèmes
@@ -163,6 +170,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.3
+- Quelques problèmes corrigés
+
 #### 1.2.2
 - Ajouté "Stats Calc." et "IV Calc."
 - Quelques problèmes corrigés

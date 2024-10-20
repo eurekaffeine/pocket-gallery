@@ -1,5 +1,12 @@
 # Registro de actualización
 ## Android
+### V2.8
+#### 2.8.2410191658
+- Optimización de la velocidad de inicio de la aplicación
+- En el modo "Editar equipo" se admite la selección de Pokémon "variocolor"
+- En el modo "Editar equipo" se admite la configuración de más "movimientos"
+- Corrección de algunos otros problemas
+
 ### V2.7
 #### 2.7.2408241416
 - Se corrigieron algunos problemas
@@ -162,6 +169,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+#### 1.2.3
+- Algunos problemas solucionados
+
 #### 1.2.2
 - Agregado "Stats Calc." y "IV Calc."
 - Algunos problemas solucionados
