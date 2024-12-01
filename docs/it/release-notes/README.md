@@ -1,7 +1,9 @@
 # Aggiornamento del registro
 ## Android
 ### V2.8
-#### 2.8.2410191658
+#### 2.8.2411161539 
+_(2.8.2410191658)_
+
 - Ottimizzazione della velocità di avvio dell'applicazione
 - Nel "Modo Modifica Squadra" è ora possibile selezionare Pokémon "Shiny"
 - Nel "Modo Modifica Squadra" è ora possibile configurare più "Mosse"
@@ -169,7 +171,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
-#### 1.2.3
+#### 1.2.5
+_(1.2.4) (1.2.3)_
+
 - Risolti alcuni problemi
 
 #### 1.2.2

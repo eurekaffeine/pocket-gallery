@@ -1,7 +1,8 @@
 # Mise à jour du journal
 ## Android
-### V2.8
-#### 2.8.2410191658
+#### 2.8.2411161539 
+_(2.8.2410191658)_
+
 - Optimisation de la vitesse de démarrage de l'application
 - Le mode "Édition d'équipe" prend en charge la sélection de Pokémon "chromatiques"
 - Le mode "Édition d'équipe" prend en charge la configuration de plus de "capacités"
@@ -170,7 +171,9 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
-#### 1.2.3
+#### 1.2.5
+_(1.2.4) (1.2.3)_
+
 - Quelques problèmes corrigés
 
 #### 1.2.2
