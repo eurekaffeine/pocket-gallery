@@ -1,3 +1,4 @@
 node_modules
+docs/.vuepress/dist
 after_deploy.sh
 before_deploy.sh
