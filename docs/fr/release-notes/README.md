@@ -1,5 +1,13 @@
 # Mise à jour du journal
 ## Android
+### V2.9
+#### 2.9.2507061701
+_(2.9.2503161542)_
+
+- Optimisation de l'interface utilisateur
+- Correction de certains autres problèmes
+
+### V2.8
 #### 2.8.2411161539 
 _(2.8.2410191658)_
 
@@ -171,7 +179,18 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+
+#### 1.2.7
+
+- Correction de certains autres problèmes
+
+#### 1.2.6
+
+- Optimisation de l'interface utilisateur
+- Correction de certains autres problèmes
+
 #### 1.2.5
+
 _(1.2.4) (1.2.3)_
 
 - Quelques problèmes corrigés

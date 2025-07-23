@@ -1,5 +1,12 @@
 # Aggiornamento del registro
 ## Android
+### V2.9
+#### 2.9.2507061701
+_(2.9.2503161542)_
+
+- Ottimizzazione dell'interfaccia utente
+- Risolti alcuni altri problemi
+
 ### V2.8
 #### 2.8.2411161539 
 _(2.8.2410191658)_
@@ -171,7 +178,18 @@ _(1.5.2301241051)_
 
 ## iOS
 ### V1.2
+
+#### 1.2.7
+
+- Risolti alcuni altri problemi
+
+#### 1.2.6
+
+- Ottimizzazione dell'interfaccia utente
+- Risolti alcuni altri problemi
+
 #### 1.2.5
+
 _(1.2.4) (1.2.3)_
 
 - Risolti alcuni problemi
