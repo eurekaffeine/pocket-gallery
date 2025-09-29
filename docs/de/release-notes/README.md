@@ -178,6 +178,17 @@ _(1.5.2301241051)_
 
 ## iOS
 
+### V1.3
+
+#### 1.3.1
+
+- Angepasst für iOS 26 und iPad OS 26
+
+#### 1.3.0
+
+- "Team Editing"-Feature zur "Battle Info"-Seite hinzugefügt
+- Einige Probleme behoben
+
 ### V1.2
 
 #### 1.2.7

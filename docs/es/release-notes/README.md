@@ -177,6 +177,18 @@ _(1.5.2301241051)_
 - Prueba abierta BETA inicial de la aplicación.
 
 ## iOS
+
+### V1.3
+
+#### 1.3.1
+
+- Adaptado para iOS 26 e iPad OS 26
+
+#### 1.3.0
+
+- Agregada función de "Team Editing" a la página "Battle Info"
+- Corregidos algunos problemas
+
 ### V1.2
 
 #### 1.2.7
