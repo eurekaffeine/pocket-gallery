@@ -1,5 +1,15 @@
 # Registro de actualización
 ## Android
+
+### V3.0
+
+#### 3.0.2510061832
+
+- Se corrigió la falta de movimientos de Meowth (Forma de Galar)
+- Se corrigieron las estadísticas base incorrectas de Decidueye (Forma de Hisui)
+- "Editor de Equipo" ahora admite nombres personalizados de Pokémon
+- Se solucionaron algunos otros problemas
+
 ### V2.9
 #### 2.9.2507061701
 _(2.9.2503161542)_
@@ -179,6 +189,15 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.3
+
+- Corregidos movimientos faltantes para Meowth (Forma de Galar)
+- Corregidos algunos otros problemas
+
+#### 1.3.2
+
+- Corregidos algunos problemas
 
 #### 1.3.1
 

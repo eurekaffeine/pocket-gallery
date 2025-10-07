@@ -2,6 +2,15 @@
 
 ## Android
 
+### V3.0
+
+#### 3.0.2510061832
+
+- Fixed missing moves for Meowth (Galarian Form)
+- Fixed incorrect base stats for Decidueye (Hisuian Form)
+- "Team Builder" now supports custom Pokémon names
+- Fixed some other issues
+
 ### V2.9
 
 #### 2.9.2507061701
@@ -270,6 +279,15 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.3
+
+- Fixed missing moves for Meowth (Galarian Form)
+- Fixed some other issues
+
+#### 1.3.2
+
+- Fixed some issues
 
 #### 1.3.1
 

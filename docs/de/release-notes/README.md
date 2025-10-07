@@ -1,5 +1,15 @@
 # Update log
 ## Android
+
+### V3.0
+
+#### 3.0.2510061832
+
+- Fehlende Attacken für Mauzi (Galar-Form) behoben
+- Fehlerhafte Basiswerte für Silvarro (Hisui-Form) behoben
+- "Team-Editor" unterstützt jetzt benutzerdefinierte Pokémon-Namen
+- Weitere Probleme behoben
+
 ### V2.9
 #### 2.9.2507061701
 _(2.9.2503161542)_
@@ -179,6 +189,15 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.3
+
+- Fehlende Attacken für Mauzi (Galar-Form) behoben
+- Einige andere Probleme behoben
+
+#### 1.3.2
+
+- Einige Probleme behoben
 
 #### 1.3.1
 

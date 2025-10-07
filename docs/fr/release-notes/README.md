@@ -1,5 +1,15 @@
 # Mise à jour du journal
 ## Android
+
+### V3.0
+
+#### 3.0.2510061832
+
+- Correction des attaques manquantes pour Miaouss (Forme de Galar)
+- Correction des statistiques de base incorrectes pour Archéduc (Forme de Hisui)
+- "Éditeur d'Équipe" prend désormais en charge les noms personnalisés de Pokémon
+- Correction d'autres problèmes
+
 ### V2.9
 #### 2.9.2507061701
 _(2.9.2503161542)_
@@ -180,6 +190,15 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.3
+
+- Correction des mouvements manquants pour Miaouss (Forme de Galar)
+- Correction de quelques autres problèmes
+
+#### 1.3.2
+
+- Correction de quelques problèmes
 
 #### 1.3.1
 
