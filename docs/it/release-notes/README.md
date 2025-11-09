@@ -1,6 +1,13 @@
 # Aggiornamento del registro
 ## Android
 
+### V3.1
+
+#### 3.1.2511032310
+
+- Aggiunto Pokédex e Mosse da "LEGEND: Z-A"
+- Risolti alcuni problemi
+
 ### V3.0
 
 #### 3.0.2510061832
@@ -189,6 +196,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.4
+
+- Aggiunto Pokédex e Mosse da "LEGEND: Z-A"
+- Risolti alcuni problemi
 
 #### 1.3.3
 

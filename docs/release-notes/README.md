@@ -2,6 +2,13 @@
 
 ## Android
 
+### V3.1
+
+#### 3.1.2511032310
+
+- Added Pokédex and Moves from "LEGEND: Z-A"
+- Fixed some issues
+
 ### V3.0
 
 #### 3.0.2510061832
@@ -279,6 +286,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.4
+
+- Added Pokédex and Moves from "LEGEND: Z-A"
+- Fixed some issues
 
 #### 1.3.3
 

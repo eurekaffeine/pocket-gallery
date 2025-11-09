@@ -1,6 +1,13 @@
 # Mise à jour du journal
 ## Android
 
+### V3.1
+
+#### 3.1.2511032310
+
+- Ajout du Pokédex et des Attaques de "LEGEND: Z-A"
+- Correction de quelques problèmes
+
 ### V3.0
 
 #### 3.0.2510061832
@@ -190,6 +197,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.4
+
+- Ajout du Pokédex et des Attaques de "LEGEND: Z-A"
+- Correction de quelques problèmes
 
 #### 1.3.3
 
