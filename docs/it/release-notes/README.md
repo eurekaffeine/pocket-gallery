@@ -3,6 +3,10 @@
 
 ### V3.1
 
+#### 3.1.2512071626
+
+- Risolti alcuni problemi
+
 #### 3.1.2511032310
 
 - Aggiunto Pokédex e Mosse da "LEGEND: Z-A"
@@ -196,6 +200,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.5
+
+- Dimensione dell'app ottimizzata
+- Risolti alcuni problemi
 
 #### 1.3.4
 

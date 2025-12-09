@@ -3,6 +3,10 @@
 
 ### V3.1
 
+#### 3.1.2512071626
+
+- Corregidos algunos problemas
+
 #### 3.1.2511032310
 
 - Agregado Pokédex y Movimientos de "LEGEND: Z-A"
@@ -196,6 +200,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.5
+
+- Tamaño de la aplicación optimizado
+- Corregidos algunos problemas
 
 #### 1.3.4
 

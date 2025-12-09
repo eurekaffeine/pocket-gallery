@@ -4,6 +4,10 @@
 
 ### V3.1
 
+#### 3.1.2512071626
+
+- Fixed some issues
+
 #### 3.1.2511032310
 
 - Added Pokédex and Moves from "LEGEND: Z-A"
@@ -286,6 +290,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.5
+
+- Optimized app size
+- Fixed some issues
 
 #### 1.3.4
 

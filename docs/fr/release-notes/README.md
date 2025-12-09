@@ -3,6 +3,10 @@
 
 ### V3.1
 
+#### 3.1.2512071626
+
+- Correction de quelques problèmes
+
 #### 3.1.2511032310
 
 - Ajout du Pokédex et des Attaques de "LEGEND: Z-A"
@@ -197,6 +201,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.5
+
+- Taille de l'application optimisée
+- Correction de quelques problèmes
 
 #### 1.3.4
 
