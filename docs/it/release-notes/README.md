@@ -201,6 +201,10 @@ _(1.5.2301241051)_
 
 ### V1.3
 
+#### 1.3.6
+
+- Risolti alcuni problemi
+
 #### 1.3.5
 
 - Dimensione dell'app ottimizzata

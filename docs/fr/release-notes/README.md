@@ -95,12 +95,12 @@ _(2.6.2405191437)_
 ### V1.9
 #### 1.9.2309272329
 - Informations ajoutées sur le DLC 1 : Le Masque Turquoise
-- Corrigé certains problèmes
+- Correction de certains problèmes
 
 ### V1.8
 #### 1.8.2309031117
 - UX améliorée
-- Corrigé certains problèmes
+- Correction de certains problèmes
 
 #### 1.8.2306041409
 - Informations mises à jour sur la GEN IX dans Pokémon Home 3.0
@@ -201,6 +201,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.6
+
+- Correction de quelques problèmes
 
 #### 1.3.5
 

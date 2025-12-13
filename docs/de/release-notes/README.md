@@ -48,33 +48,33 @@ _(2.8.2410191658)_
 
 ### V2.6
 #### 2.6.2407230913
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 #### 2.6.2406161146
 _(2.6.2405191437)_
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 ### V2.5
 #### 2.5.2405090925
 - Unterstützte Pokémon-Züge aus vorherigen Generationen
 - Unterstützung bei der Auswahl der Standard-Spielversion für Pokémon-Züge
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 ### V2.4
 #### 2.4.2404042223
 - Die Funktion "Team Bearbeitung" wird unterstützt
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 ### V2.3
 #### 2.3.2403092340
 - Aktualisierte Pokédex-Einträge für einige Pokémon
 - FAQ-Bereich hinzugefügt
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 ### V2.2
 #### 2.2.2402161119
 - Spieldaten von GEN IX Ver2.0.1 aktualisiert
 - Spiel-Daten aus GEN IX DLC vol.2 aktualisieren
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 ### V2.1
 #### 2.1.2311052226
@@ -104,7 +104,7 @@ _(2.6.2405191437)_
 #### 1.8.2306041409
 - Aktualisierte Informationen zu GEN IX in Pokémon Home 3.0
 - Aktualisierte offizielle Illustrationen in Pokémon Home
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 ### V1.7
 #### 1.7.2305271730
 - Andere Probleme behoben
@@ -165,11 +165,11 @@ _(1.5.2301241051)_
 #### 1.3.2212060006
 - Die Bewegungsdaten der "Feuerspeiender Drache"-Familie und der "Blitzflammen-Ass"-Familie wurden aktualisiert;
 - Die falschen Attribute der "Uralten Jane-Schnecke" und der "Uralten Dingle" wurden korrigiert;
-- Andere Probleme wurden behoben.
+- Andere Probleme behoben.
 #### 1.3.2211281254
 - Die Beschreibungen der anderen Pokémon in der "Padiya-Region" wurden aktualisiert;
 - Die morphologischen Veränderungen von "Knöterich", "Sakura", "Muschelloser Seehase", "Seehasen-Bestie", "Vier-Jahreszeiten-Hirsch", "Sprossen-Hirsch", "Buntrosa-Schmetterling", "Blumen-Biene", "Blumen-Blatt-Tee", "Blumen-Dame Jie", "Doremiya" und "Delfinmann" wurden aktualisiert;
-- Einige andere Probleme wurden behoben.
+- Einige andere Probleme behoben.
 ### V1.2
 #### 1.2.2211012343
 - Einige Probleme behoben.
@@ -200,6 +200,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.6
+
+- Einige Probleme behoben
 
 #### 1.3.5
 
@@ -255,31 +259,31 @@ _(1.2.4) (1.2.3)_
 
 #### 1.2.0
 - Auf der Seite "Kampfdaten" wurden Funktionen für "Typeneffektivität" und "Typeffekt-Schaden" hinzugefügt.
-- Einige Probleme wurden behoben.
+- Einige Probleme behoben.
 
 ### V1.1
 #### 1.1.2
 - Ein brandneues Widget hinzugefügt
 
 #### 1.1.1
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 #### 1.1.0
 - Unterstützte Pokémon-Züge aus vorherigen Generationen
 - Unterstützung bei der Auswahl der Standard-Spielversion für Pokémon-Züge
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 
 ### V1.0
 #### 1.0.4
 - Aktualisierte Pokédex-Einträge für einige Pokémon
 - FAQ-Bereich hinzugefügt
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 #### 1.0.3
 - Einige offizielle Kunstwerke wurden aktualisiert
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 #### 1.0.2
 - Spieldaten von GEN IX Ver2.0.1 aktualisiert
 - Spiel-Daten aus GEN IX DLC vol.2 aktualisieren
-- Einige Probleme wurden behoben
+- Einige Probleme behoben
 #### 1.0.1
 - Absturzprobleme, Verzögerungen und andere Probleme behoben.
 - Kompatibilitätsprobleme mit iOS 17 gelöst.

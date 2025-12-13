@@ -79,7 +79,7 @@ _(2.6.2405191437)_
 ### V2.1
 #### 2.1.2311052226
 - Mostrar descripciones de Pokémon.
-- Solucionados algunos problemas.
+- Corregidos algunos problemas.
 
 
 ### V2.0
@@ -87,7 +87,7 @@ _(2.6.2405191437)_
 - Mejoradas las interfaces y experiencias de usuario
 - Movimientos de Pokémon soportados desde GEN IX DLC 1
 - Pokédex regional soportado desde GEN IX DLC1
-- Solucionados algunos problemas
+- Corregidos algunos problemas
 - Soporte para descargar recursos gráficos de Pokémon
 
 
@@ -136,11 +136,11 @@ _(1.6.2303261545)_
 
 #### 1.5.2303122105
 - Añadidos iconos de aplicación de estilo "Material You
-- Solucionados otros problemas
+- Corregidos otros problemas
 
 #### 1.5.2303042104
 1. actualizada la información sobre las "Hojas manchadas de hierro" en la sección "Agua ondulante
-2. Solucionados otros problemas
+2. Corregidos otros problemas
 #### 1.5.2302022247
 - Actualizados los movimientos GEN IX para la familia Koga Shinobi
 - 3. Arreglados otros problemas
@@ -200,6 +200,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.6
+
+- Corregidos algunos problemas
 
 #### 1.3.5
 
