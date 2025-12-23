@@ -2,6 +2,13 @@
 
 ## Android
 
+### V3.2
+
+#### 3.2.2512142334
+
+- Added data for the "Z-A Hyper Dimension Surge" DLC
+- Fixed some issues
+
 ### V3.1
 
 #### 3.1.2512071626
@@ -290,6 +297,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.7
+
+- Added data for the "Z-A Hyper Dimension Surge" DLC
+- Fixed some issues
 
 #### 1.3.6
 

@@ -1,6 +1,13 @@
 # Mise à jour du journal
 ## Android
 
+### V3.2
+
+#### 3.2.2512142334
+
+- Ajout de données pour le DLC « Z-A Déferlement Hyperdimensionnel »
+- Correction de quelques problèmes
+
 ### V3.1
 
 #### 3.1.2512071626
@@ -201,6 +208,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.7
+
+- Ajout de données pour le DLC « Z-A Déferlement Hyperdimensionnel »
+- Correction de quelques problèmes
 
 #### 1.3.6
 

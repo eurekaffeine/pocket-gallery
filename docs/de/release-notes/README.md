@@ -1,6 +1,13 @@
 # Update log
 ## Android
 
+### V3.2
+
+#### 3.2.2512142334
+
+- Daten für den DLC „Z-A Hyperdimensions-Schwall" hinzugefügt
+- Einige Probleme behoben
+
 ### V3.1
 
 #### 3.1.2512071626
@@ -200,6 +207,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.7
+
+- Daten für den DLC „Z-A Hyperdimensions-Schwall" hinzugefügt
+- Einige Probleme behoben
 
 #### 1.3.6
 
