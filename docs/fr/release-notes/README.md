@@ -1,6 +1,13 @@
 # Mise à jour du journal
 ## Android
 
+### V3.3
+
+#### 3.3.2512281449
+
+- Ajout de la « Carte interactive LZA »
+- Correction de quelques problèmes
+
 ### V3.2
 
 #### 3.2.2512142334
@@ -208,6 +215,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.8
+
+- Ajout de la « Carte interactive LZA »
+- Correction de quelques problèmes
 
 #### 1.3.7
 

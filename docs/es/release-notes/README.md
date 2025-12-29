@@ -1,6 +1,13 @@
 # Registro de actualización
 ## Android
 
+### V3.3
+
+#### 3.3.2512281449
+
+- Se ha añadido el "Mapa interactivo de LZA"
+- Se corrigieron algunos problemas
+
 ### V3.2
 
 #### 3.2.2512142334
@@ -207,6 +214,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.8
+
+- Se ha añadido el "Mapa interactivo de LZA"
+- Se corrigieron algunos problemas
 
 #### 1.3.7
 

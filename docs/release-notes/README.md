@@ -2,6 +2,13 @@
 
 ## Android
 
+### V3.3
+
+#### 3.3.2512281449
+
+- Added "LZA Interactive Map"
+- Fixed some issues
+
 ### V3.2
 
 #### 3.2.2512142334
@@ -297,6 +304,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.8
+
+- Added "LZA Interactive Map"
+- Fixed some issues
 
 #### 1.3.7
 
