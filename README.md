@@ -20,16 +20,6 @@
 - **🌐 Multi-language Support**: Currently supporting Simplified Chinese
 - **🎯 No Ads**: Free of advertisements and user data collection
 
-## 🎮 Platform Availability
-
-<div align="center">
-  
-[![App Store](docs/.vuepress/public/app-store-badge-zh-hans.svg)](https://apps.apple.com/us/app/pocket-gallery-app/id6464266038)
-
-[![Huawei App Gallery](docs/.vuepress/public/app-gallery-badge-en.png)](https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode)
-
-</div>
-
 ## 🌐 Website
 
 Visit our official documentation website: [Pocket Gallery Docs](https://eurekaffeine.github.io/pocket-gallery/)
@@ -111,22 +101,6 @@ pocket-gallery/
 ├── package.json            # Project dependencies
 └── README.md               # This file
 ```
-
-## 🔄 Recent Updates
-
-### V3.3 (Latest)
-- Added LZA Interactive Map
-- Bug fixes and improvements
-
-### V3.2
-- Added "Z-A Ultra Dimension Burst" DLC data
-- Bug fixes
-
-### V3.1
-- Added Pokémon and moves from "Legends: Z-A"
-- Bug fixes
-
-See the full [release notes](docs/release-notes/README.md) for complete version history.
 
 ## 💖 Support Us
 
