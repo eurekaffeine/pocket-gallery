@@ -1,10 +1,13 @@
 {
   "name": "pocket-gallery",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "@vuepress/bundler-vite": "^2.0.0-rc.17",
+    "@vuepress/theme-default": "^2.0.0-rc.17",
+    "sass-embedded": "^1.97.3",
+    "vuepress": "^2.0.0-rc.17"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
