@@ -123,5 +123,5 @@ Pokémon and Pokémon character names are trademarks of Nintendo. Images used in
 
 <div align="center">
   <p>Made with ❤️ for Pokémon Trainers</p>
-  <p>Copyright © 2022-2025 破壳萌图鉴</p>
+  <p>Copyright © 2022-2026 破壳萌图鉴</p>
 </div>
