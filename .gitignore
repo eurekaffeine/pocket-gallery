@@ -3,3 +3,7 @@ deploy.sh
 before_deploy.sh
 after_deploy.sh
 .vuepress/dist
+node_modules/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
