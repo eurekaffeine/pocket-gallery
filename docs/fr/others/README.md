@@ -21,7 +21,7 @@ _Pocket Gallery_ est un logiciel de Pokédex Pokémon développé et exploité i
                Nous vous remercions sincèrement pour votre soutien!
                
 ### Alipay
-<img src="..//qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="..//qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
