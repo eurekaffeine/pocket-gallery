@@ -22,7 +22,7 @@ _포켓 갤러리_ 는 독립적으로 개발하고 운영하는 포켓몬 도�
                 진심으로 여러분의 지원에 감사드립니다!
                 
 ### Alipay
-<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="..//qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="..//qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />

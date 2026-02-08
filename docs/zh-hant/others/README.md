@@ -23,7 +23,7 @@ _破殼萌圖鑑_ 是一款獨立開發、運營的寶可夢圖鑑軟件。本�
                 衷心感謝大家的支持！
                 
 ### Alipay
-<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="..//qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="..//qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
