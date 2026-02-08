@@ -23,7 +23,7 @@ _破壳萌图鉴_ 是一款独立开发、运营的宝可梦图鉴软件。本�
                衷心感谢大家的支持！
 
 ### Alipay
-<img src="../../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="..//qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="../../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="..//qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />

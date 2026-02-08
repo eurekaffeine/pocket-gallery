@@ -24,7 +24,7 @@ _Pocket Gallery_ is an independently developed and operated Pokémon Pokédex so
                 We sincerely thank everyone for their support!
 
 ### Alipay
-<img src="../.vuepress/public/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="../.vuepress/public/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />

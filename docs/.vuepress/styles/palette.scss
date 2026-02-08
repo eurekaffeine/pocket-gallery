@@ -1,0 +1,24 @@
+// Custom color palette for Pocket Gallery
+// Primary brand color: Pokémon Red (#BF0024)
+
+:root {
+  // Override accent colors (main theme color)
+  --vp-c-accent: #BF0024;
+  --vp-c-accent-bg: #BF0024;
+  --vp-c-accent-hover: #D90029;
+  --vp-c-accent-text: #ffffff;
+  --vp-c-accent-soft: rgba(191, 0, 36, 0.14);
+  
+  // Code tab active color
+  --vp-c-code-tab-active: #BF0024;
+}
+
+// Dark mode adjustments
+[data-theme='dark'] {
+  --vp-c-accent: #F0002E;
+  --vp-c-accent-bg: #D90029;
+  --vp-c-accent-hover: #FF1A47;
+  --vp-c-accent-soft: rgba(240, 0, 46, 0.16);
+  
+  --vp-c-code-tab-active: #F0002E;
+}

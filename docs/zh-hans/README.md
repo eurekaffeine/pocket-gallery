@@ -17,21 +17,21 @@ footer: © 2022-2024 破壳萌图鉴
 
 <a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
 <div align="center">
-<img src="../.vuepress/public/app-store-badge-zh-hans.svg" alt="hero" style="width: 300px;"/>
+<img src="/app-store-badge-zh-hans.svg" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
 <a href="https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance">
 <div align="center">
-<img src="../.vuepress/public/google-play-badge-zh-hans.png" alt="hero" style="width: 300px;"/>
+<img src="/google-play-badge-zh-hans.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
 <a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
 <div align="center">
-<img src="../.vuepress/public/app-gallery-badge-en.png" alt="hero" style="width: 300px;"/>
+<img src="/app-gallery-badge-en.png" alt="hero" style="width: 300px;"/>
 </div>
 </a>
 
 \
-![hero](../.vuepress/public/hero.png)
+![hero](/hero.png)
