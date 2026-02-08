@@ -59,6 +59,7 @@ export default defineUserConfig({
     logo: '/logo.png',
     lastUpdated: false,
     contributors: false,
+    externalLinkIcon: false,
     
     locales: {
       '/': {
