@@ -57,6 +57,8 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: '/logo.png',
+    lastUpdated: false,
+    contributors: false,
     
     locales: {
       '/': {
@@ -141,7 +143,5 @@ export default defineUserConfig({
         ],
       },
     },
-
-    sidebar: 'auto',
   }),
 })
