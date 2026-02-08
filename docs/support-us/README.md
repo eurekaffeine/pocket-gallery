@@ -8,8 +8,8 @@ _破壳萌图鉴_ 是一款独立开发、运营的宝可梦图鉴软件。本�
 ## 支付渠道
 
 ### 支付宝
-<img src="../.vuepress/public/qr_alipay.jpg" width = "300" alt="支付宝二维码" align=center />
+<img src="/qr_alipay.jpg" width = "300" alt="支付宝二维码" align=center />
 
 
 ### 微信
-<img src="../.vuepress/public/qr_wechat.jpg" width = "300" alt="微信二维码" align=center />
+<img src="/qr_wechat.jpg" width = "300" alt="微信二维码" align=center />
