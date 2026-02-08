@@ -11,7 +11,7 @@ _포켓 갤러리_ 는 팬이 만든 비공식 무료 앱이며, 어떤 방식�
 저작권 침해를 의도하지 않았습니다. 
 
 \
-**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2026 Pokémon. © 1995-2026 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 
 ## 지원 문의

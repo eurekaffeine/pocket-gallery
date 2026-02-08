@@ -10,7 +10,7 @@ features:
   details: Proporciona información detallada como "movimientos", "características", "accesorios", "tiempo", "ubicaciones" y "estados anormales".
 - title: Funciones potentes
   details: Potentes funciones como "Restricción de atributos", "Punto ciego" y "Calculadora de valor de habilidad" han sido diseñadas específicamente para los entusiastas del emparejamiento.
-footer: © 2022-2024 Pocket Gallery
+footer: © 2022-2026 Pocket Gallery
 ---
 
 ## Aviso Importante

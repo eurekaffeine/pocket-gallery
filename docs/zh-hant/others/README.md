@@ -13,7 +13,7 @@ _破殼萌圖鑒_ 是一款由粉絲製作的、非官方的、免費的應用�
 無任何侵犯版權之意。
 
 \
-**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2026 Pokémon. © 1995-2026 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## 支持我們
 

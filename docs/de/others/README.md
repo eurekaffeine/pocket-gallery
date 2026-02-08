@@ -11,7 +11,7 @@ Pokémon und Pokémon-Charakternamen sind Marken von Nintendo.
 Eine Verletzung des Urheberrechts ist nicht beabsichtigt.
 
 \
-**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2026 Pokémon. © 1995-2026 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 ## Unterstütze uns
 

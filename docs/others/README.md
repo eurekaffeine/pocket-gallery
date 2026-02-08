@@ -13,7 +13,7 @@ Pokémon and Pokémon character names are trademarks of Nintendo.
 No copyright infringement intended. 
 
 \
-**Pokémon © 2002-2024 Pokémon. © 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.**
+**Pokémon © 2002-2026 Pokémon. © 1995-2026 Nintendo/Creatures Inc./GAME FREAK inc.**
 
 
 ## Support Us
