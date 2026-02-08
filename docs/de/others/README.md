@@ -21,7 +21,7 @@ _Pocket Gallery_ ist eine eigenständig entwickelte und betriebene Pokémon Pok�
                 Wir danken Ihnen von Herzen für Ihre Unterstützung!
 
 ### Alipay
-<img src="..//qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
+<img src="/qr_alipay.jpg" width = "300" alt="Alipay QR Code" align=center />
 
 ### WeChat
-<img src="..//qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
+<img src="/qr_wechat.jpg" width = "300" alt="WeChat QR Code" align=center />
