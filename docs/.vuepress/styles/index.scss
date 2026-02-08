@@ -1,0 +1,15 @@
+// Custom styles for Pocket Gallery
+// This file is loaded after the theme styles
+
+// Ensure accent color is applied everywhere
+:root {
+  --vp-c-accent: #BF0024 !important;
+  --vp-c-accent-bg: #BF0024 !important;
+  --vp-c-accent-hover: #D90029 !important;
+}
+
+[data-theme='dark'] {
+  --vp-c-accent: #F0002E !important;
+  --vp-c-accent-bg: #D90029 !important;
+  --vp-c-accent-hover: #FF1A47 !important;
+}
