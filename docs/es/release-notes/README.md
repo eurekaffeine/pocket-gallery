@@ -1,6 +1,14 @@
 # Registro de actualización
 ## Android
 
+### V3.4
+
+#### 3.4.2603091036
+
+- Se actualizaron las ilustraciones oficiales de los nuevos Mega Pokémon
+- Se mejoraron las traducciones en varios idiomas
+- Se corrigieron algunos problemas
+
 ### V3.3
 
 #### 3.3.2512281449
@@ -214,6 +222,12 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.9
+
+- Se actualizaron las ilustraciones oficiales de los nuevos Mega Pokémon
+- Se mejoraron las traducciones en varios idiomas
+- Se corrigieron algunos problemas
 
 #### 1.3.8
 

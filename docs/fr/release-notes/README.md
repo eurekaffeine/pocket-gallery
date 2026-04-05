@@ -1,6 +1,14 @@
 # Mise à jour du journal
 ## Android
 
+### V3.4
+
+#### 3.4.2603091036
+
+- Mise à jour des illustrations officielles des nouveaux Méga-Pokémon
+- Amélioration des traductions dans plusieurs langues
+- Correction de quelques problèmes
+
 ### V3.3
 
 #### 3.3.2512281449
@@ -215,6 +223,12 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+
+#### 1.3.9
+
+- Mise à jour des illustrations officielles des nouveaux Méga-Pokémon
+- Amélioration des traductions dans plusieurs langues
+- Correction de quelques problèmes
 
 #### 1.3.8
 

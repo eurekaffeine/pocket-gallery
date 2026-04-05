@@ -1,6 +1,12 @@
 # Update log
 ## Android
+### V3.4
 
+#### 3.4.2603091036
+
+- Offizielle Artworks der neuen Mega-Pokémon aktualisiert
+- Übersetzungen in mehreren Sprachen verbessert
+- Einige Probleme behoben
 ### V3.3
 
 #### 3.3.2512281449
@@ -214,7 +220,11 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.3
+#### 1.3.9
 
+- Offizielle Artworks der neuen Mega-Pokémon aktualisiert
+- Übersetzungen in mehreren Sprachen verbessert
+- Einige Probleme behoben
 #### 1.3.8
 
 - „LZA Interaktive Karte" hinzugefügt
