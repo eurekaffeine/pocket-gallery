@@ -2,6 +2,14 @@
 
 ## Android
 
+### V3.5
+
+#### 3.5.2604051948
+
+- Updated official artwork of Pokémon Home
+- Fixed description issues of Pokémon moves
+- Fixed some other issues
+
 ### V3.4
 
 #### 3.4.2603091036
@@ -310,6 +318,12 @@ _(1.5.2301241051)_
 - Initiated open BETA testing of the app.
 
 ## iOS
+
+### V1.4
+
+- Updated official artwork of Pokémon Home
+- Fixed description issues of Pokémon moves
+- Fixed some other issues
 
 ### V1.3
 

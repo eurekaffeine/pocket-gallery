@@ -1,6 +1,14 @@
 # Mise à jour du journal
 ## Android
 
+### V3.5
+
+#### 3.5.2604051948
+
+- Mise à jour des illustrations officielles de Pokémon Home
+- Correction des descriptions des capacités Pokémon
+- Correction de quelques autres problèmes
+
 ### V3.4
 
 #### 3.4.2603091036
@@ -221,6 +229,12 @@ _(1.5.2301241051)_
 - Premier test BETA ouvert de l'application.
 
 ## iOS
+
+### V1.4
+
+- Mise à jour des illustrations officielles de Pokémon Home
+- Correction des descriptions des capacités Pokémon
+- Correction de quelques autres problèmes
 
 ### V1.3
 

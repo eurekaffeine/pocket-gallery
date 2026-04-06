@@ -1,6 +1,14 @@
 # Registro de actualización
 ## Android
 
+### V3.5
+
+#### 3.5.2604051948
+
+- Se actualizaron las ilustraciones oficiales de Pokémon Home
+- Se corrigieron errores en las descripciones de los movimientos Pokémon
+- Se corrigieron algunos otros problemas
+
 ### V3.4
 
 #### 3.4.2603091036
@@ -220,6 +228,12 @@ _(1.5.2301241051)_
 - Prueba abierta BETA inicial de la aplicación.
 
 ## iOS
+
+### V1.4
+
+- Se actualizaron las ilustraciones oficiales de Pokémon Home
+- Se corrigieron errores en las descripciones de los movimientos Pokémon
+- Se corrigieron algunos otros problemas
 
 ### V1.3
 

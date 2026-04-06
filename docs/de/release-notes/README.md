@@ -1,5 +1,14 @@
 # Update log
 ## Android
+
+### V3.5
+
+#### 3.5.2604051948
+
+- Offizielle Artworks von Pokémon Home aktualisiert
+- Beschreibungsfehler bei Pokémon-Attacken behoben
+- Einige weitere Probleme behoben
+
 ### V3.4
 
 #### 3.4.2603091036
@@ -218,6 +227,12 @@ _(1.5.2301241051)_
 - Erste BETA offene Testversion der App.
 
 ## iOS
+
+### V1.4
+
+- Offizielle Artworks von Pokémon Home aktualisiert
+- Beschreibungsfehler bei Pokémon-Attacken behoben
+- Einige weitere Probleme behoben
 
 ### V1.3
 #### 1.3.9
