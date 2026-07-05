@@ -2,6 +2,15 @@
 
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Fixed certain issues in the damage calculator
+- Updated Pokémon moves for the Champions game version
+- Updated abilities of new Mega Pokémon
+- Fixed some other issues
+
 ### V3.6
 
 #### 3.6.2606181535
