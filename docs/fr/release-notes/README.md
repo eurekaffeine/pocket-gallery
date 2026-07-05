@@ -1,6 +1,27 @@
 # Mise à jour du journal
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Correction de certains problèmes du calculateur de dégâts
+- Mise à jour des capacités des Pokémon pour la version du jeu Champions
+- Mise à jour des talents des nouveaux Pokémon Méga
+- Correction de quelques autres problèmes
+
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Ajout du Calculateur de Dégâts et du Classement d’Utilisation
+- Amélioration de l’onglet Obtenir avec les lieux de rencontre sauvage
+- Amélioration de l’affichage des statistiques de base
+- Amélioration de l’affichage de la chaîne d’évolution
+- Correction de quelques autres problèmes
+
 ### V3.5
 
 #### 3.5.2604051948
@@ -231,6 +252,23 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.2
+
+- Correction de certains problèmes du calculateur de dégâts
+- Mise à jour des capacités des Pokémon pour la version du jeu Champions
+- Mise à jour des talents des nouveaux Pokémon Méga
+- Correction de quelques autres problèmes
+
+#### 1.4.1
+
+- Ajout du Calculateur de Dégâts et du Classement d’Utilisation
+- Amélioration de l’onglet Obtenir avec les lieux de rencontre sauvage
+- Amélioration de l’affichage des statistiques de base
+- Amélioration de l’affichage de la chaîne d’évolution
+- Correction de quelques autres problèmes
+
+#### 1.4.0
 
 - Mise à jour des illustrations officielles de Pokémon Home
 - Correction des descriptions des capacités Pokémon

@@ -1,6 +1,27 @@
 # Registro de actualización
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Se corrigieron ciertos problemas en la calculadora de daño
+- Se actualizaron los movimientos de los Pokémon para la versión del juego Champions
+- Se actualizaron las habilidades de los nuevos Pokémon Mega
+- Se corrigieron algunos otros problemas
+
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Se añadió la Calculadora de Daño y el Ranking de Uso
+- Se mejoró la pestaña Obtener con ubicaciones de encuentros salvajes
+- Se mejoró la interfaz de estadísticas base
+- Se mejoró la interfaz de la cadena evolutiva
+- Se corrigieron algunos otros problemas
+
 ### V3.5
 
 #### 3.5.2604051948
@@ -230,6 +251,23 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.2
+
+- Se corrigieron ciertos problemas en la calculadora de daño
+- Se actualizaron los movimientos de los Pokémon para la versión del juego Champions
+- Se actualizaron las habilidades de los nuevos Pokémon Mega
+- Se corrigieron algunos otros problemas
+
+#### 1.4.1
+
+- Se añadió la Calculadora de Daño y el Ranking de Uso
+- Se mejoró la pestaña Obtener con ubicaciones de encuentros salvajes
+- Se mejoró la interfaz de estadísticas base
+- Se mejoró la interfaz de la cadena evolutiva
+- Se corrigieron algunos otros problemas
+
+#### 1.4.0
 
 - Se actualizaron las ilustraciones oficiales de Pokémon Home
 - Se corrigieron errores en las descripciones de los movimientos Pokémon

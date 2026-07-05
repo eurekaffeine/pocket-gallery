@@ -1,6 +1,27 @@
 # Update log
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Bestimmte Probleme im Schadensrechner behoben
+- Pokémon-Attacken für die Champions-Spielversion aktualisiert
+- Fähigkeiten neuer Mega-Pokémon aktualisiert
+- Einige weitere Probleme behoben
+
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Schadensrechner und Nutzungsranking hinzugefügt
+- Die Registerkarte „Erhalten“ mit Wildvorkommen verbessert
+- Anzeige der Basiswerte verbessert
+- Anzeige der Entwicklungskette verbessert
+- Einige weitere Probleme behoben
+
 ### V3.5
 
 #### 3.5.2604051948
@@ -230,6 +251,22 @@ _(1.5.2301241051)_
 
 ### V1.4
 
+#### 1.4.2
+
+- Bestimmte Probleme im Schadensrechner behoben
+- Pokémon-Attacken für die Champions-Spielversion aktualisiert
+- Fähigkeiten neuer Mega-Pokémon aktualisiert
+- Einige weitere Probleme behoben
+
+#### 1.4.1
+
+- Schadensrechner und Nutzungsranking hinzugefügt
+- Die Registerkarte „Erhalten“ mit Wildvorkommen verbessert
+- Anzeige der Basiswerte verbessert
+- Anzeige der Entwicklungskette verbessert
+- Einige weitere Probleme behoben
+
+#### 1.4.0
 - Offizielle Artworks von Pokémon Home aktualisiert
 - Beschreibungsfehler bei Pokémon-Attacken behoben
 - Einige weitere Probleme behoben

@@ -2,9 +2,23 @@
 
 ## Android
 
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Added Damage Calculator and Usage Rankings features
+- Improved the Obtain tab with wild encounter locations
+- Improved base stats UI display
+- Improved evolution chain UI display
+- Fixed some other issues
+
 ### V3.5
 
 #### 3.5.2604051948
+
+_(3.6.2605130901)_
 
 - Updated official artwork of Pokémon Home
 - Fixed description issues of Pokémon moves
@@ -320,6 +334,23 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.2
+
+- Fixed certain issues in the damage calculator
+- Updated Pokémon moves for the Champions game version
+- Updated abilities of new Mega Pokémon
+- Fixed some other issues
+
+#### 1.4.1
+
+- Added Damage Calculator and Usage Rankings features
+- Improved the Obtain tab with wild encounter locations
+- Improved base stats UI display
+- Improved evolution chain UI display
+- Fixed some other issues
+
+#### 1.4.0
 
 - Updated official artwork of Pokémon Home
 - Fixed description issues of Pokémon moves
