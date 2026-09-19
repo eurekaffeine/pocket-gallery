@@ -38,11 +38,11 @@ const translations: Record<string, any> = {
     sectionEyebrow: 'One app. Every answer.', sectionTitle: 'Made for the way trainers explore.',
     sectionIntro: 'Scroll through Pocket Gallery’s most useful tools. The interface stays quiet, so the information can lead.',
     features: [
-      { kicker: 'Discover', title: 'Find anything in seconds.', body: 'Search and filter a complete Pokédex spanning every generation and regional form.' },
-      { kicker: 'Understand', title: 'The detail behind every choice.', body: 'Moves, abilities, stats, forms, descriptions, and game data stay clear and close at hand.' },
-      { kicker: 'Compete', title: 'See the matchup before it starts.', body: 'Type effectiveness, blind spots, and calculators turn dense battle data into useful decisions.' },
-      { kicker: 'Create', title: 'Build the team imagined.', body: 'Choose forms, moves, shiny variants, and custom names in a team builder made to stay out of the way.' },
-      { kicker: 'Explore', title: 'A map built for discovery.', body: 'Navigate the LZA interactive map and find useful locations without leaving the app.' },
+      { kicker: '01', title: 'Comprehensive', body: 'A complete Pokédex spanning every generation, regional form, and more than a thousand Pokémon.' },
+      { kicker: '02', title: 'Informative', body: 'Moves, abilities, stats, forms, descriptions, and game data stay clear and close at hand.' },
+      { kicker: '03', title: 'Functional', body: 'Type effectiveness, blind spots, and calculators turn dense battle data into useful decisions.' },
+      { kicker: '04', title: 'Personal', body: 'Build your own teams with custom names, moves, forms, and shiny Pokémon.' },
+      { kicker: '05', title: 'Explorative', body: 'Navigate the LZA interactive map and find useful locations without leaving the app.' },
     ],
     trustEyebrow: 'Focused by design', trustTitle: 'Powerful tools. None of the noise.',
     trust: [['Offline ready', 'Keep essential reference data close, even when the network is not.'], ['Private by default', 'The global Google Play listing declares no data collected or shared.'], ['Made for every screen', 'Thoughtful layouts for phones and tablets across platforms.'], ['Nine languages', 'Explore in English, Chinese, Japanese, Korean, and major European languages.']],
@@ -61,11 +61,11 @@ const translations: Record<string, any> = {
     sectionEyebrow: '一款应用，所有答案', sectionTitle: '为训练家探索资料的方式而设计。',
     sectionIntro: '向下滚动，了解破壳萌图鉴最实用的功能。界面保持克制，让信息成为主角。',
     features: [
-      { kicker: '发现', title: '几秒之内，找到答案。', body: '搜索和筛选跨越全部世代、包含地区形态的完整图鉴。' },
-      { kicker: '了解', title: '每一个选择，都有详实资料。', body: '招式、特性、能力值、形态、图鉴描述和游戏资料清晰呈现。' },
-      { kicker: '对战', title: '对战开始前，看清克制关系。', body: '属性克制、打击盲点、联防盲点和计算器，让复杂数据变成有效决策。' },
-      { kicker: '创造', title: '组建心目中的队伍。', body: '自由配置形态、招式、异色与自定义名称，编辑过程简单直接。' },
-      { kicker: '探索', title: '为发现而生的地图。', body: '通过 LZA 交互地图查找地点与资料，无需离开应用。' },
+      { kicker: '01', title: '图鉴齐全', body: '涵盖全部世代、地区形态与超过一千只宝可梦的完整图鉴。' },
+      { kicker: '02', title: '资料详实', body: '招式、特性、能力值、形态、图鉴描述和游戏资料清晰呈现。' },
+      { kicker: '03', title: '功能强大', body: '属性克制、打击盲点、联防盲点和计算器，让复杂数据变成有效决策。' },
+      { kicker: '04', title: '个性十足', body: '自由配置队伍名称、招式、形态与异色宝可梦。' },
+      { kicker: '05', title: '探索无限', body: '通过 LZA 交互地图查找地点与资料，无需离开应用。' },
     ],
     trustEyebrow: '专注设计', trustTitle: '强大功能，没有多余干扰。',
     trust: [['离线可用', '没有网络时，重要的参考资料依然触手可及。'], ['尊重隐私', '全球 Google Play 页面声明不收集或共享用户数据。'], ['适配多种屏幕', '为不同平台的手机和平板提供用心设计的布局。'], ['九种语言', '支持中文、英语、日语、韩语及多种欧洲语言。']],
@@ -145,8 +145,6 @@ onBeforeUnmount(() => observer?.disconnect())
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
       </section>
 
-      <section class="pg-proof"><div v-for="item in [['1,000+', '宝可梦与形态'], ['三大平台', 'iOS · Android · HarmonyOS'], ['无广告', '专注纯粹的体验']]" :key="item[0]"><strong>{{ item[0] }}</strong><span>{{ item[1] }}</span></div></section>
-
       <section id="features" class="pg-feature-intro pg-shell"><p class="pg-eyebrow">{{ copy.sectionEyebrow }}</p><h2>{{ copy.sectionTitle }}</h2><p>{{ copy.sectionIntro }}</p></section>
 
       <section class="pg-story pg-shell">
@@ -158,7 +156,7 @@ onBeforeUnmount(() => observer?.disconnect())
             </div>
           </div>
         </div>
-        <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>0{{ index + 1 }}</span><p class="pg-eyebrow">{{ feature.kicker }}</p><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
+        <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
       </section>
 
       <section class="pg-trust"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.trustEyebrow }}</p><h2>{{ copy.trustTitle }}</h2><div class="pg-trust-grid"><article v-for="(item,index) in copy.trust" :key="item[0]"><span>{{ ['↯','◎','▱','文'][index] }}</span><h3>{{ item[0] }}</h3><p>{{ item[1] }}</p></article></div></div></section>
