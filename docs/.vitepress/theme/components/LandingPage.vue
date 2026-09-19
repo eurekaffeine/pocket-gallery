@@ -158,25 +158,6 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="pg-site">
-    <header class="pg-nav">
-      <div class="pg-nav-inner">
-        <a class="pg-brand" :href="withBase(prefix)"><img :src="withBase('/logo.png')" alt=""><span>{{ copy.brand }}</span></a>
-        <button class="pg-menu-button" :aria-expanded="menuOpen" aria-label="Menu" @click="menuOpen = !menuOpen"><span></span><span></span></button>
-        <nav class="pg-links" :class="{ open: menuOpen }">
-          <a href="#features" @click="menuOpen = false">{{ copy.navFeatures }}</a>
-          <a :href="withBase(`${prefix}release-notes/`)">{{ copy.navUpdates }}</a>
-          <a :href="withBase(`${prefix}faq/`)">{{ copy.navFaq }}</a>
-          <a :href="withBase(`${prefix}others/`)">{{ copy.legal === 'Legal & support' ? 'About' : copy.legal }}</a>
-          <a href="#download">{{ copy.navDownload }}</a>
-          <div ref="languageMenu" class="pg-language">
-            <button type="button" class="pg-language-trigger" :aria-expanded="languageOpen" aria-haspopup="menu" @click.stop="languageOpen = !languageOpen">{{ currentLanguageLabel }}</button>
-            <div v-if="languageOpen" class="pg-language-menu" role="menu"><a v-for="item in languages" :key="item[1]" :href="withBase(item[1])" role="menuitem" @click="closeLanguageMenu">{{ item[0] }}</a></div>
-          </div>
-          <button type="button" class="pg-appearance" :aria-label="isDark ? 'Use light appearance' : 'Use dark appearance'" @click="isDark = !isDark"><span aria-hidden="true">{{ isDark ? '☀' : '◐' }}</span></button>
-        </nav>
-      </div>
-    </header>
-
     <main>
       <section class="pg-hero">
         <div class="pg-hero-copy">
