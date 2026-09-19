@@ -64,10 +64,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC"
 
 .pg-story { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 9vw; padding-bottom: 80px; }
 .pg-phone-column { position: relative; }
-.pg-phone { position: sticky; top: 108px; width: min(360px, 84vw); height: 720px; margin: 30px auto; padding: 10px; border: 2px solid #3a3a3d; border-radius: 54px; background: #161618; box-shadow: 0 35px 90px rgba(0,0,0,.24), inset 0 0 0 2px #76767a; }
+.pg-phone { position: sticky; top: 108px; width: min(360px, 84vw); height: 720px; margin: 30px auto; padding: 22px 10px 10px; border: 2px solid #3a3a3d; border-radius: 58px; background: #161618; box-shadow: 0 35px 90px rgba(0,0,0,.24), inset 0 0 0 2px #76767a; }
 .pg-phone::before { content: ''; position: absolute; left: -5px; top: 155px; width: 4px; height: 72px; border-radius: 3px 0 0 3px; background: #555; }
-.pg-phone-speaker { position: absolute; z-index: 4; top: 21px; left: 50%; width: 100px; height: 28px; transform: translateX(-50%); border-radius: 18px; background: #111; }
-.pg-phone-screen { position: relative; height: 100%; overflow: hidden; border-radius: 44px; background: #f3f3f7; }
+.pg-phone-speaker { position: absolute; z-index: 4; top: 29px; left: 50%; width: 100px; height: 28px; transform: translateX(-50%); border-radius: 18px; background: #050505; box-shadow: 0 0 0 1px rgba(255,255,255,.04); }
+.pg-phone-screen { position: relative; height: 100%; overflow: hidden; border-radius: 42px 42px 46px 46px; background: #f3f3f7; }
 .pg-device-screenshot { width: 100%; height: 100%; display: block; object-fit: cover; animation: pg-screen-in .42s cubic-bezier(.2,.8,.2,1) both; }
 .pg-status { height: 45px; padding: 12px 23px 0; display: flex; justify-content: space-between; color: #222; font-size: 11px; font-weight: 700; background: rgba(255,255,255,.82); }
 .pg-demo-head { height: 54px; padding: 6px 20px 13px; display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,.82); }
