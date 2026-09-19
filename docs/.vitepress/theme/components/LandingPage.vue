@@ -36,8 +36,8 @@ const translations: Record<string, any> = {
     intro: 'Explore every generation, understand every matchup, and build your team in one beautifully focused app.',
     explore: 'Explore features', available: 'Available on iPhone, iPad, Android, and Huawei devices',
     proof: [['1,000+', 'Pokémon and forms'], ['Gen I–IX', 'Games and regional data'], ['No ads', 'A focused experience']],
-    sectionEyebrow: 'One app. Every answer.', sectionTitle: 'Made for the way trainers explore.',
-    sectionIntro: 'Scroll through Pocket Gallery’s most useful tools. The interface stays quiet, so the information can lead.',
+    sectionEyebrow: 'One app. Every adventure.', sectionTitle: 'Everything a Trainer needs.',
+    sectionIntro: 'Explore. Battle. Build. All in one place.',
     features: [
       { kicker: '01', title: 'Comprehensive', body: 'A complete Pokédex spanning every generation, regional form, and more than a thousand Pokémon.' },
       { kicker: '02', title: 'Informative', body: 'Moves, abilities, stats, forms, descriptions, and game data stay clear and close at hand.' },
@@ -59,8 +59,8 @@ const translations: Record<string, any> = {
     intro: '查图鉴、看资料、算对战、配队伍，一款简洁专注的宝可梦工具。',
     explore: '探索功能', available: '支持 iPhone、iPad、Android 与华为设备',
     proof: [['1,000+', '宝可梦与形态'], ['第一至第九世代', '游戏与地区资料'], ['无广告', '专注纯粹的体验']],
-    sectionEyebrow: '一款应用，所有答案', sectionTitle: '为训练家探索资料的方式而设计。',
-    sectionIntro: '向下滚动，了解破壳萌图鉴最实用的功能。界面保持克制，让信息成为主角。',
+    sectionEyebrow: '一款应用，每场冒险', sectionTitle: '训练家所需，尽在其中',
+    sectionIntro: '查图鉴、算对战、组队伍，一应俱全。',
     features: [
       { kicker: '01', title: '图鉴齐全', body: '涵盖全部世代、地区形态与超过一千只宝可梦的完整图鉴。' },
       { kicker: '02', title: '资料详实', body: '招式、特性、能力值、形态、图鉴描述和游戏资料清晰呈现。' },
