@@ -1,4 +1,7 @@
 node_modules
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vuepress/dist
 deploy.sh
 before_deploy.sh
 after_deploy.sh
