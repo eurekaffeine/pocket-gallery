@@ -136,7 +136,6 @@ onBeforeUnmount(() => observer?.disconnect())
           <h1>{{ copy.title }}</h1>
           <p class="pg-lede">{{ copy.intro }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }} <span>↓</span></a></div>
-          <p class="pg-availability"><span></span>{{ copy.available }}</p>
         </div>
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
       </section>
