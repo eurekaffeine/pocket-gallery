@@ -100,13 +100,9 @@ const copy = computed(() => {
   }
 })
 
-const stores = mainland ? [
-  { name: 'App Store', platform: 'iPhone · iPad', region: '中国大陆', mark: 'A', class: 'apple', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
-  { name: '华为应用市场', platform: 'Android · HarmonyOS', region: '中国大陆', mark: '✦', class: 'huawei', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
-] : [
-  { name: 'App Store', platform: 'iPhone · iPad', region: 'Global', mark: 'A', class: 'apple', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
-  { name: 'Google Play', platform: 'Android', region: 'Global', mark: '▶', class: 'google', url: 'https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance' },
-  { name: 'Huawei AppGallery', platform: 'Android · Huawei', region: 'Selected regions', mark: '✦', class: 'huawei', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
+const stores = [
+  { name: 'App Store', badge: 'app-store-badge-zh-hans.svg', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
+  { name: '华为应用市场', badge: 'app-gallery-badge-en.png', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
 ]
 
 const languages = [['简体中文', '/']]
@@ -171,7 +167,7 @@ onBeforeUnmount(() => observer?.disconnect())
 
       <section class="pg-updates pg-shell"><div><p class="pg-eyebrow">{{ copy.updatesEyebrow }}</p><h2>{{ copy.updatesTitle }}</h2><p>{{ copy.updatesBody }}</p><a :href="withBase(`${prefix}release-notes/`)">{{ copy.updatesLink }} →</a></div><div class="pg-update-art"><span>Z–A</span><i></i><b>New data<br>New map<br>New adventures</b></div></section>
 
-      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-grid"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-card"><div class="pg-store-mark" :class="store.class">{{ store.mark }}</div><div><span>{{ store.platform }}</span><h3>{{ store.name }}</h3><p>✓ {{ copy.official }}</p></div><div class="pg-store-meta"><small>{{ store.region === 'Global' ? copy.global : copy.regions }}</small><b>{{ copy.open }} ↗</b></div></a></div></div></section>
+      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
     <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><nav><a href="/faq/">常见问题</a><a href="/support-us/">支持我们</a><a href="/others/#隐私政策">隐私政策</a><a href="https://eurekaffeine.github.io/pocket-gallery/">Global</a></nav><small>© 2022–2026 破壳萌图鉴 · <a href="https://beian.miit.gov.cn/">苏ICP备2023003413号-1</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040">苏公网安备32059002005040号</a></small></div></footer>
