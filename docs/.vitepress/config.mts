@@ -82,6 +82,5 @@ export default defineConfig({
     logo: '/logo.png',
     siteTitle: 'Pocket Gallery',
     search: { provider: 'local' },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/eurekaffeine/pocket-gallery' }],
   },
 })

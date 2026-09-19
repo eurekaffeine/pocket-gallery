@@ -25,8 +25,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC"
 .pg-brand img { width: 34px; height: 34px; border-radius: 9px; }
 .pg-links { display: flex; align-items: center; gap: 30px; font-size: 13px; font-weight: 520; }
 .pg-links > a:hover { color: var(--pg-red); }
-.pg-nav-cta { padding: 9px 17px; color: #fff !important; border-radius: 999px; background: var(--pg-red); }
-.pg-nav-cta:hover { background: var(--pg-red-dark); }
+.pg-appearance { width: 44px; height: 24px; padding: 2px; display: flex; align-items: center; justify-content: flex-end; cursor: pointer; color: #fff; border: 1px solid var(--pg-line); border-radius: 999px; background: #2f3035; font-size: 14px; }.pg-appearance span { width: 18px; height: 18px; display: grid; place-items: center; border-radius: 50%; background: #080809; }.dark .pg-appearance { justify-content: flex-start; background: #e5e5e7; }.dark .pg-appearance span { color: #111; background: #fff; }
 .pg-language { position: relative; }
 .pg-language-trigger { padding: 6px 0; cursor: pointer; color: var(--pg-muted); border: 0; background: transparent; font: inherit; font-weight: inherit; }
 .pg-language-trigger:hover, .pg-language-trigger[aria-expanded="true"] { color: var(--pg-red); }
@@ -34,6 +33,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC"
 .pg-language-menu a { padding: 8px 10px; border-radius: 9px; }
 .pg-language-menu a:hover { color: var(--pg-red); background: var(--pg-bg); }
 .pg-menu-button { display: none; border: 0; background: transparent; }
+.dark .pg-nav { border-bottom-color: rgba(255,255,255,.1); background: rgba(29,29,31,.86); }.dark .pg-nav .pg-brand, .dark .pg-nav .pg-links > a { color: #f5f5f7; }.dark .pg-menu-button span { background: #f5f5f7; }.dark .pg-language-menu { color: #f5f5f7; border-color: rgba(255,255,255,.12); background: rgba(35,35,38,.98); }.dark .pg-language-menu a:hover { background: #2c2c2f; }
 
 .pg-hero { min-height: 960px; padding: 168px 24px 36px; display: flex; flex-direction: column; align-items: center; text-align: center; background: linear-gradient(180deg, #fff 0%, #fff 62%, #f7f7f9 100%); }
 .pg-hero-copy { position: relative; z-index: 2; max-width: 980px; }

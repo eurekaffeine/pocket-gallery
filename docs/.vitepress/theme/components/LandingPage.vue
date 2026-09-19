@@ -2,7 +2,7 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
-const { lang } = useData()
+const { lang, isDark } = useData()
 const route = useRoute()
 const activeFeature = ref(0)
 const menuOpen = ref(false)
@@ -48,7 +48,7 @@ const translations: Record<string, any> = {
     trustEyebrow: 'Focused by design', trustTitle: 'Powerful tools. None of the noise.',
     trust: [['Offline ready', 'Keep essential reference data close, even when the network is not.'], ['Private by default', 'The global Google Play listing declares no data collected or shared.'], ['Made for every screen', 'Thoughtful layouts for phones and tablets across platforms.'], ['Nine languages', 'Explore in English, Chinese, Japanese, Korean, and major European languages.']],
     updatesEyebrow: 'Always evolving', updatesTitle: 'New adventures, already inside.', updatesBody: 'Recent releases add Pokémon and moves from Pokémon Legends: Z-A, DLC data, the LZA interactive map, and ongoing refinements.', updatesLink: 'Read all release notes',
-    downloadEyebrow: 'Choose your channel', downloadTitle: 'Download Pocket Gallery your way.', downloadBody: 'Every official distribution channel is shown below. Pick the store that works best on your device and in your region.',
+    downloadEyebrow: 'Get Pocket Gallery', downloadTitle: 'Choose your store', downloadBody: '',
     official: 'Official channel', open: 'Open store', global: 'Global', regions: 'Availability varies by region',
     footer: 'An unofficial, fan-made companion. Not affiliated with Nintendo, GAME FREAK, or The Pokémon Company.',
     legal: 'Legal & support', globalSite: 'Global', chinaSite: '中国大陆',
@@ -71,7 +71,7 @@ const translations: Record<string, any> = {
     trustEyebrow: '专注设计', trustTitle: '强大功能，没有多余干扰。',
     trust: [['离线可用', '没有网络时，重要的参考资料依然触手可及。'], ['尊重隐私', '全球 Google Play 页面声明不收集或共享用户数据。'], ['适配多种屏幕', '为不同平台的手机和平板提供用心设计的布局。'], ['九种语言', '支持中文、英语、日语、韩语及多种欧洲语言。']],
     updatesEyebrow: '持续进化', updatesTitle: '新的冒险，已经就位。', updatesBody: '近期版本加入《宝可梦传说 Z-A》的宝可梦和招式、DLC 资料、LZA 交互地图，并持续优化体验。', updatesLink: '查看完整更新记录',
-    downloadEyebrow: '选择下载渠道', downloadTitle: '通过适合你的方式下载。', downloadBody: '所有官方分发渠道均在下方完整展示。请根据设备和所在地区选择应用商店。',
+    downloadEyebrow: '下载破壳萌图鉴', downloadTitle: '选择应用商店', downloadBody: '',
     official: '官方渠道', open: '打开商店', global: '全球', regions: '可用地区因商店而异',
     footer: '非官方粉丝应用，与 Nintendo、GAME FREAK 或 The Pokémon Company 无关联。', legal: '法律与支持', globalSite: 'Global', chinaSite: '中国大陆',
   },
@@ -166,11 +166,13 @@ onBeforeUnmount(() => {
           <a href="#features" @click="menuOpen = false">{{ copy.navFeatures }}</a>
           <a :href="withBase(`${prefix}release-notes/`)">{{ copy.navUpdates }}</a>
           <a :href="withBase(`${prefix}faq/`)">{{ copy.navFaq }}</a>
+          <a :href="withBase(`${prefix}others/`)">{{ copy.legal === 'Legal & support' ? 'About' : copy.legal }}</a>
+          <a href="#download">{{ copy.navDownload }}</a>
           <div ref="languageMenu" class="pg-language">
             <button type="button" class="pg-language-trigger" :aria-expanded="languageOpen" aria-haspopup="menu" @click.stop="languageOpen = !languageOpen">{{ currentLanguageLabel }}</button>
             <div v-if="languageOpen" class="pg-language-menu" role="menu"><a v-for="item in languages" :key="item[1]" :href="withBase(item[1])" role="menuitem" @click="closeLanguageMenu">{{ item[0] }}</a></div>
           </div>
-          <a class="pg-nav-cta" href="#download">{{ copy.navDownload }}</a>
+          <button type="button" class="pg-appearance" :aria-label="isDark ? 'Use light appearance' : 'Use dark appearance'" @click="isDark = !isDark"><span aria-hidden="true">{{ isDark ? '☀' : '◐' }}</span></button>
         </nav>
       </div>
     </header>
@@ -180,7 +182,7 @@ onBeforeUnmount(() => {
         <div class="pg-hero-copy">
           <h1>{{ copy.title }}</h1>
           <p class="pg-hero-subtitle">{{ copy.eyebrow }}</p>
-          <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }} <span>↓</span></a></div>
+          <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }}</a></div>
         </div>
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
       </section>
@@ -199,7 +201,7 @@ onBeforeUnmount(() => {
         <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
       </section>
 
-      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
+      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
     <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><small>© 2022–2026 Pocket Gallery</small></div></footer>
