@@ -31,7 +31,7 @@ const activeScreenshot = computed(() => withBase(`/screenshots/${screenshotLocal
 const translations: Record<string, any> = {
   root: {
     brand: 'Pocket Gallery', navFeatures: 'Features', navUpdates: 'What’s New', navFaq: 'FAQ', navDownload: 'Download',
-    eyebrow: 'The Pokédex, reimagined', title: 'Every detail. Right in your pocket.',
+    eyebrow: '250K Trainers’ Choice', title: 'Every detail. Right in your pocket.',
     intro: 'Explore every generation, understand every matchup, and build your team in one beautifully focused app.',
     explore: 'Explore features', available: 'Available on iPhone, iPad, Android, and Huawei devices',
     proof: [['1,000+', 'Pokémon and forms'], ['Gen I–IX', 'Games and regional data'], ['No ads', 'A focused experience']],
@@ -54,7 +54,7 @@ const translations: Record<string, any> = {
   },
   'zh-hans': {
     brand: '破壳萌图鉴', navFeatures: '功能', navUpdates: '更新记录', navFaq: '常见问题', navDownload: '下载',
-    eyebrow: '重新想象宝可梦图鉴', title: '把完整图鉴，装进口袋。',
+    eyebrow: '25万训练家的选择', title: '把完整图鉴，装进口袋。',
     intro: '查图鉴、看资料、算对战、配队伍，一款简洁专注的宝可梦工具。',
     explore: '探索功能', available: '支持 iPhone、iPad、Android 与华为设备',
     proof: [['1,000+', '宝可梦与形态'], ['第一至第九世代', '游戏与地区资料'], ['无广告', '专注纯粹的体验']],
@@ -141,7 +141,6 @@ onBeforeUnmount(() => observer?.disconnect())
         <div class="pg-hero-copy">
           <p class="pg-eyebrow">{{ copy.eyebrow }}</p>
           <h1>{{ copy.title }}</h1>
-          <p class="pg-lede">{{ copy.intro }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }} <span>↓</span></a></div>
         </div>
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
