@@ -31,7 +31,7 @@ const activeScreenshot = computed(() => withBase(`/screenshots/${screenshotLocal
 const translations: Record<string, any> = {
   root: {
     brand: 'Pocket Gallery', navFeatures: 'Features', navUpdates: 'What’s New', navFaq: 'FAQ', navDownload: 'Download',
-    eyebrow: '', title: '250K Trainers’ Choice',
+    eyebrow: 'Chosen by 250K Trainers', title: 'The Pokédex for every adventure',
     intro: 'Explore every generation, understand every matchup, and build your team in one beautifully focused app.',
     explore: 'Explore features', available: 'Available on iPhone, iPad, Android, and Huawei devices',
     proof: [['1,000+', 'Pokémon and forms'], ['Gen I–IX', 'Games and regional data'], ['No ads', 'A focused experience']],
@@ -54,7 +54,7 @@ const translations: Record<string, any> = {
   },
   'zh-hans': {
     brand: '破壳萌图鉴', navFeatures: '功能', navUpdates: '更新记录', navFaq: '常见问题', navDownload: '下载',
-    eyebrow: '', title: '25万训练家的选择',
+    eyebrow: '25万训练家的选择', title: '每场冒险，都从图鉴开始',
     intro: '查图鉴、看资料、算对战、配队伍，一款简洁专注的宝可梦工具。',
     explore: '探索功能', available: '支持 iPhone、iPad、Android 与华为设备',
     proof: [['1,000+', '宝可梦与形态'], ['第一至第九世代', '游戏与地区资料'], ['无广告', '专注纯粹的体验']],
@@ -140,6 +140,7 @@ onBeforeUnmount(() => observer?.disconnect())
       <section class="pg-hero">
         <div class="pg-hero-copy">
           <h1>{{ copy.title }}</h1>
+          <p class="pg-hero-subtitle">{{ copy.eyebrow }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }} <span>↓</span></a></div>
         </div>
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
@@ -162,6 +163,6 @@ onBeforeUnmount(() => observer?.disconnect())
       <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
-    <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><nav><a href="/faq/">常见问题</a><a href="/support-us/">支持我们</a><a href="/others/#隐私政策">隐私政策</a><a href="https://eurekaffeine.github.io/pocket-gallery/">Global</a></nav><small>© 2022–2026 破壳萌图鉴 · <a href="https://beian.miit.gov.cn/">苏ICP备2023003413号-1</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040">苏公网安备32059002005040号</a></small></div></footer>
+    <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><small>© 2022–2026 破壳萌图鉴 · <a href="https://beian.miit.gov.cn/">苏ICP备2023003413号-1</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040">苏公网安备32059002005040号</a></small></div></footer>
   </div>
 </template>
