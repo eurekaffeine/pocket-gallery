@@ -1,23 +1,25 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
 const { lang } = useData()
 const route = useRoute()
 const activeFeature = ref(0)
 const menuOpen = ref(false)
+const languageOpen = ref(false)
+const languageMenu = ref<HTMLElement | null>(null)
 let observer: IntersectionObserver | undefined
 
 const localeKey = computed(() => {
-  const path = route.path
-  if (path.includes('/zh-hans/')) return 'zh-hans'
-  if (path.includes('/zh-hant/')) return 'zh-hant'
-  if (path.includes('/ja-jp/')) return 'ja-jp'
-  if (path.includes('/es/')) return 'es'
-  if (path.includes('/fr/')) return 'fr'
-  if (path.includes('/de/')) return 'de'
-  if (path.includes('/it/')) return 'it'
-  if (path.includes('/ko/')) return 'ko'
+  const value = lang.value.toLowerCase()
+  if (value.startsWith('zh-hans')) return 'zh-hans'
+  if (value.startsWith('zh-hant')) return 'zh-hant'
+  if (value.startsWith('ja')) return 'ja-jp'
+  if (value.startsWith('es')) return 'es'
+  if (value.startsWith('fr')) return 'fr'
+  if (value.startsWith('de')) return 'de'
+  if (value.startsWith('it')) return 'it'
+  if (value.startsWith('ko')) return 'ko'
   return 'root'
 })
 
@@ -106,17 +108,52 @@ const languages = [
   ['English', '/'], ['简体中文', '/zh-hans/'], ['繁體中文', '/zh-hant/'], ['日本語', '/ja-jp/'],
   ['Español', '/es/'], ['Français', '/fr/'], ['Deutsch', '/de/'], ['Italiano', '/it/'], ['한국어', '/ko/'],
 ]
+const currentLanguageLabel = computed(() => ({
+  root: 'English', 'zh-hans': '简体中文', 'zh-hant': '繁體中文', 'ja-jp': '日本語',
+  es: 'Español', fr: 'Français', de: 'Deutsch', it: 'Italiano', ko: '한국어',
+}[localeKey.value] || 'English'))
 
-onMounted(() => {
+function observeFeatureChapters() {
+  observer?.disconnect()
   const chapters = document.querySelectorAll<HTMLElement>('[data-feature-index]')
   observer = new IntersectionObserver((entries) => {
     const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
     if (visible) activeFeature.value = Number((visible.target as HTMLElement).dataset.featureIndex)
   }, { rootMargin: '-28% 0px -42%', threshold: [0.1, 0.35, 0.65] })
   chapters.forEach(chapter => observer?.observe(chapter))
+}
+
+function closeLanguageMenu() {
+  languageOpen.value = false
+}
+
+function handleOutsidePointer(event: PointerEvent) {
+  if (languageOpen.value && !languageMenu.value?.contains(event.target as Node)) closeLanguageMenu()
+}
+
+function handleEscape(event: KeyboardEvent) {
+  if (event.key === 'Escape') closeLanguageMenu()
+}
+
+onMounted(() => {
+  observeFeatureChapters()
+  document.addEventListener('pointerdown', handleOutsidePointer)
+  document.addEventListener('keydown', handleEscape)
 })
 
-onBeforeUnmount(() => observer?.disconnect())
+watch(lang, async () => {
+  closeLanguageMenu()
+  menuOpen.value = false
+  activeFeature.value = 0
+  await nextTick()
+  requestAnimationFrame(observeFeatureChapters)
+})
+
+onBeforeUnmount(() => {
+  observer?.disconnect()
+  document.removeEventListener('pointerdown', handleOutsidePointer)
+  document.removeEventListener('keydown', handleEscape)
+})
 </script>
 
 <template>
@@ -129,7 +166,10 @@ onBeforeUnmount(() => observer?.disconnect())
           <a href="#features" @click="menuOpen = false">{{ copy.navFeatures }}</a>
           <a :href="withBase(`${prefix}release-notes/`)">{{ copy.navUpdates }}</a>
           <a :href="withBase(`${prefix}faq/`)">{{ copy.navFaq }}</a>
-          <details class="pg-language"><summary>{{ lang.toUpperCase() }}</summary><div><a v-for="item in languages" :key="item[1]" :href="withBase(item[1])">{{ item[0] }}</a></div></details>
+          <div ref="languageMenu" class="pg-language">
+            <button type="button" class="pg-language-trigger" :aria-expanded="languageOpen" aria-haspopup="menu" @click.stop="languageOpen = !languageOpen">{{ currentLanguageLabel }}</button>
+            <div v-if="languageOpen" class="pg-language-menu" role="menu"><a v-for="item in languages" :key="item[1]" :href="withBase(item[1])" role="menuitem" @click="closeLanguageMenu">{{ item[0] }}</a></div>
+          </div>
           <a class="pg-nav-cta" href="#download">{{ copy.navDownload }}</a>
         </nav>
       </div>
