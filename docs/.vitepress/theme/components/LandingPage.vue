@@ -90,11 +90,17 @@ const copy = computed(() => translations[localeKey.value] || {
   brand: localeKey.value === 'ja-jp' ? 'ポケット・ギャラリー' : localeKey.value === 'ko' ? '포켓 갤러리' : 'Pocket Gallery',
 })
 
-const stores = [
-  { name: 'App Store', platform: 'iPhone · iPad', region: 'Global', mark: 'A', class: 'apple', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
-  { name: 'Google Play', platform: 'Android', region: 'Global', mark: '▶', class: 'google', url: 'https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance' },
-  { name: 'Huawei AppGallery', platform: 'Android · Huawei', region: 'Selected regions', mark: '✦', class: 'huawei', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
-]
+const badgeLocale = computed(() => ({
+  root: 'en', 'zh-hans': 'zh-hans', 'zh-hant': 'zh-hant', 'ja-jp': 'jp',
+  es: 'es', fr: 'fr', de: 'de', it: 'it', ko: 'ko',
+}[localeKey.value] || 'en'))
+const googleBadgeLocale = computed(() => localeKey.value === 'ja-jp' ? 'ja' : badgeLocale.value)
+const appGalleryLocales = new Set(['en', 'de', 'es', 'fr', 'it', 'jp', 'ko'])
+const stores = computed(() => [
+  { name: 'App Store', badge: `app-store-badge-${badgeLocale.value}.svg`, url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
+  { name: 'Google Play', badge: `google-play-badge-${googleBadgeLocale.value}.png`, url: 'https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance' },
+  { name: 'Huawei AppGallery', badge: `app-gallery-badge-${appGalleryLocales.has(badgeLocale.value) ? badgeLocale.value : 'en'}.${badgeLocale.value === 'it' ? 'png' : badgeLocale.value === 'en' ? 'png' : 'svg'}`, url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
+])
 
 const languages = [
   ['English', '/'], ['简体中文', '/zh-hans/'], ['繁體中文', '/zh-hant/'], ['日本語', '/ja-jp/'],
@@ -160,7 +166,7 @@ onBeforeUnmount(() => observer?.disconnect())
 
       <section class="pg-updates pg-shell"><div><p class="pg-eyebrow">{{ copy.updatesEyebrow }}</p><h2>{{ copy.updatesTitle }}</h2><p>{{ copy.updatesBody }}</p><a :href="withBase(`${prefix}release-notes/`)">{{ copy.updatesLink }} →</a></div><div class="pg-update-art"><span>Z–A</span><i></i><b>New data<br>New map<br>New adventures</b></div></section>
 
-      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-grid"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-card"><div class="pg-store-mark" :class="store.class">{{ store.mark }}</div><div><span>{{ store.platform }}</span><h3>{{ store.name }}</h3><p>✓ {{ copy.official }}</p></div><div class="pg-store-meta"><small>{{ store.region === 'Global' ? copy.global : copy.regions }}</small><b>{{ copy.open }} ↗</b></div></a></div></div></section>
+      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
     <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><nav><a :href="withBase(`${prefix}faq/`)">{{ copy.navFaq }}</a><a :href="withBase(`${prefix}others/`)">{{ copy.legal }}</a><a href="https://www.pocket-gallery.cn/">{{ copy.chinaSite }}</a></nav><small>© 2022–2026 Pocket Gallery</small></div></footer>
