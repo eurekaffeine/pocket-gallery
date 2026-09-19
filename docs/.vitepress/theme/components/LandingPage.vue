@@ -24,6 +24,9 @@ const localeKey = computed(() => {
 
 const prefix = computed(() => mainland || localeKey.value === 'root' ? '/' : `/${localeKey.value}/`)
 const isChinese = computed(() => lang.value.startsWith('zh'))
+const screenshotLocale = computed(() => 'zh-hans')
+const screenshotPages = ['home', 'detail', 'battle', 'team', 'map']
+const activeScreenshot = computed(() => withBase(`/screenshots/${screenshotLocale.value}/${screenshotPages[activeFeature.value]}.webp`))
 
 const translations: Record<string, any> = {
   root: {
@@ -158,17 +161,7 @@ onBeforeUnmount(() => observer?.disconnect())
           <div class="pg-phone">
             <div class="pg-phone-speaker"></div>
             <div class="pg-phone-screen">
-              <div class="pg-status"><span>9:41</span><span>● ●</span></div>
-              <div class="pg-demo-head"><strong>{{ activeFeature === 4 ? '密阿雷市' : activeFeature === 3 ? '队伍编辑' : activeFeature === 2 ? '对战资料' : '破壳萌图鉴' }}</strong><span>•••</span></div>
-              <div v-if="activeFeature === 0" class="pg-screen pg-dex">
-                <div class="pg-search">⌕ <span>搜索宝可梦</span></div><div class="pg-red-pill">全国图鉴</div>
-                <div class="pg-pokemon-grid"><div v-for="(p, i) in ['Bulbasaur','Ivysaur','Charmander','Squirtle','Pikachu','Eevee']" :key="p" class="pg-pokemon-card"><small>#00{{ i + 1 }}</small><strong>{{ p }}</strong><i :class="`creature c${i}`"></i><em>{{ i % 2 ? 'Fire' : 'Grass' }}</em></div></div>
-              </div>
-              <div v-else-if="activeFeature === 1" class="pg-screen pg-detail"><div class="pg-detail-hero"><i class="creature c4 large"></i><div><small>#025</small><h3>Pikachu</h3><span>Electric</span></div></div><div class="pg-segment"><b>About</b><span>Stats</span><span>Moves</span></div><div class="pg-info-row"><span>Height<strong>0.4 m</strong></span><span>Weight<strong>6.0 kg</strong></span></div><div class="pg-stat" v-for="(s,i) in ['HP','Attack','Defense','Speed']" :key="s"><b>{{ s }}</b><span><i :style="{width: `${42 + i * 14}%`}"></i></span></div></div>
-              <div v-else-if="activeFeature === 2" class="pg-screen pg-battle"><p>Type matchup</p><div class="pg-matchup"><div class="pg-orb electric">⚡</div><span>Electric</span><b>→</b><div class="pg-orb water">◆</div><span>Water</span></div><div class="pg-result"><small>Effectiveness</small><strong>2×</strong><span>Super effective</span></div><div class="pg-tool-list"><div>Type effectiveness <b>›</b></div><div>Offensive blind spots <b>›</b></div><div>Stat calculator <b>›</b></div></div></div>
-              <div v-else-if="activeFeature === 3" class="pg-screen pg-team"><div class="pg-team-title"><span>My team</span><b>6 / 6</b></div><div class="pg-team-grid"><div v-for="(p,i) in ['Pikachu','Lucario','Gengar','Dragonite','Sylveon','Greninja']" :key="p"><i :class="`creature c${i}`"></i><strong>{{ p }}</strong><small>{{ i % 2 ? 'Lv. 50' : 'Shiny' }}</small></div></div><button>＋ Edit team</button></div>
-              <div v-else class="pg-screen pg-map"><div class="pg-map-lines"><i v-for="n in 12" :key="n" :style="{ top: `${n * 48 - 80}px` }"></i></div><div class="pg-map-pin one">●</div><div class="pg-map-pin two">●</div><div class="pg-map-pin three">●</div><div class="pg-map-card"><span>Wild Zone 3</span><strong>Pokémon and items nearby</strong><button>Explore →</button></div></div>
-              <div class="pg-tabbar"><span :class="{ active: activeFeature < 2 }">●<small>Pokédex</small></span><span :class="{ active: activeFeature === 2 }">◇<small>Battle</small></span><span :class="{ active: activeFeature === 3 }">⬡<small>Teams</small></span><span :class="{ active: activeFeature === 4 }">⌖<small>Map</small></span></div>
+              <img :key="activeScreenshot" class="pg-device-screenshot" :src="activeScreenshot" :alt="copy.features[activeFeature].title">
             </div>
           </div>
         </div>
