@@ -159,8 +159,6 @@ onBeforeUnmount(() => observer?.disconnect())
         <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
       </section>
 
-      <section class="pg-trust"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.trustEyebrow }}</p><h2>{{ copy.trustTitle }}</h2><div class="pg-trust-grid"><article v-for="(item,index) in copy.trust" :key="item[0]"><span>{{ ['↯','◎','▱','文'][index] }}</span><h3>{{ item[0] }}</h3><p>{{ item[1] }}</p></article></div></div></section>
-
       <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><p class="pg-download-intro">{{ copy.downloadBody }}</p><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
