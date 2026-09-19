@@ -7,6 +7,9 @@ const { frontmatter } = useData()
 </script>
 
 <template>
-  <LandingPage v-if="frontmatter.layout === 'landing' || frontmatter.home" />
-  <DefaultTheme.Layout v-else />
+  <DefaultTheme.Layout>
+    <template v-if="frontmatter.pageClass === 'pg-landing-page'" #page-top>
+      <LandingPage />
+    </template>
+  </DefaultTheme.Layout>
 </template>

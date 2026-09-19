@@ -29,6 +29,7 @@ export default defineConfig({
       { text: '常见问题', link: '/faq/' },
       { text: '支持我们', link: '/support-us/' },
       { text: '下载', link: '/#download' },
+      { text: 'Global', link: 'https://eurekaffeine.github.io/pocket-gallery/' },
     ],
     outline: { level: [2, 3] },
     docFooter: { prev: false, next: false },

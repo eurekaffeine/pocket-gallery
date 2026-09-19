@@ -1,34 +1,8 @@
 ---
-home: true
-heroImage: /logo.png
-heroText: 破壳萌图鉴
-tagline: 一款简洁大方的宝可梦图鉴
-features:
-- title: 图鉴齐全
-  details: 涵盖了自第一世代至第九世代全部1025只宝可梦的详尽信息。
-- title: 资料详实
-  details: 提供包含诸如「招式」「特性」「道具」「天气」「场地」「异常状态」等在内的详实资料。
-- title: 功能强大
-  details: 专为对战爱好者设计了「属性克制」「盲点」「能力值计算器」等强大功能。
+layout: page
+title: 破壳萌图鉴
+description: 每场冒险，都从图鉴开始。
+sidebar: false
+outline: false
+pageClass: pg-landing-page
 ---
-
-::: slot footer
-Copyright © 2022-2025 破壳萌图鉴 \
- [苏ICP备2023003413号-1](https://beian.miit.gov.cn/) | <img src="../docs/.vuepress/public/beian.png" alt="beian" style="width: 15px;"/>[ 苏公网安备32059002005040号	
-](https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040)
-:::
-
-<a href="https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode">
-<div align="center">
-<img src="../docs/.vuepress/public/app-gallery-badge-en.png" alt="hero" style="width: 300px;"/>
-</div>
-</a>
-
-<a href="https://apps.apple.com/us/app/pocket-gallery-app/id6464266038">
-<div align="center">
-<img src="../docs/.vuepress/public/app-store-badge-zh-hans.svg" alt="hero" style="width: 300px;"/>
-</div>
-</a>
-
-\
-![hero](../docs/.vuepress/public/hero.png)

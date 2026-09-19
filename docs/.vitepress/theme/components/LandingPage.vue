@@ -121,23 +121,6 @@ onBeforeUnmount(() => observer?.disconnect())
 
 <template>
   <div class="pg-site">
-    <header class="pg-nav">
-      <div class="pg-nav-inner">
-        <a class="pg-brand" :href="withBase(prefix)"><img :src="withBase('/logo.png')" alt=""><span>{{ copy.brand }}</span></a>
-        <button class="pg-menu-button" :aria-expanded="menuOpen" aria-label="Menu" @click="menuOpen = !menuOpen"><span></span><span></span></button>
-        <nav class="pg-links" :class="{ open: menuOpen }">
-          <a href="#features" @click="menuOpen = false">{{ copy.navFeatures }}</a>
-          <a :href="withBase(`${prefix}release-notes/`)">{{ copy.navUpdates }}</a>
-          <a :href="withBase(`${prefix}faq/`)">{{ copy.navFaq }}</a>
-          <a href="/support-us/">支持我们</a>
-          <a href="#download">{{ copy.navDownload }}</a>
-          <a v-if="mainland" class="pg-region-link" href="https://eurekaffeine.github.io/pocket-gallery/">Global</a>
-          <details v-else class="pg-language"><summary>{{ lang.toUpperCase() }}</summary><div><a v-for="item in languages" :key="item[1]" :href="withBase(item[1])">{{ item[0] }}</a></div></details>
-          <button type="button" class="pg-appearance" :aria-label="isDark ? '使用浅色外观' : '使用深色外观'" @click="isDark = !isDark"><span aria-hidden="true">{{ isDark ? '☀' : '◐' }}</span></button>
-        </nav>
-      </div>
-    </header>
-
     <main>
       <section class="pg-hero">
         <div class="pg-hero-copy">
