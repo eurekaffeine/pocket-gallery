@@ -24,8 +24,8 @@ export default defineConfig({
     siteTitle: '破壳萌图鉴',
     search: { provider: 'local' },
     nav: [
-      { text: '功能', link: '/#features' },
-      { text: '更新记录', link: '/release-notes/' },
+      { text: '功能亮点', link: '/#features' },
+      { text: '更新日志', link: '/release-notes/' },
       { text: '常见问题', link: '/faq/' },
       { text: '支持我们', link: '/support-us/' },
       { text: '下载', link: '/#download' },
