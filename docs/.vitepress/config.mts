@@ -19,15 +19,15 @@ const localeMeta = {
 } as const
 
 const navCopy: Record<string, { features: string; updates: string; faq: string; others: string; download: string }> = {
-  root: { features: 'Features', updates: 'What’s New', faq: 'FAQ', others: 'About', download: 'Download' },
-  'zh-hans': { features: '功能亮点', updates: '更新日志', faq: '常见问题', others: '关于', download: '下载' },
-  'zh-hant': { features: '功能', updates: '更新記錄', faq: '常見問題', others: '其他', download: '下載' },
-  'ja-jp': { features: '機能', updates: '更新記録', faq: 'よくある質問', others: 'その他', download: 'ダウンロード' },
-  es: { features: 'Funciones', updates: 'Novedades', faq: 'Preguntas', others: 'Otros', download: 'Descargar' },
-  fr: { features: 'Fonctions', updates: 'Nouveautés', faq: 'Questions', others: 'Autres', download: 'Télécharger' },
-  de: { features: 'Funktionen', updates: 'Neuigkeiten', faq: 'FAQ', others: 'Andere', download: 'Laden' },
-  it: { features: 'Funzioni', updates: 'Novità', faq: 'Domande', others: 'Altro', download: 'Scarica' },
-  ko: { features: '기능', updates: '업데이트', faq: '자주 묻는 질문', others: '기타', download: '다운로드' },
+  root: { features: 'Features', updates: 'What’s New', faq: 'FAQ', others: 'About Us', download: 'Download' },
+  'zh-hans': { features: '功能亮点', updates: '更新日志', faq: '常见问题', others: '关于我们', download: '下载' },
+  'zh-hant': { features: '功能', updates: '更新記錄', faq: '常見問題', others: '關於我們', download: '下載' },
+  'ja-jp': { features: '機能', updates: '更新記録', faq: 'よくある質問', others: '私たちについて', download: 'ダウンロード' },
+  es: { features: 'Funciones', updates: 'Novedades', faq: 'Preguntas', others: 'Sobre nosotros', download: 'Descargar' },
+  fr: { features: 'Fonctions', updates: 'Nouveautés', faq: 'Questions', others: 'À propos', download: 'Télécharger' },
+  de: { features: 'Funktionen', updates: 'Neuigkeiten', faq: 'FAQ', others: 'Über uns', download: 'Laden' },
+  it: { features: 'Funzioni', updates: 'Novità', faq: 'Domande', others: 'Chi siamo', download: 'Scarica' },
+  ko: { features: '기능', updates: '업데이트', faq: '자주 묻는 질문', others: '소개', download: '다운로드' },
 }
 
 function localizedTheme(key: string) {

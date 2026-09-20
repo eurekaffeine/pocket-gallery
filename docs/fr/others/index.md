@@ -1,4 +1,4 @@
-# Autres
+# À propos
 [[toc]]
 ## DISCLAIMER
 

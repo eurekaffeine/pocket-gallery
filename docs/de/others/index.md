@@ -1,4 +1,4 @@
-# Andere
+# Über uns
 [[toc]]
 ## DISCLAIMER
 

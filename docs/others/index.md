@@ -1,6 +1,6 @@
 
 
-# Others
+# About Us
 [[toc]]
 ## Disclaimer
 

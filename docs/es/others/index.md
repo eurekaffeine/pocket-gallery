@@ -1,4 +1,4 @@
-# Otros
+# Sobre nosotros
 [[toc]]
 ## AVISO LEGAL
 
