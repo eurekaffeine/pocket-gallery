@@ -25,6 +25,7 @@ const localeKey = computed(() => {
 const prefix = computed(() => mainland || localeKey.value === 'root' ? '/' : `/${localeKey.value}/`)
 const isChinese = computed(() => lang.value.startsWith('zh'))
 const screenshotLocale = computed(() => 'zh-hans')
+const heroImage = computed(() => withBase('/heroes/zh-hans/devices.webp'))
 const screenshotPages = ['home', 'detail', 'battle', 'team', 'map']
 const activeScreenshot = computed(() => withBase(`/screenshots/${screenshotLocale.value}/${screenshotPages[activeFeature.value]}.webp`))
 
@@ -129,7 +130,7 @@ onBeforeUnmount(() => observer?.disconnect())
           <p class="pg-hero-lede">{{ copy.intro }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }}</a></div>
         </div>
-        <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
+        <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="heroImage" alt="破壳萌图鉴在 iPad、Android 手机与 iPhone 上的界面"></div>
       </section>
 
       <section id="features" class="pg-feature-intro pg-shell"><p class="pg-eyebrow">{{ copy.sectionEyebrow }}</p><h2>{{ copy.sectionTitle }}</h2><p>{{ copy.sectionIntro }}</p></section>
