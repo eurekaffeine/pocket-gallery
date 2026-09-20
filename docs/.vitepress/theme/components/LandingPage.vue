@@ -7,7 +7,9 @@ const mainland = true
 const route = useRoute()
 const activeFeature = ref(0)
 const menuOpen = ref(false)
+const chaptersElement = ref<HTMLElement | null>(null)
 let observer: IntersectionObserver | undefined
+let mobileStoryQuery: MediaQueryList | undefined
 
 const localeKey = computed(() => {
   const path = route.path
@@ -110,16 +112,49 @@ const stores = [
 
 const languages = [['简体中文', '/']]
 
-onMounted(() => {
-  const chapters = document.querySelectorAll<HTMLElement>('[data-feature-index]')
+function observeFeatureChapters() {
+  observer?.disconnect()
+  const chaptersRoot = chaptersElement.value
+  if (!chaptersRoot) return
+  const chapters = chaptersRoot.querySelectorAll<HTMLElement>('[data-feature-index]')
+  const isCarousel = mobileStoryQuery?.matches ?? window.matchMedia('(max-width: 1024px)').matches
   observer = new IntersectionObserver((entries) => {
-    const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
+    const visible = entries
+      .filter(entry => entry.isIntersecting && (!isCarousel || entry.intersectionRatio >= .6))
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
     if (visible) activeFeature.value = Number((visible.target as HTMLElement).dataset.featureIndex)
-  }, { rootMargin: '-28% 0px -42%', threshold: [0.1, 0.35, 0.65] })
+  }, isCarousel
+    ? { root: chaptersRoot, threshold: [.6] }
+    : { rootMargin: '-28% 0px -42%', threshold: [0.1, 0.35, 0.65] })
   chapters.forEach(chapter => observer?.observe(chapter))
+}
+
+function selectFeature(index: number) {
+  const nextIndex = Math.max(0, Math.min(index, copy.value.features.length - 1))
+  activeFeature.value = nextIndex
+  const chapter = chaptersElement.value?.querySelector<HTMLElement>(`[data-feature-index="${nextIndex}"]`)
+  chaptersElement.value?.scrollTo({
+    left: chapter?.offsetLeft ?? 0,
+    behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+  })
+}
+
+function handleStoryModeChange() {
+  chaptersElement.value?.scrollTo({ left: 0, behavior: 'auto' })
+  activeFeature.value = 0
+  observeFeatureChapters()
+}
+
+onMounted(() => {
+  mobileStoryQuery = window.matchMedia('(max-width: 1024px)')
+  mobileStoryQuery.addEventListener('change', handleStoryModeChange)
+  observeFeatureChapters()
 })
 
-onBeforeUnmount(() => observer?.disconnect())
+onBeforeUnmount(() => {
+  observer?.disconnect()
+  mobileStoryQuery?.removeEventListener('change', handleStoryModeChange)
+})
 </script>
 
 <template>
@@ -146,7 +181,14 @@ onBeforeUnmount(() => observer?.disconnect())
             </div>
           </div>
         </div>
-        <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
+        <div ref="chaptersElement" class="pg-chapters" role="region" :aria-label="copy.sectionTitle"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" role="group" :class="{ active: activeFeature === index }" :aria-label="feature.title"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
+        <div class="pg-carousel-controls">
+          <button type="button" :disabled="activeFeature === 0" :aria-label="`上一项：${copy.features[Math.max(0, activeFeature - 1)].title}`" @click="selectFeature(activeFeature - 1)">‹</button>
+          <div class="pg-carousel-dots">
+            <button v-for="(feature, index) in copy.features" :key="feature.title" type="button" :class="{ active: activeFeature === index }" :aria-label="`${feature.kicker} ${feature.title}`" :aria-current="activeFeature === index ? 'true' : undefined" @click="selectFeature(index)"></button>
+          </div>
+          <button type="button" :disabled="activeFeature === copy.features.length - 1" :aria-label="`下一项：${copy.features[Math.min(copy.features.length - 1, activeFeature + 1)].title}`" @click="selectFeature(activeFeature + 1)">›</button>
+        </div>
       </section>
 
       <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :class="{ compact: store.compact }" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
