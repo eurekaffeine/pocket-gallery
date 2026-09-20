@@ -20,7 +20,7 @@ const localeMeta = {
 
 const navCopy: Record<string, { features: string; updates: string; faq: string; others: string; download: string }> = {
   root: { features: 'Features', updates: 'What’s New', faq: 'FAQ', others: 'About', download: 'Download' },
-  'zh-hans': { features: '功能', updates: '更新记录', faq: '常见问题', others: '其他', download: '下载' },
+  'zh-hans': { features: '功能亮点', updates: '更新日志', faq: '常见问题', others: '关于', download: '下载' },
   'zh-hant': { features: '功能', updates: '更新記錄', faq: '常見問題', others: '其他', download: '下載' },
   'ja-jp': { features: '機能', updates: '更新記録', faq: 'よくある質問', others: 'その他', download: 'ダウンロード' },
   es: { features: 'Funciones', updates: 'Novedades', faq: 'Preguntas', others: 'Otros', download: 'Descargar' },
@@ -35,6 +35,7 @@ function localizedTheme(key: string) {
   const copy = navCopy[key]
   const prefix = locale.path
   return {
+    siteTitle: locale.title,
     nav: [
       { text: copy.features, link: `${prefix}#features` },
       { text: copy.updates, link: `${prefix}release-notes/` },
