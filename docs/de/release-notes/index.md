@@ -1,6 +1,42 @@
 # Update log
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Bestimmte Probleme im Schadensrechner behoben
+- Pokémon-Attacken für die Champions-Spielversion aktualisiert
+- Fähigkeiten neuer Mega-Pokémon aktualisiert
+- Einige weitere Probleme behoben
+
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Schadensrechner und Nutzungsranking hinzugefügt
+- Die Registerkarte „Erhalten“ mit Wildvorkommen verbessert
+- Anzeige der Basiswerte verbessert
+- Anzeige der Entwicklungskette verbessert
+- Einige weitere Probleme behoben
+
+### V3.5
+
+#### 3.5.2604051948
+
+- Offizielle Artworks von Pokémon Home aktualisiert
+- Beschreibungsfehler bei Pokémon-Attacken behoben
+- Einige weitere Probleme behoben
+
+### V3.4
+
+#### 3.4.2603091036
+
+- Offizielle Artworks der neuen Mega-Pokémon aktualisiert
+- Übersetzungen in mehreren Sprachen verbessert
+- Einige Probleme behoben
 ### V3.3
 
 #### 3.3.2512281449
@@ -213,8 +249,34 @@ _(1.5.2301241051)_
 
 ## iOS
 
-### V1.3
+### V1.4
 
+#### 1.4.2
+
+- Bestimmte Probleme im Schadensrechner behoben
+- Pokémon-Attacken für die Champions-Spielversion aktualisiert
+- Fähigkeiten neuer Mega-Pokémon aktualisiert
+- Einige weitere Probleme behoben
+
+#### 1.4.1
+
+- Schadensrechner und Nutzungsranking hinzugefügt
+- Die Registerkarte „Erhalten“ mit Wildvorkommen verbessert
+- Anzeige der Basiswerte verbessert
+- Anzeige der Entwicklungskette verbessert
+- Einige weitere Probleme behoben
+
+#### 1.4.0
+- Offizielle Artworks von Pokémon Home aktualisiert
+- Beschreibungsfehler bei Pokémon-Attacken behoben
+- Einige weitere Probleme behoben
+
+### V1.3
+#### 1.3.9
+
+- Offizielle Artworks der neuen Mega-Pokémon aktualisiert
+- Übersetzungen in mehreren Sprachen verbessert
+- Einige Probleme behoben
 #### 1.3.8
 
 - „LZA Interaktive Karte" hinzugefügt

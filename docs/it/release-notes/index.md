@@ -1,6 +1,43 @@
 # Aggiornamento del registro
 ## Android
 
+### V3.7
+
+#### 3.7.2607041035
+
+- Corretti alcuni problemi nel calcolatore dei danni
+- Aggiornate le mosse dei Pokémon per la versione del gioco Champions
+- Aggiornate le abilità dei nuovi Pokémon Mega
+- Corretti alcuni altri problemi
+
+### V3.6
+
+#### 3.6.2606181535
+
+_(3.6.2605130901)_
+
+- Aggiunti Calcolatore di Danni e Classifica di Utilizzo
+- Migliorata la scheda Ottieni con le posizioni degli incontri selvatici
+- Migliorata l’interfaccia delle statistiche base
+- Migliorata l’interfaccia della catena evolutiva
+- Corretti alcuni altri problemi
+
+### V3.5
+
+#### 3.5.2604051948
+
+- Aggiornate le illustrazioni ufficiali di Pokémon Home
+- Corretti errori nelle descrizioni delle mosse Pokémon
+- Corretti alcuni altri problemi
+
+### V3.4
+
+#### 3.4.2603091036
+
+- Aggiornate le illustrazioni ufficiali dei nuovi Mega Pokémon
+- Migliorate le traduzioni in diverse lingue
+- Corretti alcuni problemi
+
 ### V3.3
 
 #### 3.3.2512281449
@@ -213,7 +250,36 @@ _(1.5.2301241051)_
 
 ## iOS
 
+### V1.4
+
+#### 1.4.2
+
+- Corretti alcuni problemi nel calcolatore dei danni
+- Aggiornate le mosse dei Pokémon per la versione del gioco Champions
+- Aggiornate le abilità dei nuovi Pokémon Mega
+- Corretti alcuni altri problemi
+
+#### 1.4.1
+
+- Aggiunti Calcolatore di Danni e Classifica di Utilizzo
+- Migliorata la scheda Ottieni con le posizioni degli incontri selvatici
+- Migliorata l’interfaccia delle statistiche base
+- Migliorata l’interfaccia della catena evolutiva
+- Corretti alcuni altri problemi
+
+#### 1.4.0
+
+- Aggiornate le illustrazioni ufficiali di Pokémon Home
+- Corretti errori nelle descrizioni delle mosse Pokémon
+- Corretti alcuni altri problemi
+
 ### V1.3
+
+#### 1.3.9
+
+- Aggiornate le illustrazioni ufficiali dei nuovi Mega Pokémon
+- Migliorate le traduzioni in diverse lingue
+- Corretti alcuni problemi
 
 #### 1.3.8
 
