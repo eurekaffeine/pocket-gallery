@@ -26,6 +26,7 @@ const localeKey = computed(() => {
 const prefix = computed(() => localeKey.value === 'root' ? '/' : `/${localeKey.value}/`)
 const isChinese = computed(() => lang.value.startsWith('zh'))
 const screenshotLocale = computed(() => localeKey.value === 'root' ? 'en' : localeKey.value)
+const heroImage = computed(() => withBase(`/heroes/${screenshotLocale.value}/devices.webp`))
 const screenshotPages = ['home', 'detail', 'battle', 'team', 'map']
 const activeScreenshot = computed(() => withBase(`/screenshots/${screenshotLocale.value}/${screenshotPages[activeFeature.value]}.webp`))
 
@@ -289,7 +290,7 @@ onBeforeUnmount(() => {
           <p class="pg-hero-lede">{{ copy.intro }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }}</a></div>
         </div>
-        <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
+        <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="heroImage" alt="Pocket Gallery shown on iPad, Android phone, and iPhone"></div>
       </section>
 
       <section id="features" class="pg-feature-intro pg-shell"><p class="pg-eyebrow">{{ copy.sectionEyebrow }}</p><h2>{{ copy.sectionTitle }}</h2><p>{{ copy.sectionIntro }}</p></section>
