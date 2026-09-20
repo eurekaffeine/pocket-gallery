@@ -33,7 +33,7 @@ const translations: Record<string, any> = {
   root: {
     brand: 'Pocket Gallery', navFeatures: 'Features', navUpdates: 'What’s New', navFaq: 'FAQ', navDownload: 'Download',
     eyebrow: 'Chosen by 250K Trainers', title: 'The Pokédex for every adventure',
-    intro: 'Explore every generation, understand every matchup, and build your team in one beautifully focused app.',
+    intro: 'Every Pokémon. Every battle. Always within reach.',
     explore: 'Explore features', available: 'Available on iPhone, iPad, Android, and Huawei devices',
     proof: [['1,000+', 'Pokémon and forms'], ['Gen I–IX', 'Games and regional data'], ['No ads', 'A focused experience']],
     sectionEyebrow: 'One app. Every adventure.', sectionTitle: 'Everything a Trainer needs.',
@@ -56,7 +56,7 @@ const translations: Record<string, any> = {
   'zh-hans': {
     brand: '破壳萌图鉴', navFeatures: '功能', navUpdates: '更新记录', navFaq: '常见问题', navDownload: '下载',
     eyebrow: '25万训练家的选择', title: '每场冒险，都从图鉴开始',
-    intro: '查图鉴、看资料、算对战、配队伍，一款简洁专注的宝可梦工具。',
+    intro: '每只宝可梦，每场对战，始终触手可及。',
     explore: '探索功能', available: '支持 iPhone、iPad、Android 与华为设备',
     proof: [['1,000+', '宝可梦与形态'], ['第一至第九世代', '游戏与地区资料'], ['无广告', '专注纯粹的体验']],
     sectionEyebrow: '一款应用，每场冒险', sectionTitle: '训练家所需，尽在其中',
@@ -78,13 +78,13 @@ const translations: Record<string, any> = {
 }
 
 Object.assign(translations, {
-  'zh-hant': { ...translations['zh-hans'], brand: '破殼萌圖鑑', navUpdates: '更新記錄', navFaq: '常見問題', navDownload: '下載', eyebrow: '25萬訓練家的選擇', title: '每場冒險，都從圖鑑開始', intro: '查圖鑑、看資料、算對戰、配隊伍，一款簡潔專注的寶可夢工具。', explore: '探索功能', available: '支援 iPhone、iPad、Android 與華為裝置', official: '官方管道', open: '開啟商店', global: '全球', footer: '非官方粉絲應用，與 Nintendo、GAME FREAK 或 The Pokémon Company 無關聯。' },
-  'ja-jp': { ...translations.root, brand: 'ポケット・ギャラリー', navFeatures: '機能', navUpdates: '更新記録', navFaq: 'よくある質問', navDownload: 'ダウンロード', eyebrow: '25万人のトレーナーが選んだ図鑑', title: 'すべての冒険に、最高のポケモン図鑑を', intro: '図鑑を調べ、バトルを理解し、理想のチームをひとつの美しいアプリで。', explore: '機能を見る', available: 'iPhone、iPad、Android、Huawei デバイスに対応', official: '公式チャンネル', open: 'ストアを開く' },
-  es: { ...translations.root, navFeatures: 'Funciones', navUpdates: 'Novedades', navFaq: 'Preguntas', navDownload: 'Descargar', eyebrow: 'Elegida por 250 mil entrenadores', title: 'La Pokédex para cada aventura', intro: 'Explora cada generación, comprende cada combate y crea tu equipo en una app elegante.', explore: 'Ver funciones', available: 'Disponible en iPhone, iPad, Android y dispositivos Huawei', official: 'Canal oficial', open: 'Abrir tienda' },
-  fr: { ...translations.root, navFeatures: 'Fonctions', navUpdates: 'Nouveautés', navFaq: 'Questions', navDownload: 'Télécharger', eyebrow: 'Choisi par 250 000 Dresseurs', title: 'Le Pokédex de toutes vos aventures', intro: 'Explorez chaque génération, comprenez chaque combat et composez votre équipe dans une app élégante.', explore: 'Voir les fonctions', available: 'Disponible sur iPhone, iPad, Android et appareils Huawei', official: 'Canal officiel', open: 'Ouvrir la boutique' },
-  de: { ...translations.root, navFeatures: 'Funktionen', navUpdates: 'Neuigkeiten', navFaq: 'FAQ', navDownload: 'Laden', eyebrow: 'Von 250.000 Trainern gewählt', title: 'Der Pokédex für jedes Abenteuer', intro: 'Entdecke jede Generation, verstehe jedes Matchup und baue dein Team in einer klaren App.', explore: 'Funktionen entdecken', available: 'Für iPhone, iPad, Android und Huawei-Geräte', official: 'Offizieller Kanal', open: 'Store öffnen' },
-  it: { ...translations.root, navFeatures: 'Funzioni', navUpdates: 'Novità', navFaq: 'Domande', navDownload: 'Scarica', eyebrow: 'Scelta da 250.000 Allenatori', title: 'Il Pokédex per ogni avventura', intro: 'Esplora ogni generazione, comprendi ogni sfida e crea la tua squadra in un’unica app.', explore: 'Scopri le funzioni', available: 'Disponibile su iPhone, iPad, Android e dispositivi Huawei', official: 'Canale ufficiale', open: 'Apri store' },
-  ko: { ...translations.root, brand: '포켓 갤러리', navFeatures: '기능', navUpdates: '업데이트', navFaq: '자주 묻는 질문', navDownload: '다운로드', eyebrow: '25만 트레이너의 선택', title: '모든 모험을 위한 포켓몬 도감', intro: '모든 세대를 탐색하고, 배틀을 이해하며, 나만의 팀을 하나의 앱에서 구성하세요.', explore: '기능 살펴보기', available: 'iPhone, iPad, Android 및 Huawei 기기 지원', official: '공식 채널', open: '스토어 열기' },
+  'zh-hant': { ...translations['zh-hans'], brand: '破殼萌圖鑑', navUpdates: '更新記錄', navFaq: '常見問題', navDownload: '下載', eyebrow: '25萬訓練家的選擇', title: '每場冒險，都從圖鑑開始', intro: '每隻寶可夢，每場對戰，始終觸手可及。', explore: '探索功能', available: '支援 iPhone、iPad、Android 與華為裝置', official: '官方管道', open: '開啟商店', global: '全球', footer: '非官方粉絲應用，與 Nintendo、GAME FREAK 或 The Pokémon Company 無關聯。' },
+  'ja-jp': { ...translations.root, brand: 'ポケット・ギャラリー', navFeatures: '機能', navUpdates: '更新記録', navFaq: 'よくある質問', navDownload: 'ダウンロード', eyebrow: '25万人のトレーナーが選んだ図鑑', title: 'すべての冒険に、最高のポケモン図鑑を', intro: 'すべてのポケモンも、バトルも、いつでも手の中に。', explore: '機能を見る', available: 'iPhone、iPad、Android、Huawei デバイスに対応', official: '公式チャンネル', open: 'ストアを開く' },
+  es: { ...translations.root, navFeatures: 'Funciones', navUpdates: 'Novedades', navFaq: 'Preguntas', navDownload: 'Descargar', eyebrow: 'Elegida por 250 mil entrenadores', title: 'La Pokédex para cada aventura', intro: 'Cada Pokémon. Cada combate. Siempre a tu alcance.', explore: 'Ver funciones', available: 'Disponible en iPhone, iPad, Android y dispositivos Huawei', official: 'Canal oficial', open: 'Abrir tienda' },
+  fr: { ...translations.root, navFeatures: 'Fonctions', navUpdates: 'Nouveautés', navFaq: 'Questions', navDownload: 'Télécharger', eyebrow: 'Choisi par 250 000 Dresseurs', title: 'Le Pokédex de toutes vos aventures', intro: 'Chaque Pokémon. Chaque combat. Toujours à portée de main.', explore: 'Voir les fonctions', available: 'Disponible sur iPhone, iPad, Android et appareils Huawei', official: 'Canal officiel', open: 'Ouvrir la boutique' },
+  de: { ...translations.root, navFeatures: 'Funktionen', navUpdates: 'Neuigkeiten', navFaq: 'FAQ', navDownload: 'Laden', eyebrow: 'Von 250.000 Trainern gewählt', title: 'Der Pokédex für jedes Abenteuer', intro: 'Jedes Pokémon. Jeder Kampf. Immer griffbereit.', explore: 'Funktionen entdecken', available: 'Für iPhone, iPad, Android und Huawei-Geräte', official: 'Offizieller Kanal', open: 'Store öffnen' },
+  it: { ...translations.root, navFeatures: 'Funzioni', navUpdates: 'Novità', navFaq: 'Domande', navDownload: 'Scarica', eyebrow: 'Scelta da 250.000 Allenatori', title: 'Il Pokédex per ogni avventura', intro: 'Ogni Pokémon. Ogni lotta. Sempre a portata di mano.', explore: 'Scopri le funzioni', available: 'Disponibile su iPhone, iPad, Android e dispositivi Huawei', official: 'Canale ufficiale', open: 'Apri store' },
+  ko: { ...translations.root, brand: '포켓 갤러리', navFeatures: '기능', navUpdates: '업데이트', navFaq: '자주 묻는 질문', navDownload: '다운로드', eyebrow: '25만 트레이너의 선택', title: '모든 모험을 위한 포켓몬 도감', intro: '모든 포켓몬과 배틀을 언제나 손안에.', explore: '기능 살펴보기', available: 'iPhone, iPad, Android 및 Huawei 기기 지원', official: '공식 채널', open: '스토어 열기' },
 })
 
 const copy = computed(() => translations[localeKey.value] || {
@@ -161,8 +161,9 @@ onBeforeUnmount(() => {
     <main>
       <section class="pg-hero">
         <div class="pg-hero-copy">
+          <p class="pg-eyebrow">{{ copy.eyebrow }}</p>
           <h1>{{ copy.title }}</h1>
-          <p class="pg-hero-subtitle">{{ copy.eyebrow }}</p>
+          <p class="pg-hero-lede">{{ copy.intro }}</p>
           <div class="pg-actions"><a class="pg-button primary" href="#download">{{ copy.navDownload }}</a><a class="pg-button secondary" href="#features">{{ copy.explore }}</a></div>
         </div>
         <div class="pg-hero-visual"><div class="pg-hero-glow"></div><img :src="withBase('/hero.png')" alt="Pocket Gallery shown on tablet, Android phone, and iPhone"></div>
