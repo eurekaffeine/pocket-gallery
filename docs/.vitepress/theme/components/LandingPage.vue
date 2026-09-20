@@ -103,8 +103,9 @@ const copy = computed(() => {
 
 const stores = [
   { name: 'App Store', badge: 'app-store-badge-zh-hans.svg', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
-  { name: '应用宝', badge: 'myapp-badge.webp', url: 'https://sj.qq.com/appdetail/com.eurekaffeine.pokedex.sino' },
-  { name: '华为应用市场', badge: 'app-gallery-badge-en.png', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
+  { name: 'Explore it on AppGallery', badge: 'app-gallery-badge-en.png', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
+  { name: '鸿蒙 NEXT', badge: 'harmonyos-next-badge.webp', url: 'https://appgallery.huawei.com/app/detail?id=com.eurekaffeine.pocketgallery.sino&channelId=SHARE&source=appshare', compact: true },
+  { name: '应用宝', badge: 'myapp-badge.svg', url: 'https://sj.qq.com/appdetail/com.eurekaffeine.pokedex.sino', compact: true },
 ]
 
 const languages = [['简体中文', '/']]
@@ -148,7 +149,7 @@ onBeforeUnmount(() => observer?.disconnect())
         <div class="pg-chapters"><article v-for="(feature, index) in copy.features" :key="feature.title" :data-feature-index="index" :class="{ active: activeFeature === index }"><span>{{ feature.kicker }}</span><h3>{{ feature.title }}</h3><p>{{ feature.body }}</p></article></div>
       </section>
 
-      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
+      <section id="download" class="pg-download"><div class="pg-shell"><p class="pg-eyebrow">{{ copy.downloadEyebrow }}</p><h2>{{ copy.downloadTitle }}</h2><div class="pg-store-badges"><a v-for="store in stores" :key="store.name" :href="store.url" target="_blank" rel="noopener" class="pg-store-badge" :class="{ compact: store.compact }" :aria-label="store.name"><img :src="withBase(`/${store.badge}`)" :alt="store.name"></a></div></div></section>
     </main>
 
     <footer class="pg-footer"><div class="pg-shell"><div class="pg-footer-brand"><img :src="withBase('/logo.png')" alt=""><strong>{{ copy.brand }}</strong></div><p>{{ copy.footer }}</p><small>© 2022–2026 破壳萌图鉴 · <a href="https://beian.miit.gov.cn/">苏ICP备2023003413号-1</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32059002005040">苏公网安备32059002005040号</a></small></div></footer>
