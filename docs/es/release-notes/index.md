@@ -1,6 +1,13 @@
 # Registro de actualización
 ## Android
 
+### V3.8
+
+#### 3.8.2608162314
+
+- El ranking de uso ahora incluye clasificaciones de combates individuales
+- Se corrigieron algunos otros problemas
+
 ### V3.7
 
 #### 3.7.2607041035
@@ -251,6 +258,17 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.4
+
+1. Se han optimizado el diseño y la experiencia general.
+2. Se ha añadido información sobre las habilidades de las nuevas formas mega.
+3. Se han corregido varios problemas.
+
+#### 1.4.3
+
+- El ranking de uso ahora incluye clasificaciones de combates individuales
+- Se corrigieron algunos otros problemas
 
 #### 1.4.2
 

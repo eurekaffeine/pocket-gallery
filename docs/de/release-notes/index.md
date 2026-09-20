@@ -1,6 +1,13 @@
 # Update log
 ## Android
 
+### V3.8
+
+#### 3.8.2608162314
+
+- Im Nutzungsranking sind jetzt Ranglisten für Einzelkämpfe verfügbar
+- Einige weitere Probleme behoben
+
 ### V3.7
 
 #### 3.7.2607041035
@@ -250,6 +257,17 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.4
+
+1. Layout und Benutzererlebnis wurden optimiert.
+2. Informationen zu den Fähigkeiten neuer Mega-Formen wurden hinzugefügt.
+3. Verschiedene Probleme wurden behoben.
+
+#### 1.4.3
+
+- Im Nutzungsranking sind jetzt Ranglisten für Einzelkämpfe verfügbar
+- Einige weitere Probleme behoben
 
 #### 1.4.2
 

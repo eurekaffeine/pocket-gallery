@@ -1,6 +1,13 @@
 # Mise à jour du journal
 ## Android
 
+### V3.8
+
+#### 3.8.2608162314
+
+- Le classement des combats en format Simple est désormais disponible dans le classement d'utilisation
+- Correction de quelques autres problèmes
+
 ### V3.7
 
 #### 3.7.2607041035
@@ -252,6 +259,17 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.4
+
+1. Optimisation de la mise en page et de l’expérience globale.
+2. Ajout d’informations sur les talents des nouvelles formes Méga.
+3. Correction de divers problèmes.
+
+#### 1.4.3
+
+- Le classement des combats en format Simple est désormais disponible dans le classement d'utilisation
+- Correction de quelques autres problèmes
 
 #### 1.4.2
 

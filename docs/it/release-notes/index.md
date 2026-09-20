@@ -1,6 +1,13 @@
 # Aggiornamento del registro
 ## Android
 
+### V3.8
+
+#### 3.8.2608162314
+
+- La classifica delle lotte in singolo è ora disponibile nella classifica di utilizzo
+- Corretti alcuni altri problemi
+
 ### V3.7
 
 #### 3.7.2607041035
@@ -251,6 +258,17 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.4
+
+1. Ottimizzati il layout e l’esperienza d’uso complessiva.
+2. Aggiunte informazioni sulle abilità delle nuove forme mega.
+3. Risolti vari problemi.
+
+#### 1.4.3
+
+- La classifica delle lotte in singolo è ora disponibile nella classifica di utilizzo
+- Corretti alcuni altri problemi
 
 #### 1.4.2
 

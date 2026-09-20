@@ -2,6 +2,13 @@
 
 ## Android
 
+### V3.8
+
+#### 3.8.2608162314
+
+- Singles battle rankings are now available in Usage Rankings
+- Fixed some other issues
+
 ### V3.7
 
 #### 3.7.2607041035
@@ -343,6 +350,17 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.4
+
+1. Refined the layout and overall experience.
+2. Added Ability information for new Mega forms.
+3. Fixed various issues.
+
+#### 1.4.3
+
+- Singles battle rankings are now available in Usage Rankings
+- Fixed some other issues
 
 #### 1.4.2
 
