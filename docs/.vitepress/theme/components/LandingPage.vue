@@ -103,6 +103,7 @@ const copy = computed(() => {
 
 const stores = [
   { name: 'App Store', badge: 'app-store-badge-zh-hans.svg', url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
+  { name: '应用宝', badge: 'myapp-badge.webp', url: 'https://sj.qq.com/appdetail/com.eurekaffeine.pokedex.sino' },
   { name: '华为应用市场', badge: 'app-gallery-badge-en.png', url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
 ]
 
