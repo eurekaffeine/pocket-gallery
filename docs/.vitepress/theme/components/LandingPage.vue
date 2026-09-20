@@ -98,10 +98,14 @@ const badgeLocale = computed(() => ({
 }[localeKey.value] || 'en'))
 const googleBadgeLocale = computed(() => localeKey.value === 'ja-jp' ? 'ja' : badgeLocale.value)
 const appGalleryLocales = new Set(['en', 'de', 'es', 'fr', 'it', 'jp', 'ko'])
+const appGalleryBadge = computed(() => {
+  const locale = appGalleryLocales.has(badgeLocale.value) ? badgeLocale.value : 'en'
+  return `app-gallery-badge-${locale}.${locale === 'en' || locale === 'it' ? 'png' : 'svg'}`
+})
 const stores = computed(() => [
   { name: 'App Store', badge: `app-store-badge-${badgeLocale.value}.svg`, url: 'https://apps.apple.com/us/app/pocket-gallery-app/id6464266038' },
   { name: 'Google Play', badge: `google-play-badge-${googleBadgeLocale.value}.png`, url: 'https://play.google.com/store/apps/details?id=com.eurekaffeine.pokedex.renaissance' },
-  { name: 'Huawei AppGallery', badge: `app-gallery-badge-${appGalleryLocales.has(badgeLocale.value) ? badgeLocale.value : 'en'}.${badgeLocale.value === 'it' ? 'png' : badgeLocale.value === 'en' ? 'png' : 'svg'}`, url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
+  { name: 'Huawei AppGallery', badge: appGalleryBadge.value, url: 'https://url.cloud.huawei.com/nlFEFYg8Cc?shareTo=qrcode' },
 ])
 
 const languages = [
