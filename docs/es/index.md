@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pocket Gallery
-description: La Pokédex para cada aventura.
+description: "Pokédex, combates y equipos: toda la información en una sola app."
 sidebar: false
 outline: false
 pageClass: pg-landing-page
