@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+cd "$SCRIPT_DIR"
+
 # build
 npm run docs:build
 
