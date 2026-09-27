@@ -1,0 +1,31 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ecs:RunCommand"
+      ],
+      "Resource": [
+        "acs:ecs:ALIYUN_REGION:ACCOUNT_UID:instance/ALIYUN_INSTANCE_ID",
+        "acs:ecs:ALIYUN_REGION:ACCOUNT_UID:command/*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "ecs:CommandRunAs": [
+            "deploy"
+          ]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ecs:DescribeInvocationResults",
+        "ecs:DescribeInvocations",
+        "ecs:DescribeCloudAssistantStatus"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

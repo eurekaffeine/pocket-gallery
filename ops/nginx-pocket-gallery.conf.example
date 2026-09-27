@@ -1,0 +1,40 @@
+# Replace the certificate paths, then install as /etc/nginx/conf.d/pocket-gallery.conf.
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pocket-gallery.cn www.pocket-gallery.cn;
+
+    # Used by the atomic deployment health check without leaving the server.
+    location = /version.json {
+        root /srv/pocket-gallery/current;
+        default_type application/json;
+        add_header Cache-Control "no-store" always;
+    }
+
+    location / {
+        return 301 https://www.pocket-gallery.cn$request_uri;
+    }
+}
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    server_name pocket-gallery.cn www.pocket-gallery.cn;
+
+    ssl_certificate     /etc/nginx/ssl/pocket-gallery.cn.pem;
+    ssl_certificate_key /etc/nginx/ssl/pocket-gallery.cn.key;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    root /srv/pocket-gallery/current;
+    index index.html;
+
+    location = /version.json {
+        default_type application/json;
+        add_header Cache-Control "no-store" always;
+        try_files /version.json =404;
+    }
+
+    location / {
+        try_files $uri $uri.html $uri/ =404;
+    }
+}

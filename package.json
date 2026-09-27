@@ -9,6 +9,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  }
+    "docs:preview": "vitepress preview docs",
+    "deploy:china": "bash scripts/publish-china.sh"
+  },
+  "packageManager": "yarn@1.22.22"
 }

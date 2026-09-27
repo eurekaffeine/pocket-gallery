@@ -6,3 +6,6 @@ deploy.sh
 before_deploy.sh
 after_deploy.sh
 .vuepress/dist
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+.env.deploy.local

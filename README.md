@@ -84,6 +84,17 @@ This script will:
 3. Initialize a git repository
 4. Push to the `gh-pages` branch
 
+### China deployment
+
+The `china-version` branch uses Gitee and Alibaba Cloud ECS Cloud Assistant:
+
+```bash
+yarn deploy:china
+```
+
+See [China deployment setup](docs/deployment/CHINA.md) for the one-time RAM,
+ECS, Nginx, and TLS configuration.
+
 ## 📂 Project Structure
 
 ```
