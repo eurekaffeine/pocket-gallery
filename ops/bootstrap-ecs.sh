@@ -71,12 +71,11 @@ fi
 install -d -o "$DEPLOY_USER" -g "$DEPLOY_USER" -m 0755 \
   "$BASE_DIR" "$BASE_DIR/releases" "$BASE_DIR/cache"
 
-/usr/local/bin/npm install --global yarn@1.22.22 --registry "$NPM_REGISTRY"
-yarn_prefix="$(/usr/local/bin/npm prefix --global)"
-if [[ "$yarn_prefix/bin/yarn" != /usr/local/bin/yarn ]]; then
-  ln -sfn "$yarn_prefix/bin/yarn" /usr/local/bin/yarn
-  ln -sfn "$yarn_prefix/bin/yarnpkg" /usr/local/bin/yarnpkg
-fi
+node_bin_dir="$(dirname "$(readlink -f /usr/local/bin/node)")"
+env PATH="$node_bin_dir:/usr/bin:/bin" \
+  "$node_bin_dir/npm" install --global yarn@1.22.22 --registry "$NPM_REGISTRY"
+ln -sfn "$node_bin_dir/yarn" /usr/local/bin/yarn
+ln -sfn "$node_bin_dir/yarnpkg" /usr/local/bin/yarnpkg
 
 deploy_script_tmp="$(mktemp)"
 curl -fsSL "$DEPLOY_SCRIPT_URL" -o "$deploy_script_tmp"
