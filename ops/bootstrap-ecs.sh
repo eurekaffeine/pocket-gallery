@@ -77,7 +77,6 @@ if [[ "$yarn_prefix/bin/yarn" != /usr/local/bin/yarn ]]; then
   ln -sfn "$yarn_prefix/bin/yarn" /usr/local/bin/yarn
   ln -sfn "$yarn_prefix/bin/yarnpkg" /usr/local/bin/yarnpkg
 fi
-runuser -u "$DEPLOY_USER" -- /usr/local/bin/yarn config set registry "$NPM_REGISTRY"
 
 deploy_script_tmp="$(mktemp)"
 curl -fsSL "$DEPLOY_SCRIPT_URL" -o "$deploy_script_tmp"
