@@ -7,13 +7,22 @@ if [[ "${EUID:-$(id -u)}" -ne 0 ]]; then
 fi
 
 CONFIG=/etc/nginx/sites-available/pocket-gallery
-LEGACY_ROOT=/var/www/pocket-gallery/docs/.vuepress/dist
+EXISTING_SOURCE=/var/www/pocket-gallery
+SOURCE_TARGET=/srv/pocket-gallery/source
+RELEASES_DIR=/srv/pocket-gallery/releases
+LEGACY_RELEASE="$RELEASES_DIR/legacy"
 CURRENT_LINK=/srv/pocket-gallery/current
 BACKUP="$CONFIG.before-atomic-deploy.$(date +%Y%m%d%H%M%S)"
 TEMP_CONFIG="$(mktemp)"
 
-[[ -s "$LEGACY_ROOT/index.html" ]] || {
-  echo "Existing site was not found at $LEGACY_ROOT" >&2
+if [[ -d "$SOURCE_TARGET/.git" ]]; then
+  source_root="$SOURCE_TARGET"
+else
+  source_root="$EXISTING_SOURCE"
+fi
+legacy_dist="$source_root/docs/.vuepress/dist"
+[[ -s "$legacy_dist/index.html" ]] || {
+  echo "Existing site was not found at $legacy_dist" >&2
   exit 1
 }
 [[ -f /etc/letsencrypt/live/pocket-gallery.cn/fullchain.pem ]] || {
@@ -21,10 +30,15 @@ TEMP_CONFIG="$(mktemp)"
   exit 1
 }
 
-if [[ ! -e "$CURRENT_LINK" ]]; then
-  ln -s "$LEGACY_ROOT" "$CURRENT_LINK"
+if [[ ! -s "$LEGACY_RELEASE/index.html" ]]; then
+  mkdir -p "$LEGACY_RELEASE"
+  cp -a "$legacy_dist/." "$LEGACY_RELEASE/"
   printf '{"commit":"legacy","deployedAt":"%s"}\n' \
-    "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >"$LEGACY_ROOT/version.json"
+    "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >"$LEGACY_RELEASE/version.json"
+  chown -R deploy:deploy "$LEGACY_RELEASE"
+fi
+if [[ ! -e "$CURRENT_LINK" ]]; then
+  ln -s "$LEGACY_RELEASE" "$CURRENT_LINK"
 fi
 
 cat >"$TEMP_CONFIG" <<'NGINX'
@@ -97,6 +111,12 @@ health="$(curl -fsS --max-time 20 -H 'Host: www.pocket-gallery.cn' \
   exit 1
 }
 
+if [[ ! -d "$SOURCE_TARGET/.git" ]]; then
+  mv "$EXISTING_SOURCE" "$SOURCE_TARGET"
+  chown -R deploy:deploy "$SOURCE_TARGET"
+fi
+
 printf 'Nginx migration complete. Backup: %s\n' "$BACKUP"
+printf 'Reused source clone: %s\n' "$SOURCE_TARGET"
 printf 'Current release: %s\n' "$(readlink "$CURRENT_LINK")"
 printf 'Health response: %s\n' "$health"
