@@ -68,12 +68,25 @@ if [[ ! -s "$release_dir/index.html" ]]; then
   git -C "$SOURCE_DIR" archive "$sha" | tar -x -C "$build_dir"
   cd "$build_dir"
 
-  "$YARN_BIN" install \
-    --frozen-lockfile \
-    --non-interactive \
-    --cache-folder "$CACHE_DIR/yarn" \
-    --registry "$YARN_REGISTRY" \
-    --network-timeout 120000
+  install_server_dependencies() {
+    local attempt
+    if "$YARN_BIN" install --offline --frozen-lockfile --non-interactive \
+      --cache-folder "$CACHE_DIR/yarn" --registry "$YARN_REGISTRY"; then
+      return 0
+    fi
+    for attempt in 1 2 3; do
+      echo "Dependency download attempt $attempt of 3..." >&2
+      if "$YARN_BIN" install --frozen-lockfile --non-interactive \
+        --cache-folder "$CACHE_DIR/yarn" --registry "$YARN_REGISTRY" \
+        --network-timeout 120000; then
+        return 0
+      fi
+      sleep $((attempt * 3))
+    done
+    return 1
+  }
+
+  install_server_dependencies
   "$YARN_BIN" docs:build
 
   dist_dir="$build_dir/docs/.vuepress/dist"

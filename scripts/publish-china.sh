@@ -90,12 +90,25 @@ echo "Publishing Pocket Gallery China commit $sha"
 
 LOCAL_YARN_REGISTRY="${POCKET_GALLERY_LOCAL_YARN_REGISTRY:-$(npm config get registry)}"
 
+install_local_dependencies() {
+  local attempt
+  if yarn install --offline --frozen-lockfile --non-interactive \
+    --registry "$LOCAL_YARN_REGISTRY"; then
+    return 0
+  fi
+  for attempt in 1 2 3; do
+    echo "Dependency download attempt $attempt of 3..." >&2
+    if yarn install --frozen-lockfile --non-interactive \
+      --registry "$LOCAL_YARN_REGISTRY" --network-timeout 120000; then
+      return 0
+    fi
+    sleep $((attempt * 3))
+  done
+  return 1
+}
+
 if [[ "$SKIP_LOCAL_BUILD" == false ]]; then
-  yarn install \
-    --frozen-lockfile \
-    --non-interactive \
-    --registry "$LOCAL_YARN_REGISTRY" \
-    --network-timeout 120000
+  install_local_dependencies
   yarn docs:build
   test -s docs/.vuepress/dist/index.html
 fi
