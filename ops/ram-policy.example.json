@@ -7,8 +7,8 @@
         "ecs:RunCommand"
       ],
       "Resource": [
-        "acs:ecs:ALIYUN_REGION:ACCOUNT_UID:instance/ALIYUN_INSTANCE_ID",
-        "acs:ecs:ALIYUN_REGION:ACCOUNT_UID:command/*"
+        "acs:ecs:*:*:instance/*",
+        "acs:ecs:*:*:command/*"
       ],
       "Condition": {
         "StringEquals": {
@@ -21,6 +21,9 @@
     {
       "Effect": "Allow",
       "Action": [
+        "ecs:DescribeInstances",
+        "ecs:DescribeTagKeys",
+        "ecs:DescribeTags",
         "ecs:DescribeInvocationResults",
         "ecs:DescribeInvocations",
         "ecs:DescribeCloudAssistantStatus"

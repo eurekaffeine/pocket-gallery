@@ -34,10 +34,9 @@ Collect these values from Alibaba Cloud before setup:
 
 1. **ECS region ID**, for example `cn-shanghai`.
 2. **ECS instance ID**, beginning with `i-`.
-3. **Alibaba Cloud account UID**, used in the RAM policy resource ARN.
-4. A dedicated **RAM user's AccessKey ID and AccessKey Secret** with only the
+3. A dedicated **RAM user's AccessKey ID and AccessKey Secret** with only the
    policy in `ops/ram-policy.example.json`. The secret is shown only once.
-5. If TLS is not already configured, download the certificate for
+4. If TLS is not already configured, download the certificate for
    `pocket-gallery.cn` in **Nginx format** from Alibaba Cloud Certificate
    Management Service. It must contain:
    - the certificate/full-chain PEM file;
@@ -53,15 +52,7 @@ work.
 
 ## 1. Prepare the RAM identity
 
-Create a RAM user with **Programmatic Access only**. Copy
-`ops/ram-policy.example.json`, replace:
-
-- `ALIYUN_REGION`;
-- `ACCOUNT_UID`;
-- `ALIYUN_INSTANCE_ID`.
-
-Create a custom RAM policy from the resulting JSON and attach it to the RAM
-user. The policy permits commands only on the selected ECS instance and only as
+Create a RAM user with **Programmatic Access only**. Create a custom RAM policy from `ops/ram-policy.example.json` and attach it to the RAM user. The policy permits commands only on the selected ECS instance and only as
 the Linux user `deploy`. Read-only command-result APIs use `Resource: "*"`
 because those APIs do not support narrowing to one invocation resource.
 
