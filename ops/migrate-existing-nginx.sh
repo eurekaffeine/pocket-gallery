@@ -104,10 +104,17 @@ if ! nginx -t; then
 fi
 
 systemctl reload nginx
-health="$(curl -fsS --max-time 20 -H 'Host: www.pocket-gallery.cn' \
-  http://127.0.0.1/version.json)"
+health=""
+for attempt in 1 2 3 4 5; do
+  health="$(curl -fsS --max-time 20 -H 'Host: www.pocket-gallery.cn' \
+    http://127.0.0.1/version.json || true)"
+  if [[ "$health" == *'"commit":"legacy"'* || "$health" == *'"commit":"'* ]]; then
+    break
+  fi
+  sleep 1
+done
 [[ "$health" == *'"commit":"legacy"'* || "$health" == *'"commit":"'* ]] || {
-  echo "Unexpected health response: $health" >&2
+  echo "Unexpected health response after Nginx reload: $health" >&2
   exit 1
 }
 
