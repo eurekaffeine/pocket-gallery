@@ -9,3 +9,4 @@ after_deploy.sh
 docs/.vuepress/.cache
 docs/.vuepress/.temp
 .env.deploy.local
+.deployment-cache

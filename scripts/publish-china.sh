@@ -89,17 +89,19 @@ sha="$(git rev-parse HEAD)"
 echo "Publishing Pocket Gallery China commit $sha"
 
 LOCAL_YARN_REGISTRY="${POCKET_GALLERY_LOCAL_YARN_REGISTRY:-$(npm config get registry)}"
+LOCAL_YARN_CACHE="${POCKET_GALLERY_LOCAL_YARN_CACHE:-$REPO_ROOT/.deployment-cache/yarn}"
 
 install_local_dependencies() {
   local attempt
   if yarn install --offline --frozen-lockfile --non-interactive \
-    --registry "$LOCAL_YARN_REGISTRY"; then
+    --registry "$LOCAL_YARN_REGISTRY" --cache-folder "$LOCAL_YARN_CACHE"; then
     return 0
   fi
   for attempt in 1 2 3; do
     echo "Dependency download attempt $attempt of 3..." >&2
     if yarn install --frozen-lockfile --non-interactive \
-      --registry "$LOCAL_YARN_REGISTRY" --network-timeout 120000; then
+      --registry "$LOCAL_YARN_REGISTRY" --cache-folder "$LOCAL_YARN_CACHE" \
+      --network-timeout 120000; then
       return 0
     fi
     sleep $((attempt * 3))
