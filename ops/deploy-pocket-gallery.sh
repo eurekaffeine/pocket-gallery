@@ -20,14 +20,16 @@ SITE_HOST="${POCKET_GALLERY_SITE_HOST:-www.pocket-gallery.cn}"
 HEALTHCHECK_URL="${POCKET_GALLERY_HEALTHCHECK_URL:-http://127.0.0.1/version.json}"
 YARN_REGISTRY="${POCKET_GALLERY_YARN_REGISTRY:-https://registry.npmmirror.com}"
 KEEP_RELEASES="${POCKET_GALLERY_KEEP_RELEASES:-7}"
+YARN_BIN="${POCKET_GALLERY_YARN_BIN:-/usr/local/bin/yarn}"
 [[ "$KEEP_RELEASES" =~ ^[1-9][0-9]*$ ]] || { echo "POCKET_GALLERY_KEEP_RELEASES must be a positive integer." >&2; exit 2; }
 
-for command in git tar yarn curl flock; do
+for command in git tar curl flock; do
   command -v "$command" >/dev/null 2>&1 || {
     echo "Required server command not found: $command" >&2
     exit 1
   }
 done
+[[ -x "$YARN_BIN" ]] || { echo "Yarn is not executable at $YARN_BIN" >&2; exit 1; }
 
 mkdir -p "$BASE_DIR" "$RELEASES_DIR" "$CACHE_DIR"
 exec 9>"$LOCK_FILE"
@@ -66,13 +68,13 @@ if [[ ! -s "$release_dir/index.html" ]]; then
   git -C "$SOURCE_DIR" archive "$sha" | tar -x -C "$build_dir"
   cd "$build_dir"
 
-  yarn install \
+  "$YARN_BIN" install \
     --frozen-lockfile \
     --non-interactive \
     --cache-folder "$CACHE_DIR/yarn" \
     --registry "$YARN_REGISTRY" \
     --network-timeout 120000
-  yarn docs:build
+  "$YARN_BIN" docs:build
 
   dist_dir="$build_dir/docs/.vuepress/dist"
   test -s "$dist_dir/index.html"

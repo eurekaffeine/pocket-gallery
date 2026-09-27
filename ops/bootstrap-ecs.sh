@@ -71,8 +71,8 @@ fi
 install -d -o "$DEPLOY_USER" -g "$DEPLOY_USER" -m 0755 \
   "$BASE_DIR" "$BASE_DIR/releases" "$BASE_DIR/cache"
 
-npm install --global yarn@1.22.22 --registry "$NPM_REGISTRY"
-yarn_prefix="$(npm prefix --global)"
+/usr/local/bin/npm install --global yarn@1.22.22 --registry "$NPM_REGISTRY"
+yarn_prefix="$(/usr/local/bin/npm prefix --global)"
 if [[ "$yarn_prefix/bin/yarn" != /usr/local/bin/yarn ]]; then
   ln -sfn "$yarn_prefix/bin/yarn" /usr/local/bin/yarn
   ln -sfn "$yarn_prefix/bin/yarnpkg" /usr/local/bin/yarnpkg
@@ -88,9 +88,9 @@ systemctl enable --now nginx
 
 echo
 printf 'Bootstrap complete. Versions:\n'
-printf '  node: '; node --version
-printf '  npm:  '; npm --version
-printf '  yarn: '; yarn --version
+printf '  node: '; /usr/local/bin/node --version
+printf '  npm:  '; /usr/local/bin/npm --version
+printf '  yarn: '; /usr/local/bin/yarn --version
 printf '  git:  '; git --version
 printf '  nginx: '; nginx -v 2>&1
 printf '\nInstall the Nginx configuration and TLS certificate described in docs/deployment/CHINA.md.\n'
