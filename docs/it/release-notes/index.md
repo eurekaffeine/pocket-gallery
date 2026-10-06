@@ -1,6 +1,14 @@
 # Aggiornamento del registro
 ## Android
 
+### V3.9
+
+#### 3.9.2609202340
+
+- Ottimizzati il layout e l’esperienza d’uso complessiva
+- Aggiunte informazioni sulle abilità delle nuove forme mega
+- Risolti vari problemi
+
 ### V3.8
 
 #### 3.8.2608162314
@@ -258,6 +266,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.5
+
+- Risolti problemi su iOS 17 e versioni precedenti
 
 #### 1.4.4
 

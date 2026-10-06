@@ -1,6 +1,14 @@
 # Mise à jour du journal
 ## Android
 
+### V3.9
+
+#### 3.9.2609202340
+
+- Optimisation de la mise en page et de l’expérience globale
+- Ajout d’informations sur les talents des nouvelles formes Méga
+- Correction de divers problèmes
+
 ### V3.8
 
 #### 3.8.2608162314
@@ -259,6 +267,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.5
+
+- Correction de problèmes sur iOS 17 et les versions antérieures
 
 #### 1.4.4
 

@@ -2,6 +2,14 @@
 
 ## Android
 
+### V3.9
+
+#### 3.9.2609202340
+
+- Refined the layout and overall experience
+- Added Ability information for new Mega forms
+- Fixed various issues
+
 ### V3.8
 
 #### 3.8.2608162314
@@ -350,6 +358,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.5
+
+- Fixed issues on iOS 17 and earlier
 
 #### 1.4.4
 

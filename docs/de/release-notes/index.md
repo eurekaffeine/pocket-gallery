@@ -1,6 +1,14 @@
 # Update log
 ## Android
 
+### V3.9
+
+#### 3.9.2609202340
+
+- Layout und Benutzererlebnis wurden optimiert
+- Informationen zu den Fähigkeiten neuer Mega-Formen wurden hinzugefügt
+- Verschiedene Probleme wurden behoben
+
 ### V3.8
 
 #### 3.8.2608162314
@@ -257,6 +265,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.5
+
+- Probleme unter iOS 17 und früheren Versionen behoben
 
 #### 1.4.4
 

@@ -1,6 +1,14 @@
 # Registro de actualización
 ## Android
 
+### V3.9
+
+#### 3.9.2609202340
+
+- Se han optimizado el diseño y la experiencia general
+- Se ha añadido información sobre las habilidades de las nuevas formas mega
+- Se han corregido varios problemas
+
 ### V3.8
 
 #### 3.8.2608162314
@@ -258,6 +266,10 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.5
+
+- Se corrigieron problemas en iOS 17 y versiones anteriores
 
 #### 1.4.4
 

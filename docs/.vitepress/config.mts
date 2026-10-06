@@ -70,7 +70,7 @@ export default defineConfig({
     publicDir: resolve(configDir, '../.vuepress/public'),
   },
   cleanUrls: true,
-  lastUpdated: true,
+  lastUpdated: false,
   sitemap: { hostname: 'https://eurekaffeine.github.io/pocket-gallery/' },
   head: [
     ['link', { rel: 'icon', href: `${base}favicon.ico` }],
