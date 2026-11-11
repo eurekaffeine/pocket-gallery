@@ -1,6 +1,14 @@
 # Mise à jour du journal
 ## Android
 
+### V4.0
+
+#### 4.0.0
+
+- Ajout du Pokédex par jeu pour suivre la progression Vu et Obtenu
+- Amélioration des listes du Pokédex et de l’expérience globale
+- Correction d’autres problèmes
+
 ### V3.9
 
 #### 3.9.2609202340
@@ -267,6 +275,19 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.7
+
+- Correction d’une évolution incorrecte affichée pour Goélise
+- Recherche plus rapide et plus claire
+- Navigation améliorée dans les fiches détaillées
+
+#### 1.4.6
+
+- Ajout du Pokédex par jeu pour suivre la progression Vu et Obtenu
+- Amélioration des listes du Pokédex et de l’expérience globale
+- Ajout de la prise en charge de l’iPhone Duo
+- Correction d’autres problèmes
 
 #### 1.4.5
 

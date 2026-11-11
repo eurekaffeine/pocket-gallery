@@ -1,6 +1,14 @@
 # Update log
 ## Android
 
+### V4.0
+
+#### 4.0.0
+
+- Spiele-Pokédex zum Erfassen des Fortschritts für Gesehen und Erhalten hinzugefügt
+- Pokédex-Listen und das allgemeine Benutzererlebnis verbessert
+- Einige weitere Probleme behoben
+
 ### V3.9
 
 #### 3.9.2609202340
@@ -265,6 +273,19 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.7
+
+- Eine fehlerhafte Entwicklung bei Wingull wurde korrigiert
+- Die Suche ist jetzt schneller und übersichtlicher
+- Die Navigation auf Detailseiten wurde verbessert
+
+#### 1.4.6
+
+- Spiele-Pokédex zum Erfassen des Fortschritts für Gesehen und Erhalten hinzugefügt
+- Pokédex-Listen und das allgemeine Benutzererlebnis verbessert
+- Unterstützung für iPhone Duo hinzugefügt
+- Einige weitere Probleme behoben
 
 #### 1.4.5
 

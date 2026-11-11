@@ -2,6 +2,14 @@
 
 ## Android
 
+### V4.0
+
+#### 4.0.0
+
+- Added Game Pokédex to track Seen and Caught progress
+- Improved Pokédex lists and the overall experience
+- Fixed some other issues
+
 ### V3.9
 
 #### 3.9.2609202340
@@ -358,6 +366,19 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.7
+
+- Fixed an incorrect evolution shown for Wingull
+- Improved search for faster, clearer results
+- Refined detail pages for smoother navigation
+
+#### 1.4.6
+
+- Added Game Pokédex to track Seen and Caught progress
+- Improved Pokédex lists and the overall experience
+- Added support for iPhone Duo
+- Fixed some other issues
 
 #### 1.4.5
 

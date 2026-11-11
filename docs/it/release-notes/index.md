@@ -1,6 +1,14 @@
 # Aggiornamento del registro
 ## Android
 
+### V4.0
+
+#### 4.0.0
+
+- Aggiunto il Pokédex dei giochi per registrare i progressi Visto e Ottenuto
+- Migliorati gli elenchi del Pokédex e l’esperienza generale
+- Risolti altri problemi
+
 ### V3.9
 
 #### 3.9.2609202340
@@ -266,6 +274,19 @@ _(1.5.2301241051)_
 ## iOS
 
 ### V1.4
+
+#### 1.4.7
+
+- Corretta un’evoluzione errata mostrata per Wingull
+- Ricerca più rapida e chiara
+- Navigazione migliorata nelle pagine dei dettagli
+
+#### 1.4.6
+
+- Aggiunto il Pokédex dei giochi per registrare i progressi Visto e Ottenuto
+- Migliorati gli elenchi del Pokédex e l’esperienza generale
+- Aggiunto il supporto per iPhone Duo
+- Risolti altri problemi
 
 #### 1.4.5
 
